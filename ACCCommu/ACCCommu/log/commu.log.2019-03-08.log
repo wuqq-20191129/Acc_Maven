@@ -1,0 +1,268 @@
+[2019-03-08 09:40:58,436]-[INFO]-CommuServer(403)日志配置设置成功!
+[2019-03-08 09:40:58,591]-[INFO]-CommuServer(412)成功解析配置文件：CommuConfig.xml
+[2019-03-08 09:40:58,592]-[INFO]-CommuServer(502)日志备份
+[2019-03-08 09:40:58,592]-[INFO]-CommuServer(419)成功初始化socket配置!
+[2019-03-08 09:40:58,595]-[INFO]-CommuServer(423)成功初始化客流配置!
+[2019-03-08 09:40:58,596]-[INFO]-CommuServer(427)成功初始化线程监控配置!
+[2019-03-08 09:40:58,597]-[INFO]-CommuServer(431)成功初始化初始化参数下发配置!
+[2019-03-08 09:40:58,597]-[INFO]-CommuServer(435)成功初始化应用相关配置!
+[2019-03-08 09:40:58,597]-[INFO]-CommuServer(703)FtpLocalDir:D:/ftpClient/ACCCommu/receive
+[2019-03-08 09:40:58,597]-[INFO]-CommuServer(716)BusFtpLocalDir:D:/ftpClient/ACCCommu/import
+[2019-03-08 09:40:58,598]-[INFO]-CommuServer(439)成功初始化FTP配置!
+[2019-03-08 09:40:58,792]-[INFO]-CommuServer(881)运营库连接池OpConnectionPool创建!
+[2019-03-08 09:40:58,792]-[INFO]-CommuServer(893)通讯库连接池CmConnectionPool创建!
+[2019-03-08 09:40:58,794]-[INFO]-CommuServer(903)票务库连接池TkConnectionPool创建!
+[2019-03-08 09:40:58,794]-[INFO]-CommuServer(449)成功初始化数据库连接池!
+[2019-03-08 09:40:58,794]-[INFO]-CommuServer(453)成功初始化线程池配置!
+[2019-03-08 09:40:58,796]-[INFO]-CommuServer(457)成功初始化socket配置!
+[2019-03-08 09:40:58,798]-[INFO]-CommuServer(461)成功初始化设备参数版本查询配置!
+[2019-03-08 09:40:58,798]-[INFO]-CommuServer(465)成功初始化参数自动下发配置!
+[2019-03-08 09:40:58,798]-[INFO]-CommuServer(469)成功初始化启动选项控制!
+[2019-03-08 09:40:58,798]-[INFO]-CommuServer(474)成功初始化FTP路径!
+[2019-03-08 09:41:00,094]-[INFO]-CommuServer(933)运营时间:0205
+[2019-03-08 09:41:00,629]-[INFO]-CommuServer(965)缺省消息最大处理时间60
+[2019-03-08 09:41:00,639]-[INFO]-CommuServer(969)转存线程池状态表数据，共:0记录
+[2019-03-08 09:41:00,662]-[INFO]-CommuServer(99)参数下发监听已启动 ...
+[2019-03-08 09:41:00,666]-[INFO]-CommuThreadManager(43)2个处理线程已启动!
+[2019-03-08 09:41:00,670]-[INFO]-CommuServer(389)缓存清理线程已启动 !
+[2019-03-08 09:41:00,671]-[INFO]-CommuServer(376)消息队列管理线程已启动!
+[2019-03-08 09:41:00,674]-[INFO]-CommuServer(120)连接池监听正在启动 ...
+[2019-03-08 09:41:00,674]-[INFO]-CommuServer(125)日志级别监听已启动 ...
+[2019-03-08 09:41:00,679]-[INFO]-CommuServer(129)设备参数版本查询线程已启动 ...
+[2019-03-08 09:41:00,680]-[INFO]-CommuServer(382)线程池监控已启动 !
+[2019-03-08 09:41:00,690]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2019-03-08 09:41:00,693]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2019-03-08 09:41:00,696]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2019-03-08 09:41:00,702]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2019-03-08 09:41:00,702]-[INFO]-CommuServer(136)票务接口线程已启动 ...
+[2019-03-08 09:41:00,704]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2019-03-08 09:41:00,709]-[INFO]-CommuServer(139)一卡通接口线程已启动 ...
+[2019-03-08 09:41:00,711]-[INFO]-CommuServer(145)定时刷新缓存变量线程已启动 ...
+[2019-03-08 09:41:00,719]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2019-03-08 09:41:00,757]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-03-08 09:41:01,160]-[INFO]-CommuServer(1000)服务器正常启动！正在监听端口 : 5001
+[2019-03-08 09:41:21,795]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-03-08 09:41:21,797]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-03-08 09:41:21,838]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-03-08 09:41:21,850]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:41:21,900]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:41:21,917]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-03-08 09:41:21,920]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:41:21,920]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:41:21,923]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-03-08 09:41:21,926]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:41:21,926]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:41:21,930]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-03-08 09:41:21,947]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:41:21,947]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:41:21,955]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-03-08 09:41:21,962]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:41:21,963]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:41:21,967]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-03-08 09:41:21,978]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:41:21,978]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:41:21,983]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-03-08 09:41:21,990]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:41:21,995]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:41:22,019]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-03-08 09:41:22,045]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:41:22,048]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:41:22,049]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-03-08 09:42:00,770]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:43:01,107]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:44:01,149]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:45:01,225]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:46:01,292]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:46:22,078]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-03-08 09:46:43,085]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-03-08 09:46:43,086]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-03-08 09:46:43,091]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-03-08 09:46:43,093]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:46:43,094]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:46:43,095]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-03-08 09:46:43,097]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:46:43,097]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:46:43,099]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-03-08 09:46:43,101]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:46:43,101]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:46:43,103]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-03-08 09:46:43,105]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:46:43,105]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:46:43,107]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-03-08 09:46:43,109]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:46:43,109]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:46:43,111]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-03-08 09:46:43,113]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:46:43,113]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:46:43,115]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-03-08 09:46:43,116]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:46:43,117]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:46:43,119]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-03-08 09:46:43,122]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:46:43,122]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:46:43,122]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-03-08 09:47:01,340]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:48:01,381]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:49:01,422]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:50:01,466]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:51:01,515]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:51:43,122]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-03-08 09:52:01,557]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:52:04,130]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-03-08 09:52:04,130]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-03-08 09:52:04,137]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-03-08 09:52:04,140]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:52:04,140]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:52:04,142]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-03-08 09:52:04,144]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:52:04,144]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:52:04,146]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-03-08 09:52:04,149]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:52:04,149]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:52:04,151]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-03-08 09:52:04,152]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:52:04,152]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:52:04,154]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-03-08 09:52:04,157]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:52:04,157]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:52:04,160]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-03-08 09:52:04,163]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:52:04,164]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:52:04,167]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-03-08 09:52:04,169]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:52:04,169]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:52:04,171]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-03-08 09:52:04,174]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:52:04,174]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:52:04,174]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-03-08 09:53:01,599]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:54:01,643]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:55:01,685]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:56:01,744]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:57:02,008]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:57:04,175]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-03-08 09:57:25,193]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-03-08 09:57:25,193]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-03-08 09:57:25,199]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-03-08 09:57:25,204]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:57:25,204]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:57:25,213]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-03-08 09:57:25,215]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:57:25,215]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:57:25,219]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-03-08 09:57:25,221]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:57:25,221]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:57:25,224]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-03-08 09:57:25,225]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:57:25,226]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:57:25,228]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-03-08 09:57:25,229]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:57:25,230]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:57:25,232]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-03-08 09:57:25,233]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:57:25,234]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:57:25,236]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-03-08 09:57:25,238]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:57:25,238]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:57:25,240]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-03-08 09:57:25,243]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 09:57:25,243]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 09:57:25,243]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-03-08 09:58:02,060]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 09:59:02,101]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 10:00:02,144]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 10:01:02,202]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 10:02:02,275]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-03-08 10:02:25,244]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-03-08 10:02:46,253]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-03-08 10:02:46,253]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-03-08 10:02:46,259]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-03-08 10:02:46,262]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 10:02:46,262]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 10:02:46,265]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-03-08 10:02:46,267]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 10:02:46,267]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 10:02:46,269]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-03-08 10:02:46,271]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-03-08 10:02:46,272]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-03-08 10:02:46,274

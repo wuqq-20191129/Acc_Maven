@@ -1,0 +1,187 @@
+[2018-12-26 17:05:39,116]-[INFO]-CommuServer(403)日志配置设置成功!
+[2018-12-26 17:05:39,269]-[INFO]-CommuServer(412)成功解析配置文件：CommuConfig.xml
+[2018-12-26 17:05:39,270]-[INFO]-CommuServer(502)日志备份
+[2018-12-26 17:05:39,270]-[INFO]-CommuServer(419)成功初始化socket配置!
+[2018-12-26 17:05:39,273]-[INFO]-CommuServer(423)成功初始化客流配置!
+[2018-12-26 17:05:39,274]-[INFO]-CommuServer(427)成功初始化线程监控配置!
+[2018-12-26 17:05:39,274]-[INFO]-CommuServer(431)成功初始化初始化参数下发配置!
+[2018-12-26 17:05:39,275]-[INFO]-CommuServer(435)成功初始化应用相关配置!
+[2018-12-26 17:05:39,275]-[INFO]-CommuServer(703)FtpLocalDir:D:/ftpClient/ACCCommu/receive
+[2018-12-26 17:05:39,275]-[INFO]-CommuServer(716)BusFtpLocalDir:D:/ftpClient/ACCCommu/import
+[2018-12-26 17:05:39,275]-[INFO]-CommuServer(439)成功初始化FTP配置!
+[2018-12-26 17:05:39,460]-[INFO]-CommuServer(881)运营库连接池OpConnectionPool创建!
+[2018-12-26 17:05:39,460]-[INFO]-CommuServer(893)通讯库连接池CmConnectionPool创建!
+[2018-12-26 17:05:39,460]-[INFO]-CommuServer(903)票务库连接池TkConnectionPool创建!
+[2018-12-26 17:05:39,461]-[INFO]-CommuServer(449)成功初始化数据库连接池!
+[2018-12-26 17:05:39,461]-[INFO]-CommuServer(453)成功初始化线程池配置!
+[2018-12-26 17:05:39,464]-[INFO]-CommuServer(457)成功初始化socket配置!
+[2018-12-26 17:05:39,465]-[INFO]-CommuServer(461)成功初始化设备参数版本查询配置!
+[2018-12-26 17:05:39,465]-[INFO]-CommuServer(465)成功初始化参数自动下发配置!
+[2018-12-26 17:05:39,466]-[INFO]-CommuServer(469)成功初始化启动选项控制!
+[2018-12-26 17:05:39,466]-[INFO]-CommuServer(474)成功初始化FTP路径!
+[2018-12-26 17:05:40,789]-[INFO]-CommuServer(933)运营时间:0205
+[2018-12-26 17:05:41,401]-[INFO]-CommuServer(965)缺省消息最大处理时间60
+[2018-12-26 17:05:41,409]-[INFO]-CommuServer(969)转存线程池状态表数据，共:0记录
+[2018-12-26 17:05:41,432]-[INFO]-CommuServer(99)参数下发监听已启动 ...
+[2018-12-26 17:05:41,435]-[INFO]-CommuThreadManager(43)2个处理线程已启动!
+[2018-12-26 17:05:41,436]-[INFO]-CommuServer(389)缓存清理线程已启动 !
+[2018-12-26 17:05:41,437]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2018-12-26 17:05:41,438]-[INFO]-CommuServer(376)消息队列管理线程已启动!
+[2018-12-26 17:05:41,440]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2018-12-26 17:05:41,440]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2018-12-26 17:05:41,440]-[INFO]-CommuServer(120)连接池监听正在启动 ...
+[2018-12-26 17:05:41,440]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2018-12-26 17:05:41,440]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2018-12-26 17:05:41,441]-[INFO]-CommuServer(125)日志级别监听已启动 ...
+[2018-12-26 17:05:41,442]-[INFO]-CommuServer(129)设备参数版本查询线程已启动 ...
+[2018-12-26 17:05:41,444]-[INFO]-CommuServer(382)线程池监控已启动 !
+[2018-12-26 17:05:41,449]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2018-12-26 17:05:41,459]-[INFO]-CommuServer(136)票务接口线程已启动 ...
+[2018-12-26 17:05:41,463]-[INFO]-CommuServer(139)一卡通接口线程已启动 ...
+[2018-12-26 17:05:41,463]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2018-12-26 17:05:41,464]-[INFO]-CommuServer(145)定时刷新缓存变量线程已启动 ...
+[2018-12-26 17:05:41,912]-[INFO]-CommuServer(1000)服务器正常启动！正在监听端口 : 5001
+[2018-12-26 17:06:02,878]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-12-26 17:06:02,881]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2018-12-26 17:06:02,894]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2018-12-26 17:06:02,897]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2018-12-26 17:06:02,898]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2018-12-26 17:06:02,900]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2018-12-26 17:06:02,903]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2018-12-26 17:06:02,904]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2018-12-26 17:06:02,906]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2018-12-26 17:06:02,908]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2018-12-26 17:06:02,908]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2018-12-26 17:06:02,909]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2018-12-26 17:06:41,475]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:07:41,521]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:08:41,566]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:09:41,610]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:10:41,654]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:11:02,910]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2018-12-26 17:11:23,926]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-12-26 17:11:23,926]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2018-12-26 17:11:23,932]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2018-12-26 17:11:23,935]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2018-12-26 17:11:23,935]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2018-12-26 17:11:23,938]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2018-12-26 17:11:23,939]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2018-12-26 17:11:23,940]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2018-12-26 17:11:23,942]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2018-12-26 17:11:23,944]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2018-12-26 17:11:23,944]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2018-12-26 17:11:23,944]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2018-12-26 17:11:41,700]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:12:41,749]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:13:41,792]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:14:41,850]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:15:41,898]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:16:23,944]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2018-12-26 17:16:41,944]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:16:44,952]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-12-26 17:16:44,952]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2018-12-26 17:16:44,957]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2018-12-26 17:16:44,960]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2018-12-26 17:16:44,960]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2018-12-26 17:16:44,962]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2018-12-26 17:16:44,963]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2018-12-26 17:16:44,964]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2018-12-26 17:16:44,965]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2018-12-26 17:16:44,967]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2018-12-26 17:16:44,968]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2018-12-26 17:16:44,968]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2018-12-26 17:17:41,987]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:18:42,030]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:19:42,078]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:20:42,122]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:21:42,181]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:21:44,968]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2018-12-26 17:22:05,974]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-12-26 17:22:05,974]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2018-12-26 17:22:05,981]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2018-12-26 17:22:05,983]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2018-12-26 17:22:05,984]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2018-12-26 17:22:05,986]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2018-12-26 17:22:05,987]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2018-12-26 17:22:05,988]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2018-12-26 17:22:05,990]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2018-12-26 17:22:05,992]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2018-12-26 17:22:05,992]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2018-12-26 17:22:05,993]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2018-12-26 17:22:42,228]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:23:42,270]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:24:42,324]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:25:42,377]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:26:42,426]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2018-12-26 17:27:05,994]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2018-12-26 17:27:27,258]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocket

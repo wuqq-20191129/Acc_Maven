@@ -1,0 +1,1661 @@
+[2020-10-23 09:01:20,482]-[INFO]-CommuServer(389)日志配置设置成功!
+[2020-10-23 09:01:21,122]-[INFO]-CommuServer(398)成功解析配置文件：CommuConfig.xml
+[2020-10-23 09:01:21,182]-[INFO]-CommuServer(488)日志备份
+[2020-10-23 09:01:21,192]-[INFO]-CommuServer(405)成功初始化socket配置!
+[2020-10-23 09:01:21,192]-[INFO]-CommuServer(409)成功初始化客流配置!
+[2020-10-23 09:01:21,262]-[INFO]-CommuServer(413)成功初始化线程监控配置!
+[2020-10-23 09:01:21,262]-[INFO]-CommuServer(417)成功初始化初始化参数下发配置!
+[2020-10-23 09:01:21,262]-[INFO]-CommuServer(421)成功初始化应用相关配置!
+[2020-10-23 09:01:21,262]-[INFO]-CommuServer(689)FtpLocalDir:E:/ftpClient/ACCCommu/receive
+[2020-10-23 09:01:21,262]-[INFO]-CommuServer(702)BusFtpLocalDir:E:/ftpClient/ACCCommu/import
+[2020-10-23 09:01:21,262]-[INFO]-CommuServer(425)成功初始化FTP配置!
+[2020-10-23 09:01:23,332]-[INFO]-CommuServer(867)运营库连接池OpConnectionPool创建!
+[2020-10-23 09:01:23,332]-[INFO]-CommuServer(879)通讯库连接池CmConnectionPool创建!
+[2020-10-23 09:01:23,332]-[INFO]-CommuServer(889)票务库连接池TkConnectionPool创建!
+[2020-10-23 09:01:23,332]-[INFO]-CommuServer(435)成功初始化数据库连接池!
+[2020-10-23 09:01:23,332]-[INFO]-CommuServer(439)成功初始化线程池配置!
+[2020-10-23 09:01:23,332]-[INFO]-CommuServer(443)成功初始化线程池监控配置!
+[2020-10-23 09:01:23,352]-[INFO]-CommuServer(447)成功初始化设备参数版本查询配置!
+[2020-10-23 09:01:23,352]-[INFO]-CommuServer(451)成功初始化参数自动下发配置!
+[2020-10-23 09:01:23,352]-[INFO]-CommuServer(455)成功初始化启动选项控制!
+[2020-10-23 09:01:23,352]-[INFO]-CommuServer(460)成功初始化FTP路径!
+[2020-10-23 09:01:26,532]-[INFO]-CommuServer(919)运营时间:0205
+[2020-10-23 09:01:27,352]-[INFO]-CommuServer(947)黑名单下发时间：1600 - 1700
+[2020-10-23 09:01:27,622]-[INFO]-CommuServer(966)缺省消息最大处理时间60
+[2020-10-23 09:01:27,642]-[INFO]-CommuServer(970)转存线程池状态表数据，共:0记录
+[2020-10-23 09:01:27,862]-[INFO]-CommuServer(77)参数下发监听已启动 ...
+[2020-10-23 09:01:27,872]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090127
+[2020-10-23 09:01:27,892]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090127
+[2020-10-23 09:01:27,892]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090127
+[2020-10-23 09:01:27,892]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090127
+[2020-10-23 09:01:27,892]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090127
+[2020-10-23 09:01:27,892]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:01:27,912]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2020-10-23 09:01:27,912]-[INFO]-CommuServer(375)缓存清理线程已启动 !
+[2020-10-23 09:01:27,912]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2020-10-23 09:01:27,932]-[INFO]-CommuServer(362)消息队列管理线程已启动!
+[2020-10-23 09:01:27,952]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2020-10-23 09:01:27,952]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2020-10-23 09:01:27,952]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2020-10-23 09:01:27,952]-[INFO]-CommuServer(98)连接池监听正在启动 ...
+[2020-10-23 09:01:27,962]-[INFO]-CommuServer(103)日志级别监听已启动 ...
+[2020-10-23 09:01:27,982]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2020-10-23 09:01:27,992]-[INFO]-CommuServer(107)设备参数版本查询线程已启动 ...
+[2020-10-23 09:01:28,012]-[INFO]-CommuServer(368)线程池监控已启动 !
+[2020-10-23 09:01:28,012]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2020-10-23 09:01:28,242]-[INFO]-CommuServer(114)票务接口线程已启动 ...
+[2020-10-23 09:01:28,262]-[INFO]-CommuServer(117)一卡通接口线程已启动 ...
+[2020-10-23 09:01:28,262]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2020-10-23 09:01:28,282]-[INFO]-CommuServer(124)TCC接口线程已启动 ...使用标识：1
+[2020-10-23 09:01:28,302]-[INFO]-CommuServer(130)定时刷新缓存变量线程已启动 ...
+[2020-10-23 09:01:28,562]-[INFO]-CommuServer(1001)服务器正常启动！正在监听端口 : 5001
+[2020-10-23 09:01:32,912]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090132
+[2020-10-23 09:01:32,922]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090132
+[2020-10-23 09:01:32,922]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090132
+[2020-10-23 09:01:32,922]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090132
+[2020-10-23 09:01:32,932]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090132
+[2020-10-23 09:01:32,932]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:01:37,952]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090137
+[2020-10-23 09:01:37,962]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090137
+[2020-10-23 09:01:37,962]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090137
+[2020-10-23 09:01:37,962]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090137
+[2020-10-23 09:01:37,962]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090137
+[2020-10-23 09:01:37,962]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:01:42,982]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090142
+[2020-10-23 09:01:42,992]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090142
+[2020-10-23 09:01:42,992]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090142
+[2020-10-23 09:01:42,992]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090142
+[2020-10-23 09:01:43,002]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090142
+[2020-10-23 09:01:43,002]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:01:48,022]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090148
+[2020-10-23 09:01:48,032]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090148
+[2020-10-23 09:01:48,032]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090148
+[2020-10-23 09:01:48,032]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090148
+[2020-10-23 09:01:48,032]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090148
+[2020-10-23 09:01:48,032]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:01:49,482]-[ERROR]-BusDataImportThread(212)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:464)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:134)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:105)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-23 09:01:49,532]-[INFO]-BusDataImportThread(106)下载成功数量:0
+[2020-10-23 09:01:49,602]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2020-10-23 09:01:49,602]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,602]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,612]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2020-10-23 09:01:49,612]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,622]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,622]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2020-10-23 09:01:49,622]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,622]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,632]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2020-10-23 09:01:49,632]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,632]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,642]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2020-10-23 09:01:49,652]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,652]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,652]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010401,fileType:trx
+[2020-10-23 09:01:49,662]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,662]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,672]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2020-10-23 09:01:49,672]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,672]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,682]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2020-10-23 09:01:49,682]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,682]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,692]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2020-10-23 09:01:49,692]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,692]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,702]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2020-10-23 09:01:49,702]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,702]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,712]-[INFO]-BusDataDao(33)banlanceWaterNo:2019071801,fileType:trx
+[2020-10-23 09:01:49,712]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,712]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,712]-[INFO]-BusDataDao(33)banlanceWaterNo:2019072301,fileType:trx
+[2020-10-23 09:01:49,722]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,722]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,722]-[INFO]-BusDataDao(33)banlanceWaterNo:2019082701,fileType:trx
+[2020-10-23 09:01:49,732]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,732]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,732]-[INFO]-BusDataDao(33)banlanceWaterNo:2019100701,fileType:trx
+[2020-10-23 09:01:49,742]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,742]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,742]-[INFO]-BusDataDao(33)banlanceWaterNo:2019103101,fileType:trx
+[2020-10-23 09:01:49,742]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,752]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,752]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111601,fileType:trx
+[2020-10-23 09:01:49,762]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,762]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,762]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111701,fileType:trx
+[2020-10-23 09:01:49,772]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,772]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,772]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111801,fileType:trx
+[2020-10-23 09:01:49,782]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,782]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,792]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111901,fileType:trx
+[2020-10-23 09:01:49,792]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,792]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,792]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121301,fileType:trx
+[2020-10-23 09:01:49,802]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,802]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,802]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121701,fileType:trx
+[2020-10-23 09:01:49,802]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,812]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,812]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122301,fileType:trx
+[2020-10-23 09:01:49,812]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,812]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,822]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122401,fileType:trx
+[2020-10-23 09:01:49,822]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,822]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,832]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122501,fileType:trx
+[2020-10-23 09:01:49,832]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:01:49,832]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:01:49,842]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122601,fileType:trx
+[2020-10-23 09:01:49,842]-[WARN]-B[2020-10-23 09:03:35,641]-[INFO]-CommuServer(389)日志配置设置成功!
+[2020-10-23 09:03:35,761]-[INFO]-CommuServer(398)成功解析配置文件：CommuConfig.xml
+[2020-10-23 09:03:35,761]-[INFO]-CommuServer(488)日志备份
+[2020-10-23 09:03:35,761]-[INFO]-CommuServer(405)成功初始化socket配置!
+[2020-10-23 09:03:35,761]-[INFO]-CommuServer(409)成功初始化客流配置!
+[2020-10-23 09:03:35,761]-[INFO]-CommuServer(413)成功初始化线程监控配置!
+[2020-10-23 09:03:35,771]-[INFO]-CommuServer(417)成功初始化初始化参数下发配置!
+[2020-10-23 09:03:35,771]-[INFO]-CommuServer(421)成功初始化应用相关配置!
+[2020-10-23 09:03:35,771]-[INFO]-CommuServer(689)FtpLocalDir:E:/ftpClient/ACCCommu/receive
+[2020-10-23 09:03:35,771]-[INFO]-CommuServer(702)BusFtpLocalDir:E:/ftpClient/ACCCommu/import
+[2020-10-23 09:03:35,771]-[INFO]-CommuServer(425)成功初始化FTP配置!
+[2020-10-23 09:03:35,911]-[INFO]-CommuServer(867)运营库连接池OpConnectionPool创建!
+[2020-10-23 09:03:35,911]-[INFO]-CommuServer(879)通讯库连接池CmConnectionPool创建!
+[2020-10-23 09:03:35,911]-[INFO]-CommuServer(889)票务库连接池TkConnectionPool创建!
+[2020-10-23 09:03:35,911]-[INFO]-CommuServer(435)成功初始化数据库连接池!
+[2020-10-23 09:03:35,911]-[INFO]-CommuServer(439)成功初始化线程池配置!
+[2020-10-23 09:03:35,931]-[INFO]-CommuServer(443)成功初始化线程池监控配置!
+[2020-10-23 09:03:35,931]-[INFO]-CommuServer(447)成功初始化设备参数版本查询配置!
+[2020-10-23 09:03:35,931]-[INFO]-CommuServer(451)成功初始化参数自动下发配置!
+[2020-10-23 09:03:35,931]-[INFO]-CommuServer(455)成功初始化启动选项控制!
+[2020-10-23 09:03:35,931]-[INFO]-CommuServer(460)成功初始化FTP路径!
+[2020-10-23 09:03:39,271]-[INFO]-CommuServer(919)运营时间:0205
+[2020-10-23 09:03:39,881]-[INFO]-CommuServer(947)黑名单下发时间：1600 - 1700
+[2020-10-23 09:03:39,921]-[INFO]-CommuServer(966)缺省消息最大处理时间60
+[2020-10-23 09:03:39,941]-[INFO]-CommuServer(970)转存线程池状态表数据，共:0记录
+[2020-10-23 09:03:39,961]-[INFO]-CommuServer(77)参数下发监听已启动 ...
+[2020-10-23 09:03:39,961]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090339
+[2020-10-23 09:03:39,961]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2020-10-23 09:03:39,961]-[INFO]-CommuServer(375)缓存清理线程已启动 !
+[2020-10-23 09:03:39,961]-[INFO]-CommuServer(362)消息队列管理线程已启动!
+[2020-10-23 09:03:39,961]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2020-10-23 09:03:39,961]-[INFO]-CommuServer(98)连接池监听正在启动 ...
+[2020-10-23 09:03:39,961]-[INFO]-CommuServer(103)日志级别监听已启动 ...
+[2020-10-23 09:03:39,971]-[INFO]-CommuServer(107)设备参数版本查询线程已启动 ...
+[2020-10-23 09:03:39,971]-[INFO]-CommuServer(368)线程池监控已启动 !
+[2020-10-23 09:03:39,971]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2020-10-23 09:03:39,961]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2020-10-23 09:03:39,971]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2020-10-23 09:03:39,961]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2020-10-23 09:03:39,961]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2020-10-23 09:03:39,981]-[INFO]-CommuServer(114)票务接口线程已启动 ...
+[2020-10-23 09:03:39,981]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090339
+[2020-10-23 09:03:39,981]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090339
+[2020-10-23 09:03:39,981]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090339
+[2020-10-23 09:03:39,981]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090339
+[2020-10-23 09:03:39,981]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:03:39,981]-[INFO]-CommuServer(117)一卡通接口线程已启动 ...
+[2020-10-23 09:03:39,991]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2020-10-23 09:03:39,991]-[INFO]-CommuServer(124)TCC接口线程已启动 ...使用标识：1
+[2020-10-23 09:03:39,991]-[INFO]-CommuServer(130)定时刷新缓存变量线程已启动 ...
+[2020-10-23 09:03:40,471]-[INFO]-CommuServer(1001)服务器正常启动！正在监听端口 : 5001
+[2020-10-23 09:03:45,451]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090345
+[2020-10-23 09:03:45,461]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090345
+[2020-10-23 09:03:45,471]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090345
+[2020-10-23 09:03:45,471]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090345
+[2020-10-23 09:03:45,471]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090345
+[2020-10-23 09:03:45,471]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:03:50,481]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090350
+[2020-10-23 09:03:50,491]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090350
+[2020-10-23 09:03:50,501]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090350
+[2020-10-23 09:03:50,501]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090350
+[2020-10-23 09:03:50,501]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090350
+[2020-10-23 09:03:50,501]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:03:55,511]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090355
+[2020-10-23 09:03:55,531]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090355
+[2020-10-23 09:03:55,531]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090355
+[2020-10-23 09:03:55,531]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090355
+[2020-10-23 09:03:55,531]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090355
+[2020-10-23 09:03:55,531]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:04:00,541]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090400
+[2020-10-23 09:04:00,551]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090400
+[2020-10-23 09:04:00,551]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090400
+[2020-10-23 09:04:00,551]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090400
+[2020-10-23 09:04:00,551]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090400
+[2020-10-23 09:04:00,561]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:04:01,371]-[ERROR]-BusDataImportThread(212)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:464)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:134)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:105)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-23 09:04:01,381]-[INFO]-BusDataImportThread(106)下载成功数量:0
+[2020-10-23 09:04:01,411]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2020-10-23 09:04:01,421]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,421]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,421]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2020-10-23 09:04:01,431]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,431]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,431]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2020-10-23 09:04:01,441]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,441]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,451]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2020-10-23 09:04:01,461]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,461]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,461]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2020-10-23 09:04:01,461]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,461]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,471]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010401,fileType:trx
+[2020-10-23 09:04:01,471]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,471]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,481]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2020-10-23 09:04:01,481]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,481]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,491]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2020-10-23 09:04:01,491]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,491]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,491]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2020-10-23 09:04:01,501]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,501]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,501]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2020-10-23 09:04:01,511]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,511]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,511]-[INFO]-BusDataDao(33)banlanceWaterNo:2019071801,fileType:trx
+[2020-10-23 09:04:01,511]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,511]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,521]-[INFO]-BusDataDao(33)banlanceWaterNo:2019072301,fileType:trx
+[2020-10-23 09:04:01,521]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,521]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,531]-[INFO]-BusDataDao(33)banlanceWaterNo:2019082701,fileType:trx
+[2020-10-23 09:04:01,531]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,531]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,531]-[INFO]-BusDataDao(33)banlanceWaterNo:2019100701,fileType:trx
+[2020-10-23 09:04:01,541]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,541]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,541]-[INFO]-BusDataDao(33)banlanceWaterNo:2019103101,fileType:trx
+[2020-10-23 09:04:01,551]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,551]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,551]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111601,fileType:trx
+[2020-10-23 09:04:01,561]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,561]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,561]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111701,fileType:trx
+[2020-10-23 09:04:01,561]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,561]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,571]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111801,fileType:trx
+[2020-10-23 09:04:01,571]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,581]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,581]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111901,fileType:trx
+[2020-10-23 09:04:01,591]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,591]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,591]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121301,fileType:trx
+[2020-10-23 09:04:01,601]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,601]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,611]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121701,fileType:trx
+[2020-10-23 09:04:01,611]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,611]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,621]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122301,fileType:trx
+[2020-10-23 09:04:01,621]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,621]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,631]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122401,fileType:trx
+[2020-10-23 09:04:01,631]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,631]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,641]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122501,fileType:trx
+[2020-10-23 09:04:01,641]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,641]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,651]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122601,fileType:trx
+[2020-10-23 09:04:01,651]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,651]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,661]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122701,fileType:trx
+[2020-10-23 09:04:01,671]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,671]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,671]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122801,fileType:trx
+[2020-10-23 09:04:01,681]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,681]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,681]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122901,fileType:trx
+[2020-10-23 09:04:01,691]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,691]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,701]-[INFO]-BusDataDao(33)banlanceWaterNo:2020011301,fileType:trx
+[2020-10-23 09:04:01,701]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,711]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,717]-[INFO]-BusDataDao(33)banlanceWaterNo:2020030401,fileType:trx
+[2020-10-23 09:04:01,723]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,724]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,736]-[INFO]-BusDataDao(33)banlanceWaterNo:2020042201,fileType:trx
+[2020-10-23 09:04:01,741]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,741]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,752]-[INFO]-BusDataDao(33)banlanceWaterNo:2020060901,fileType:trx
+[2020-10-23 09:04:01,752]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,752]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,762]-[INFO]-BusDataDao(33)banlanceWaterNo:2020070101,fileType:trx
+[2020-10-23 09:04:01,762]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,762]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,772]-[INFO]-BusDataDao(33)banlanceWaterNo:2020070901,fileType:trx
+[2020-10-23 09:04:01,772]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,772]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,782]-[INFO]-BusDataDao(33)banlanceWaterNo:2020091901,fileType:trx
+[2020-10-23 09:04:01,782]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,782]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,792]-[INFO]-BusDataDao(33)banlanceWaterNo:2020092101,fileType:trx
+[2020-10-23 09:04:01,792]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:04:01,792]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:04:01,792]-[INFO]-BusDataImportThread(61)------------------------与一卡通中心文件交互执行end-------------------------
+[2020-10-23 09:04:05,574]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090405
+[2020-10-23 09:04:05,584]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090405
+[2020-10-23 09:04:05,584]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090405
+[2020-10-23 09:04:05,584]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090405
+[2020-10-23 09:04:05,584]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090405
+[2020-10-23 09:04:05,584]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:04:10,613]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090410
+[2020-10-23 09:04:10,623]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090410
+[2020-10-23 09:04:10,623]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090410
+[2020-10-23 09:04:10,623]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090410
+[2020-10-23 09:04:10,623]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090410
+[2020-10-23 09:04:10,623]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:04:15,650]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090415
+[2020-10-23 09:04:15,660]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090415
+[2020-10-23 09:04:15,660]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090415
+[2020-10-23 09:04:15,660]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090415
+[2020-10-23 09:04:15,660]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090415
+[2020-10-23 09:04:15,660]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:04:20,670]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090420
+[2020-10-23 09:04:20,690]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090420
+[2020-10-23 09:04:20,690]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090420
+[2020-10-23 09:04:20,690]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090420
+[2020-10-23 09:04:20,690]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090420
+[2020-10-23 09:04:20,690]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:04:25,717]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090425
+[2020-10-23 09:04:25,727]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090425
+[2020-10-23 09:04:25,727]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090425
+[2020-10-23 09:04:25,727]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090425
+[2020-10-23 09:04:25,727]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090425
+[2020-10-23 09:04:25,727]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:04:30,750]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090430
+[2020-10-23 09:04:30,760]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090430
+[2020-10-23 09:04:30,760]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090430
+[2020-10-23 09:04:30,760]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090430
+[2020-10-23 09:04:30,760]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090430
+[2020-10-23 09:04:30,760]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:04:35,800]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090435
+[2020-10-23 09:04:35,810]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090435
+[2020-10-23 09:04:35,820]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090435
+[2020-10-23 09:04:35,820]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090435
+[2020-10-23 09:04:35,820]-[INFO]-ParaDistributeDtlDao(212)[2020-10-23 09:06:44,725]-[INFO]-CommuServer(389)日志配置设置成功!
+[2020-10-23 09:06:44,825]-[INFO]-CommuServer(398)成功解析配置文件：CommuConfig.xml
+[2020-10-23 09:06:44,825]-[INFO]-CommuServer(488)日志备份
+[2020-10-23 09:06:44,825]-[INFO]-CommuServer(405)成功初始化socket配置!
+[2020-10-23 09:06:44,835]-[INFO]-CommuServer(409)成功初始化客流配置!
+[2020-10-23 09:06:44,835]-[INFO]-CommuServer(413)成功初始化线程监控配置!
+[2020-10-23 09:06:44,835]-[INFO]-CommuServer(417)成功初始化初始化参数下发配置!
+[2020-10-23 09:06:44,835]-[INFO]-CommuServer(421)成功初始化应用相关配置!
+[2020-10-23 09:06:44,835]-[INFO]-CommuServer(689)FtpLocalDir:E:/ftpClient/ACCCommu/receive
+[2020-10-23 09:06:44,835]-[INFO]-CommuServer(702)BusFtpLocalDir:E:/ftpClient/ACCCommu/import
+[2020-10-23 09:06:44,835]-[INFO]-CommuServer(425)成功初始化FTP配置!
+[2020-10-23 09:06:44,989]-[INFO]-CommuServer(867)运营库连接池OpConnectionPool创建!
+[2020-10-23 09:06:44,989]-[INFO]-CommuServer(879)通讯库连接池CmConnectionPool创建!
+[2020-10-23 09:06:44,989]-[INFO]-CommuServer(889)票务库连接池TkConnectionPool创建!
+[2020-10-23 09:06:44,989]-[INFO]-CommuServer(435)成功初始化数据库连接池!
+[2020-10-23 09:06:44,989]-[INFO]-CommuServer(439)成功初始化线程池配置!
+[2020-10-23 09:06:44,989]-[INFO]-CommuServer(443)成功初始化线程池监控配置!
+[2020-10-23 09:06:44,989]-[INFO]-CommuServer(447)成功初始化设备参数版本查询配置!
+[2020-10-23 09:06:44,989]-[INFO]-CommuServer(451)成功初始化参数自动下发配置!
+[2020-10-23 09:06:44,989]-[INFO]-CommuServer(455)成功初始化启动选项控制!
+[2020-10-23 09:06:44,989]-[INFO]-CommuServer(460)成功初始化FTP路径!
+[2020-10-23 09:06:48,309]-[INFO]-CommuServer(919)运营时间:0205
+[2020-10-23 09:06:48,879]-[INFO]-CommuServer(947)黑名单下发时间：1600 - 1700
+[2020-10-23 09:06:48,909]-[INFO]-CommuServer(966)缺省消息最大处理时间60
+[2020-10-23 09:06:48,919]-[INFO]-CommuServer(970)转存线程池状态表数据，共:0记录
+[2020-10-23 09:06:48,949]-[INFO]-CommuServer(77)参数下发监听已启动 ...
+[2020-10-23 09:06:48,949]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090648
+[2020-10-23 09:06:48,949]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2020-10-23 09:06:48,949]-[INFO]-CommuServer(375)缓存清理线程已启动 !
+[2020-10-23 09:06:48,959]-[INFO]-CommuServer(362)消息队列管理线程已启动!
+[2020-10-23 09:06:48,959]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2020-10-23 09:06:48,959]-[INFO]-CommuServer(98)连接池监听正在启动 ...
+[2020-10-23 09:06:48,959]-[INFO]-CommuServer(103)日志级别监听已启动 ...
+[2020-10-23 09:06:48,959]-[INFO]-CommuServer(107)设备参数版本查询线程已启动 ...
+[2020-10-23 09:06:48,959]-[INFO]-CommuServer(368)线程池监控已启动 !
+[2020-10-23 09:06:48,959]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2020-10-23 09:06:48,959]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2020-10-23 09:06:48,959]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2020-10-23 09:06:48,969]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2020-10-23 09:06:48,959]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2020-10-23 09:06:48,979]-[INFO]-CommuServer(114)票务接口线程已启动 ...
+[2020-10-23 09:06:48,979]-[INFO]-CommuServer(117)一卡通接口线程已启动 ...
+[2020-10-23 09:06:48,979]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2020-10-23 09:06:48,979]-[INFO]-CommuServer(124)TCC接口线程已启动 ...使用标识：1
+[2020-10-23 09:06:48,979]-[INFO]-CommuServer(130)定时刷新缓存变量线程已启动 ...
+[2020-10-23 09:06:48,989]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090648
+[2020-10-23 09:06:48,999]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090648
+[2020-10-23 09:06:48,999]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090648
+[2020-10-23 09:06:48,999]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090648
+[2020-10-23 09:06:48,999]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:06:49,549]-[INFO]-CommuServer(1001)服务器正常启动！正在监听端口 : 5001
+[2020-10-23 09:06:54,569]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090654
+[2020-10-23 09:06:54,639]-[INFO]-Parameter0304(23)参数0304 started! 
+[2020-10-23 09:06:54,759]-[INFO]-ParameterBase(226)Parameter file PRM.0304.20201022.01 generated successfully. 
+[2020-10-23 09:06:54,759]-[INFO]-Parameter0304(33)参数0304 ended! 
+[2020-10-23 09:06:54,839]-[INFO]-ParaDistributeDtlDao(191)===========update w_acc_st.w_op_prm_para_gen_dtl set gen_result= ? where water_no=? and parm_type_id=? 
+[2020-10-23 09:06:54,859]-[INFO]-ConstructMessage02(32)--构建02消息开始--
+[2020-10-23 09:06:54,859]-[INFO]-ConstructMessage02(46)--成功构建02消息--,消息长度是： 17
+[2020-10-23 09:06:54,859]-[INFO]-ConstructMessage02(66)发送的02消息：[48, 50, 32, 32, 16, 35, 9, 6, 84, 1, 3, 4, 32, 32, 16, 34, 1]
+[2020-10-23 09:06:54,859]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.18.251.
+[2020-10-23 09:06:54,859]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2020-10-23 09:06:54,889]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2020-10-23 09:06:54,909]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.18.251.
+[2020-10-23 09:06:54,909]-[INFO]-ConstructMessage02(70)成功发送02消息到172.20.18.251
+[2020-10-23 09:06:59,929]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090659
+[2020-10-23 09:07:04,929]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090704
+[2020-10-23 09:07:09,929]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023090709
+[2020-10-23 09:07:10,729]-[ERROR]-BusDataImportThread(212)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:464)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:134)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:105)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-23 09:07:10,729]-[INFO]-BusDataImportThread(106)下载成功数量:0
+[2020-10-23 09:07:10,769]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2020-10-23 09:07:10,779]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,779]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,779]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2020-10-23 09:07:10,779]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,789]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,789]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2020-10-23 09:07:10,799]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,799]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,799]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2020-10-23 09:07:10,799]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,799]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,809]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2020-10-23 09:07:10,809]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,809]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,809]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010401,fileType:trx
+[2020-10-23 09:07:10,819]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,819]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,819]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2020-10-23 09:07:10,829]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,829]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,829]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2020-10-23 09:07:10,829]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,839]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,839]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2020-10-23 09:07:10,839]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,839]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,849]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2020-10-23 09:07:10,859]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,859]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,859]-[INFO]-BusDataDao(33)banlanceWaterNo:2019071801,fileType:trx
+[2020-10-23 09:07:10,859]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,859]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,869]-[INFO]-BusDataDao(33)banlanceWaterNo:2019072301,fileType:trx
+[2020-10-23 09:07:10,869]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,869]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,879]-[INFO]-BusDataDao(33)banlanceWaterNo:2019082701,fileType:trx
+[2020-10-23 09:07:10,879]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,879]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,879]-[INFO]-BusDataDao(33)banlanceWaterNo:2019100701,fileType:trx
+[2020-10-23 09:07:10,889]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,889]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,889]-[INFO]-BusDataDao(33)banlanceWaterNo:2019103101,fileType:trx
+[2020-10-23 09:07:10,899]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,899]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,899]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111601,fileType:trx
+[2020-10-23 09:07:10,909]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,909]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,909]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111701,fileType:trx
+[2020-10-23 09:07:10,919]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,919]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,919]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111801,fileType:trx
+[2020-10-23 09:07:10,929]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,929]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,929]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111901,fileType:trx
+[2020-10-23 09:07:10,939]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,939]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,939]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121301,fileType:trx
+[2020-10-23 09:07:10,949]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,949]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,969]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121701,fileType:trx
+[2020-10-23 09:07:10,979]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:10,979]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:10,979]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122301,fileType:trx
+[2020-10-23 09:07:11,219]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:11,219]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:11,229]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122401,fileType:trx
+[2020-10-23 09:07:11,229]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:11,229]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:11,229]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122501,fileType:trx
+[2020-10-23 09:07:11,239]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:11,239]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:11,239]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122601,fileType:trx
+[2020-10-23 09:07:11,239]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:11,239]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:11,249]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122701,fileType:trx
+[2020-10-23 09:07:11,249]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:11,249]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:11,259]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122801,fileType:trx
+[2020-10-23 09:07:11,259]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:07:11,259]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:07:11,269]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122901,fileType:trx
+[2020-10-23 09:07:11,269]-[WARN]-BusDataImportThread(280)--准备FTP[2020-10-23 09:16:07,593]-[INFO]-CommuServer(389)日志配置设置成功!
+[2020-10-23 09:16:07,723]-[INFO]-CommuServer(398)成功解析配置文件：CommuConfig.xml
+[2020-10-23 09:16:07,723]-[INFO]-CommuServer(488)日志备份
+[2020-10-23 09:16:07,723]-[INFO]-CommuServer(405)成功初始化socket配置!
+[2020-10-23 09:16:07,733]-[INFO]-CommuServer(409)成功初始化客流配置!
+[2020-10-23 09:16:07,733]-[INFO]-CommuServer(413)成功初始化线程监控配置!
+[2020-10-23 09:16:07,733]-[INFO]-CommuServer(417)成功初始化初始化参数下发配置!
+[2020-10-23 09:16:07,733]-[INFO]-CommuServer(421)成功初始化应用相关配置!
+[2020-10-23 09:16:07,733]-[INFO]-CommuServer(689)FtpLocalDir:E:/ftpClient/ACCCommu/receive
+[2020-10-23 09:16:07,733]-[INFO]-CommuServer(702)BusFtpLocalDir:E:/ftpClient/ACCCommu/import
+[2020-10-23 09:16:07,733]-[INFO]-CommuServer(425)成功初始化FTP配置!
+[2020-10-23 09:16:07,893]-[INFO]-CommuServer(867)运营库连接池OpConnectionPool创建!
+[2020-10-23 09:16:07,893]-[INFO]-CommuServer(879)通讯库连接池CmConnectionPool创建!
+[2020-10-23 09:16:07,893]-[INFO]-CommuServer(889)票务库连接池TkConnectionPool创建!
+[2020-10-23 09:16:07,893]-[INFO]-CommuServer(435)成功初始化数据库连接池!
+[2020-10-23 09:16:07,893]-[INFO]-CommuServer(439)成功初始化线程池配置!
+[2020-10-23 09:16:07,893]-[INFO]-CommuServer(443)成功初始化线程池监控配置!
+[2020-10-23 09:16:07,893]-[INFO]-CommuServer(447)成功初始化设备参数版本查询配置!
+[2020-10-23 09:16:07,893]-[INFO]-CommuServer(451)成功初始化参数自动下发配置!
+[2020-10-23 09:16:07,893]-[INFO]-CommuServer(455)成功初始化启动选项控制!
+[2020-10-23 09:16:07,893]-[INFO]-CommuServer(460)成功初始化FTP路径!
+[2020-10-23 09:16:11,233]-[INFO]-CommuServer(919)运营时间:0205
+[2020-10-23 09:16:11,793]-[INFO]-CommuServer(947)黑名单下发时间：1600 - 1700
+[2020-10-23 09:16:11,813]-[INFO]-CommuServer(966)缺省消息最大处理时间60
+[2020-10-23 09:16:11,833]-[INFO]-CommuServer(970)转存线程池状态表数据，共:0记录
+[2020-10-23 09:16:11,853]-[INFO]-CommuServer(77)参数下发监听已启动 ...
+[2020-10-23 09:16:11,853]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091611
+[2020-10-23 09:16:11,853]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2020-10-23 09:16:11,863]-[INFO]-CommuServer(375)缓存清理线程已启动 !
+[2020-10-23 09:16:11,863]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2020-10-23 09:16:11,863]-[INFO]-CommuServer(362)消息队列管理线程已启动!
+[2020-10-23 09:16:11,863]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2020-10-23 09:16:11,863]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2020-10-23 09:16:11,863]-[INFO]-CommuServer(98)连接池监听正在启动 ...
+[2020-10-23 09:16:11,863]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2020-10-23 09:16:11,863]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2020-10-23 09:16:11,863]-[INFO]-CommuServer(103)日志级别监听已启动 ...
+[2020-10-23 09:16:11,873]-[INFO]-CommuServer(107)设备参数版本查询线程已启动 ...
+[2020-10-23 09:16:11,873]-[INFO]-CommuServer(368)线程池监控已启动 !
+[2020-10-23 09:16:11,873]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091611
+[2020-10-23 09:16:11,873]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:16:11,873]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2020-10-23 09:16:11,893]-[INFO]-CommuServer(114)票务接口线程已启动 ...
+[2020-10-23 09:16:11,893]-[INFO]-CommuServer(117)一卡通接口线程已启动 ...
+[2020-10-23 09:16:11,893]-[INFO]-CommuServer(124)TCC接口线程已启动 ...使用标识：1
+[2020-10-23 09:16:11,893]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2020-10-23 09:16:11,893]-[INFO]-CommuServer(130)定时刷新缓存变量线程已启动 ...
+[2020-10-23 09:16:12,383]-[INFO]-CommuServer(1001)服务器正常启动！正在监听端口 : 5001
+[2020-10-23 09:16:17,521]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091617
+[2020-10-23 09:16:17,541]-[INFO]-Parameter0304(23)参数0304 started! 
+[2020-10-23 09:16:17,541]-[WARN]-ParameterBase(214)Get record from parameter table error! 
+[2020-10-23 09:16:17,551]-[INFO]-ParameterBase(226)Parameter file PRM.0304.20201022.03 generated successfully. 
+[2020-10-23 09:16:17,551]-[INFO]-Parameter0304(33)参数0304 ended! 
+[2020-10-23 09:16:17,551]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091617
+[2020-10-23 09:16:17,591]-[INFO]-ParaDistributeDtlDao(191)===========update w_acc_st.w_op_prm_para_gen_dtl set gen_result= ? where water_no=? and parm_type_id=? 
+[2020-10-23 09:16:17,601]-[INFO]-ConstructMessage02(32)--构建02消息开始--
+[2020-10-23 09:16:17,611]-[INFO]-ConstructMessage02(46)--成功构建02消息--,消息长度是： 17
+[2020-10-23 09:16:17,611]-[INFO]-ConstructMessage02(66)发送的02消息：[48, 50, 32, 32, 16, 35, 9, 22, 23, 1, 3, 4, 32, 32, 16, 34, 3]
+[2020-10-23 09:16:17,611]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.18.251.
+[2020-10-23 09:16:17,611]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2020-10-23 09:16:17,631]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2020-10-23 09:16:17,641]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.18.251.
+[2020-10-23 09:16:17,641]-[INFO]-ConstructMessage02(70)成功发送02消息到172.20.18.251
+[2020-10-23 09:16:22,661]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091622
+[2020-10-23 09:16:27,665]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091627
+[2020-10-23 09:16:32,675]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091632
+[2020-10-23 09:16:33,245]-[ERROR]-BusDataImportThread(212)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:464)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:134)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:105)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-23 09:16:33,245]-[INFO]-BusDataImportThread(106)下载成功数量:0
+[2020-10-23 09:16:33,275]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2020-10-23 09:16:33,285]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,285]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,285]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2020-10-23 09:16:33,295]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,295]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,295]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2020-10-23 09:16:33,305]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,305]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,305]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2020-10-23 09:16:33,315]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,315]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,315]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2020-10-23 09:16:33,315]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,315]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,325]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010401,fileType:trx
+[2020-10-23 09:16:33,325]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,325]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,335]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2020-10-23 09:16:33,335]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,335]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,335]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2020-10-23 09:16:33,345]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,345]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,345]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2020-10-23 09:16:33,345]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,345]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,355]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2020-10-23 09:16:33,355]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,355]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,355]-[INFO]-BusDataDao(33)banlanceWaterNo:2019071801,fileType:trx
+[2020-10-23 09:16:33,365]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,365]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,365]-[INFO]-BusDataDao(33)banlanceWaterNo:2019072301,fileType:trx
+[2020-10-23 09:16:33,375]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,375]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,375]-[INFO]-BusDataDao(33)banlanceWaterNo:2019082701,fileType:trx
+[2020-10-23 09:16:33,375]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,375]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,385]-[INFO]-BusDataDao(33)banlanceWaterNo:2019100701,fileType:trx
+[2020-10-23 09:16:33,385]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,385]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,395]-[INFO]-BusDataDao(33)banlanceWaterNo:2019103101,fileType:trx
+[2020-10-23 09:16:33,395]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,395]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,405]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111601,fileType:trx
+[2020-10-23 09:16:33,405]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,405]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,405]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111701,fileType:trx
+[2020-10-23 09:16:33,415]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,415]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,415]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111801,fileType:trx
+[2020-10-23 09:16:33,425]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,425]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,435]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111901,fileType:trx
+[2020-10-23 09:16:33,435]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,435]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,435]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121301,fileType:trx
+[2020-10-23 09:16:33,445]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,445]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,445]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121701,fileType:trx
+[2020-10-23 09:16:33,455]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,455]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,455]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122301,fileType:trx
+[2020-10-23 09:16:33,465]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,465]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,465]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122401,fileType:trx
+[2020-10-23 09:16:33,475]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,475]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,475]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122501,fileType:trx
+[2020-10-23 09:16:33,485]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,485]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,485]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122601,fileType:trx
+[2020-10-23 09:16:33,485]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,485]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,495]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122701,fileType:trx
+[2020-10-23 09:16:33,495]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,495]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,505]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122801,fileType:trx
+[2020-10-23 09:16:33,505]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,515]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,515]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122901,fileType:trx
+[2020-10-23 09:16:33,515]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,515]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,525]-[INFO]-BusDataDao(33)banlanceWaterNo:2020011301,fileType:trx
+[2020-10-23 09:16:33,525]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,525]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,535]-[INFO]-BusDataDao(33)banlanceWaterNo:2020030401,fileType:trx
+[2020-10-23 09:16:33,535]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,535]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,545]-[INFO]-BusDataDao(33)banlanceWaterNo:2020042201,fileType:trx
+[2020-10-23 09:16:33,545]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,545]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,555]-[INFO]-BusDataDao(33)banlanceWaterNo:2020060901,fileType:trx
+[2020-10-23 09:16:33,575]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,575]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,575]-[INFO]-BusDataDao(33)banlanceWaterNo:2020070101,fileType:trx
+[2020-10-23 09:16:33,585]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,585]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,585]-[INFO]-BusDataDao(33)banlanceWaterNo:2020070901,fileType:trx
+[2020-10-23 09:16:33,585]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,595]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,595]-[INFO]-BusDataDao(33)banlanceWaterNo:2020091901,fileType:trx
+[2020-10-23 09:16:33,595]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,595]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,605]-[INFO]-BusDataDao(33)banlanceWaterNo:2020092101,fileType:trx
+[2020-10-23 09:16:33,605]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:16:33,605]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:16:33,605]-[INFO]-BusDataImportThread(61)------------------------与一卡通中心文件交互执行end-------------------------
+[2020-10-23 09:16:37,675]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091637
+[2020-10-23 09:16:42,676]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091642
+[2020-10-23 09:16:47,678]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091647
+[2020-10-23 09:16:52,685]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091652
+[2020-10-23 09:16:57,692]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091657
+[2020-10-23 09:17:02,692]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091702
+[2020-10-23 09:17:07,692]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091707
+[2020-10-23 09:17:11,903]-[INFO]-RefreshCacheThread(44)运营时间:0205
+[2020-10-23 09:17:12,013]-[INFO]-RefreshCacheThread(73)黑名单下发时间：1600 - 1700
+[2020-10-23 09:17:12,703]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091712
+[2020-10-23 09:17:17,706]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091717
+[2020-10-23 09:17:22,706]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091722
+[2020-10-23 09:17:27,706]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091727
+[2020-10-23 09:17:32,706]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091732
+[2020-10-23 09:17:37,708]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091737
+[2020-10-23 09:17:42,718]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091742
+[2020-10-23 09:17:47,718]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091747
+[2020-10-23 09:17:52,738]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091752
+[2020-10-23 09:17:57,748]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091757
+[2020-10-23 09:18:02,748]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091802
+[2020-10-23 09:18:07,754]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091807
+[2020-10-23 09:18:12,038]-[INFO]-RefreshCacheThread(44)运营时间:0205
+[2020-10-23 09:18:12,168]-[INFO]-RefreshCacheThread(73)黑名单下发时间：1600 - 1700
+[2020-10-23 09:18:12,763]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091812
+[2020-10-23 09:18:17,766]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091817
+[2020-10-23 09:18:22,771]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091822
+[2020-10-23 09:18:27,771]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091827
+[2020-10-23 09:18:32,771]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091832
+[2020-10-23 09:18:37,778]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091837
+[2020-10-23 09:18:42,778]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091842
+[2020-10-23 09:18:47,780]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091847
+[2020-10-23 09:18:52,786]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091852
+[2020-10-23 09:18:57,790]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091857
+[2020-10-23 09:19:02,796]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091902
+[2020-10-23 09:19:07,796]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091907
+[2020-10-23 09:19:12,191]-[INFO]-RefreshCacheThread(44)运营时间:0205
+[2020-10-23 09:19:12,301]-[INFO]-RefreshCacheThread(73)黑名单下发时间：1600 - 1700
+[2020-10-23 09:19:12,804]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091912
+[2020-10-23 09:19:17,825]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091917
+[2020-10-23 09:19:22,837]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091922
+[2020-10-23 09:19:27,838]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091927
+[2020-10-23 09:19:32,842]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091932
+[2020-10-23 09:19:37,851]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091937
+[2020-10-23 09:19:42,851]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091942
+[2020-10-23 09:19:47,854]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091947
+[2020-10-23 09:19:52,880]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091952
+[2020-10-23 09:19:57,880]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023091957
+[2020-10-23 09:20:02,884]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092002
+[2020-10-23 09:20:07,893]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092007
+[2020-10-23 09:20:12,323]-[INFO]-RefreshCacheThread(44)运营时间:0205
+[2020-10-23 09:20:12,433]-[INFO]-RefreshCacheThread(73)黑名单下发时间：1600 - 1700
+[2020-10-23 09:20:12,893]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092012
+[2020-10-23 09:20:17,898]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092017
+[2020-10-23 09:20:22,898]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092022
+[2020-10-23 09:20:27,898]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092027
+[2020-10-23 09:20:32,898]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092032
+[2020-10-23 09:20:37,904]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092037
+[2020-10-23 09:20:42,906]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092042
+[2020-10-23 09:20:47,915]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092047
+[2020-10-23 09:20:52,915]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092052
+[2020-10-23 09:20:57,915]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092057
+[2020-10-23 09:21:02,915]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092102
+[2020-10-23 09:21:07,915]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092107
+[2020-10-23 09:21:12,455]-[INFO]-RefreshCacheThread(44)运营时间:0205
+[2020-10-23 09:21:12,555]-[INFO]-RefreshCacheThread(73)黑名单下发时间：1600 - 1700
+[2020-10-23 09:21:12,916]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092112
+[2020-10-23 09:21:17,916]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092117
+[2020-10-23 09:21:22,921]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092122
+[2020-10-23 09:21:27,921]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092127
+[2020-10-23 09:21:32,930]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092132
+[2020-10-23 09:21:33,609]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2020-10-23 09:21:37,934]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092137
+[2020-10-23 09:21:42,940]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092142
+[2020-10-23 09:21:47,948]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092147
+[2020-10-23 09:21:52,948]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092152
+[2020-10-23 09:21:54,658]-[ERROR]-BusDataImportThread(212)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:464)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:134)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:105)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-23 09:21:54,658]-[INFO]-BusDataImportThread(106)下载成功数量:0
+[2020-10-23 09:21:54,668]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2020-10-23 09:21:54,678]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,688]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,688]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2020-10-23 09:21:54,688]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,698]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,698]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2020-10-23 09:21:54,698]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,698]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,708]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2020-10-23 09:21:54,718]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,718]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,718]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2020-10-23 09:21:54,718]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,718]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,728]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010401,fileType:trx
+[2020-10-23 09:21:54,728]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,728]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,738]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2020-10-23 09:21:54,738]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,738]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,738]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2020-10-23 09:21:54,748]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,748]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,748]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2020-10-23 09:21:54,748]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,748]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,758]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2020-10-23 09:21:54,758]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,758]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,768]-[INFO]-BusDataDao(33)banlanceWaterNo:2019071801,fileType:trx
+[2020-10-23 09:21:54,768]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,768]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,768]-[INFO]-BusDataDao(33)banlanceWaterNo:2019072301,fileType:trx
+[2020-10-23 09:21:54,778]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,778]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,778]-[INFO]-BusDataDao(33)banlanceWaterNo:2019082701,fileType:trx
+[2020-10-23 09:21:54,778]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,778]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,788]-[INFO]-BusDataDao(33)banlanceWaterNo:2019100701,fileType:trx
+[2020-10-23 09:21:54,788]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,788]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,788]-[INFO]-BusDataDao(33)banlanceWaterNo:2019103101,fileType:trx
+[2020-10-23 09:21:54,798]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,798]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,798]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111601,fileType:trx
+[2020-10-23 09:21:54,808]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,808]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,808]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111701,fileType:trx
+[2020-10-23 09:21:54,808]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,808]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,818]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111801,fileType:trx
+[2020-10-23 09:21:54,818]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,818]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,828]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111901,fileType:trx
+[2020-10-23 09:21:54,828]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,828]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,838]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121301,fileType:trx
+[2020-10-23 09:21:54,838]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,838]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,838]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121701,fileType:trx
+[2020-10-23 09:21:54,848]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,848]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,848]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122301,fileType:trx
+[2020-10-23 09:21:54,848]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,848]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,858]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122401,fileType:trx
+[2020-10-23 09:21:54,858]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,858]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,868]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122501,fileType:trx
+[2020-10-23 09:21:54,868]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,878]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,878]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122601,fileType:trx
+[2020-10-23 09:21:54,878]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,878]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,888]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122701,fileType:trx
+[2020-10-23 09:21:54,888]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,888]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,888]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122801,fileType:trx
+[2020-10-23 09:21:54,898]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,898]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,898]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122901,fileType:trx
+[2020-10-23 09:21:54,898]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,898]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,908]-[INFO]-BusDataDao(33)banlanceWaterNo:2020011301,fileType:trx
+[2020-10-23 09:21:54,908]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,908]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,908]-[INFO]-BusDataDao(33)banlanceWaterNo:2020030401,fileType:trx
+[2020-10-23 09:21:54,918]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,918]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,928]-[INFO]-BusDataDao(33)banlanceWaterNo:2020042201,fileType:trx
+[2020-10-23 09:21:54,928]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,928]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,928]-[INFO]-BusDataDao(33)banlanceWaterNo:2020060901,fileType:trx
+[2020-10-23 09:21:54,928]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,928]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,938]-[INFO]-BusDataDao(33)banlanceWaterNo:2020070101,fileType:trx
+[2020-10-23 09:21:54,938]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,938]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,938]-[INFO]-BusDataDao(33)banlanceWaterNo:2020070901,fileType:trx
+[2020-10-23 09:21:54,948]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,948]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,948]-[INFO]-BusDataDao(33)banlanceWaterNo:2020091901,fileType:trx
+[2020-10-23 09:21:54,948]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,958]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,958]-[INFO]-BusDataDao(33)banlanceWaterNo:2020092101,fileType:trx
+[2020-10-23 09:21:54,958]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:21:54,958]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:21:54,958]-[INFO]-BusDataImportThread(61)------------------------与一卡通中心文件交互执行end-------------------------
+[2020-10-23 09:21:57,950]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092157
+[2020-10-23 09:22:02,951]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092202
+[2020-10-23 09:22:07,960]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092207
+[2020-10-23 09:22:12,583]-[INFO]-RefreshCacheThread(44)运营时间:0205
+[2020-10-23 09:22:12,680]-[INFO]-RefreshCacheThread(73)黑名单下发时间：1600 - 1700
+[2020-10-23 09:22:12,969]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092212
+[2020-10-23 09:22:17,978]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092217
+[2020-10-23 09:22:22,981]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092222
+[2020-10-23 09:22:27,988]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092227
+[2020-10-23 09:22:32,994]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092232
+[2020-10-23 09:22:37,996]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092237
+[2020-10-23 09:22:43,000]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092243
+[2020-10-23 09:22:48,008]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092248
+[2020-10-23 09:22:53,008]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092253
+[2020-10-23 09:22:58,018]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092258
+[2020-10-23 09:23:03,026]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092303
+[2020-10-23 09:23:08,031]-[INFO[2020-10-23 09:29:53,500]-[INFO]-CommuServer(389)日志配置设置成功!
+[2020-10-23 09:29:53,640]-[INFO]-CommuServer(398)成功解析配置文件：CommuConfig.xml
+[2020-10-23 09:29:53,650]-[INFO]-CommuServer(488)日志备份
+[2020-10-23 09:29:53,650]-[INFO]-CommuServer(405)成功初始化socket配置!
+[2020-10-23 09:29:53,650]-[INFO]-CommuServer(409)成功初始化客流配置!
+[2020-10-23 09:29:53,650]-[INFO]-CommuServer(413)成功初始化线程监控配置!
+[2020-10-23 09:29:53,650]-[INFO]-CommuServer(417)成功初始化初始化参数下发配置!
+[2020-10-23 09:29:53,650]-[INFO]-CommuServer(421)成功初始化应用相关配置!
+[2020-10-23 09:29:53,650]-[INFO]-CommuServer(689)FtpLocalDir:E:/ftpClient/ACCCommu/receive
+[2020-10-23 09:29:53,650]-[INFO]-CommuServer(702)BusFtpLocalDir:E:/ftpClient/ACCCommu/import
+[2020-10-23 09:29:53,650]-[INFO]-CommuServer(425)成功初始化FTP配置!
+[2020-10-23 09:29:53,790]-[INFO]-CommuServer(867)运营库连接池OpConnectionPool创建!
+[2020-10-23 09:29:53,790]-[INFO]-CommuServer(879)通讯库连接池CmConnectionPool创建!
+[2020-10-23 09:29:53,800]-[INFO]-CommuServer(889)票务库连接池TkConnectionPool创建!
+[2020-10-23 09:29:53,800]-[INFO]-CommuServer(435)成功初始化数据库连接池!
+[2020-10-23 09:29:53,800]-[INFO]-CommuServer(439)成功初始化线程池配置!
+[2020-10-23 09:29:53,800]-[INFO]-CommuServer(443)成功初始化线程池监控配置!
+[2020-10-23 09:29:53,800]-[INFO]-CommuServer(447)成功初始化设备参数版本查询配置!
+[2020-10-23 09:29:53,800]-[INFO]-CommuServer(451)成功初始化参数自动下发配置!
+[2020-10-23 09:29:53,800]-[INFO]-CommuServer(455)成功初始化启动选项控制!
+[2020-10-23 09:29:53,800]-[INFO]-CommuServer(460)成功初始化FTP路径!
+[2020-10-23 09:29:56,950]-[INFO]-CommuServer(919)运营时间:0205
+[2020-10-23 09:29:57,540]-[INFO]-CommuServer(947)黑名单下发时间：1600 - 1700
+[2020-10-23 09:29:57,570]-[INFO]-CommuServer(966)缺省消息最大处理时间60
+[2020-10-23 09:29:57,580]-[INFO]-CommuServer(970)转存线程池状态表数据，共:0记录
+[2020-10-23 09:29:57,600]-[INFO]-CommuServer(77)参数下发监听已启动 ...
+[2020-10-23 09:29:57,600]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092957
+[2020-10-23 09:29:57,610]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2020-10-23 09:29:57,610]-[INFO]-CommuServer(375)缓存清理线程已启动 !
+[2020-10-23 09:29:57,610]-[INFO]-CommuServer(362)消息队列管理线程已启动!
+[2020-10-23 09:29:57,610]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2020-10-23 09:29:57,610]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2020-10-23 09:29:57,610]-[INFO]-CommuServer(98)连接池监听正在启动 ...
+[2020-10-23 09:29:57,610]-[INFO]-CommuServer(103)日志级别监听已启动 ...
+[2020-10-23 09:29:57,610]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2020-10-23 09:29:57,610]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2020-10-23 09:29:57,610]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2020-10-23 09:29:57,620]-[INFO]-CommuServer(107)设备参数版本查询线程已启动 ...
+[2020-10-23 09:29:57,620]-[INFO]-CommuServer(368)线程池监控已启动 !
+[2020-10-23 09:29:57,630]-[INFO]-CommuServer(114)票务接口线程已启动 ...
+[2020-10-23 09:29:57,630]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2020-10-23 09:29:57,640]-[INFO]-CommuServer(117)一卡通接口线程已启动 ...
+[2020-10-23 09:29:57,640]-[INFO]-CommuServer(124)TCC接口线程已启动 ...使用标识：1
+[2020-10-23 09:29:57,640]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023092957
+[2020-10-23 09:29:57,640]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:29:57,640]-[INFO]-CommuServer(130)定时刷新缓存变量线程已启动 ...
+[2020-10-23 09:29:57,650]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2020-10-23 09:29:58,010]-[INFO]-CommuServer(1001)服务器正常启动！正在监听端口 : 5001
+[2020-10-23 09:30:03,050]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093003
+[2020-10-23 09:30:08,050]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093008
+[2020-10-23 09:30:13,058]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093013
+[2020-10-23 09:30:18,064]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093018
+[2020-10-23 09:30:19,084]-[ERROR]-BusDataImportThread(212)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:464)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:134)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:105)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-23 09:30:19,084]-[INFO]-BusDataImportThread(106)下载成功数量:0
+[2020-10-23 09:30:19,114]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2020-10-23 09:30:19,114]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:30:19,114]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:30:19,124]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2020-10-23 09:30:19,124]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:30:19,124]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:30:19,134]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2020-10-23 09:30:19,144]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:30:19,144]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:30:19,144]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2020-10-23 09:30:19,154]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:30:19,154]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:30:19,154]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2020-10-23 09:30:19,154]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:30:19,154]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:30:19,164]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010401,fileType:trx
+[2020-10-23 09:30:19,164]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:30:19,164]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:30:19,174]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2020-10-23 09:30:19,174]-[WARN]-BusDataImportThread(280)--准备FTP登录一[2020-10-23 09:32:04,573]-[INFO]-CommuServer(389)日志配置设置成功!
+[2020-10-23 09:32:04,723]-[INFO]-CommuServer(398)成功解析配置文件：CommuConfig.xml
+[2020-10-23 09:32:04,733]-[INFO]-CommuServer(488)日志备份
+[2020-10-23 09:32:04,733]-[INFO]-CommuServer(405)成功初始化socket配置!
+[2020-10-23 09:32:04,733]-[INFO]-CommuServer(409)成功初始化客流配置!
+[2020-10-23 09:32:04,733]-[INFO]-CommuServer(413)成功初始化线程监控配置!
+[2020-10-23 09:32:04,733]-[INFO]-CommuServer(417)成功初始化初始化参数下发配置!
+[2020-10-23 09:32:04,733]-[INFO]-CommuServer(421)成功初始化应用相关配置!
+[2020-10-23 09:32:04,733]-[INFO]-CommuServer(689)FtpLocalDir:E:/ftpClient/ACCCommu/receive
+[2020-10-23 09:32:04,733]-[INFO]-CommuServer(702)BusFtpLocalDir:E:/ftpClient/ACCCommu/import
+[2020-10-23 09:32:04,733]-[INFO]-CommuServer(425)成功初始化FTP配置!
+[2020-10-23 09:32:04,883]-[INFO]-CommuServer(867)运营库连接池OpConnectionPool创建!
+[2020-10-23 09:32:04,883]-[INFO]-CommuServer(879)通讯库连接池CmConnectionPool创建!
+[2020-10-23 09:32:04,883]-[INFO]-CommuServer(889)票务库连接池TkConnectionPool创建!
+[2020-10-23 09:32:04,883]-[INFO]-CommuServer(435)成功初始化数据库连接池!
+[2020-10-23 09:32:04,883]-[INFO]-CommuServer(439)成功初始化线程池配置!
+[2020-10-23 09:32:04,883]-[INFO]-CommuServer(443)成功初始化线程池监控配置!
+[2020-10-23 09:32:04,883]-[INFO]-CommuServer(447)成功初始化设备参数版本查询配置!
+[2020-10-23 09:32:04,883]-[INFO]-CommuServer(451)成功初始化参数自动下发配置!
+[2020-10-23 09:32:04,883]-[INFO]-CommuServer(455)成功初始化启动选项控制!
+[2020-10-23 09:32:04,883]-[INFO]-CommuServer(460)成功初始化FTP路径!
+[2020-10-23 09:32:08,013]-[INFO]-CommuServer(919)运营时间:0205
+[2020-10-23 09:32:08,583]-[INFO]-CommuServer(947)黑名单下发时间：1600 - 1700
+[2020-10-23 09:32:08,613]-[INFO]-CommuServer(966)缺省消息最大处理时间60
+[2020-10-23 09:32:08,633]-[INFO]-CommuServer(970)转存线程池状态表数据，共:0记录
+[2020-10-23 09:32:08,653]-[INFO]-CommuServer(77)参数下发监听已启动 ...
+[2020-10-23 09:32:08,653]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093208
+[2020-10-23 09:32:08,653]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2020-10-23 09:32:08,653]-[INFO]-CommuServer(375)缓存清理线程已启动 !
+[2020-10-23 09:32:08,653]-[INFO]-CommuServer(362)消息队列管理线程已启动!
+[2020-10-23 09:32:08,653]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2020-10-23 09:32:08,663]-[INFO]-CommuServer(98)连接池监听正在启动 ...
+[2020-10-23 09:32:08,663]-[INFO]-CommuServer(103)日志级别监听已启动 ...
+[2020-10-23 09:32:08,663]-[INFO]-CommuServer(107)设备参数版本查询线程已启动 ...
+[2020-10-23 09:32:08,663]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2020-10-23 09:32:08,663]-[INFO]-CommuServer(368)线程池监控已启动 !
+[2020-10-23 09:32:08,683]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2020-10-23 09:32:08,683]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2020-10-23 09:32:08,683]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2020-10-23 09:32:08,683]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2020-10-23 09:32:08,683]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093208
+[2020-10-23 09:32:08,683]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:32:08,693]-[INFO]-CommuServer(114)票务接口线程已启动 ...
+[2020-10-23 09:32:08,693]-[INFO]-CommuServer(117)一卡通接口线程已启动 ...
+[2020-10-23 09:32:08,693]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2020-10-23 09:32:08,693]-[INFO]-CommuServer(124)TCC接口线程已启动 ...使用标识：1
+[2020-10-23 09:32:08,703]-[INFO]-CommuServer(130)定时刷新缓存变量线程已启动 ...
+[2020-10-23 09:32:09,143]-[INFO]-CommuServer(1001)服务器正常启动！正在监听端口 : 5001
+[2020-10-23 09:32:14,223]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093214
+[2020-10-23 09:32:19,230]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093219
+[2020-10-23 09:32:24,245]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093224
+[2020-10-23 09:32:29,248]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093229
+[2020-10-23 09:32:30,010]-[ERROR]-BusDataImportThread(212)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:464)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:134)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:105)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-23 09:32:30,010]-[INFO]-BusDataImportThread(106)下载成功数量:0
+[2020-10-23 09:32:30,030]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2020-10-23 09:32:30,040]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:32:30,040]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:32:30,040]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2020-10-23 09:32:30,040]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:32:30,040]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:32:30,050]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2020-10-23 09:32:30,050]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:32:30,050]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:32:30,060]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2020-10-23 09:32:30,060]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:32:30,060]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:32:30,070]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2020-10-23 09:32:30,070]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:32:30,070]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:32:30,070]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010401,fileType:trx
+[2020-10-23 09:32:30,080]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:32:30,080]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:32:30,080]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2020-10-23 09:32:30,090]-[WARN]-BusDataImportThread(280)--准备FTP登录一[2020-10-23 09:33:15,226]-[INFO]-CommuServer(389)日志配置设置成功!
+[2020-10-23 09:33:15,318]-[INFO]-CommuServer(398)成功解析配置文件：CommuConfig.xml
+[2020-10-23 09:33:15,318]-[INFO]-CommuServer(488)日志备份
+[2020-10-23 09:33:15,318]-[INFO]-CommuServer(405)成功初始化socket配置!
+[2020-10-23 09:33:15,328]-[INFO]-CommuServer(409)成功初始化客流配置!
+[2020-10-23 09:33:15,328]-[INFO]-CommuServer(413)成功初始化线程监控配置!
+[2020-10-23 09:33:15,328]-[INFO]-CommuServer(417)成功初始化初始化参数下发配置!
+[2020-10-23 09:33:15,328]-[INFO]-CommuServer(421)成功初始化应用相关配置!
+[2020-10-23 09:33:15,328]-[INFO]-CommuServer(689)FtpLocalDir:E:/ftpClient/ACCCommu/receive
+[2020-10-23 09:33:15,328]-[INFO]-CommuServer(702)BusFtpLocalDir:E:/ftpClient/ACCCommu/import
+[2020-10-23 09:33:15,328]-[INFO]-CommuServer(425)成功初始化FTP配置!
+[2020-10-23 09:33:15,448]-[INFO]-CommuServer(867)运营库连接池OpConnectionPool创建!
+[2020-10-23 09:33:15,448]-[INFO]-CommuServer(879)通讯库连接池CmConnectionPool创建!
+[2020-10-23 09:33:15,448]-[INFO]-CommuServer(889)票务库连接池TkConnectionPool创建!
+[2020-10-23 09:33:15,448]-[INFO]-CommuServer(435)成功初始化数据库连接池!
+[2020-10-23 09:33:15,448]-[INFO]-CommuServer(439)成功初始化线程池配置!
+[2020-10-23 09:33:15,448]-[INFO]-CommuServer(443)成功初始化线程池监控配置!
+[2020-10-23 09:33:15,448]-[INFO]-CommuServer(447)成功初始化设备参数版本查询配置!
+[2020-10-23 09:33:15,448]-[INFO]-CommuServer(451)成功初始化参数自动下发配置!
+[2020-10-23 09:33:15,448]-[INFO]-CommuServer(455)成功初始化启动选项控制!
+[2020-10-23 09:33:15,448]-[INFO]-CommuServer(460)成功初始化FTP路径!
+[2020-10-23 09:33:19,114]-[INFO]-CommuServer(919)运营时间:0205
+[2020-10-23 09:33:19,744]-[INFO]-CommuServer(947)黑名单下发时间：1600 - 1700
+[2020-10-23 09:33:19,774]-[INFO]-CommuServer(966)缺省消息最大处理时间60
+[2020-10-23 09:33:19,784]-[INFO]-CommuServer(970)转存线程池状态表数据，共:0记录
+[2020-10-23 09:33:19,804]-[INFO]-CommuServer(77)参数下发监听已启动 ...
+[2020-10-23 09:33:19,804]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093319
+[2020-10-23 09:33:19,814]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2020-10-23 09:33:19,814]-[INFO]-CommuServer(375)缓存清理线程已启动 !
+[2020-10-23 09:33:19,814]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2020-10-23 09:33:19,814]-[INFO]-CommuServer(362)消息队列管理线程已启动!
+[2020-10-23 09:33:19,814]-[INFO]-CommuServer(98)连接池监听正在启动 ...
+[2020-10-23 09:33:19,814]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2020-10-23 09:33:19,814]-[INFO]-CommuServer(103)日志级别监听已启动 ...
+[2020-10-23 09:33:19,814]-[INFO]-CommuServer(107)设备参数版本查询线程已启动 ...
+[2020-10-23 09:33:19,814]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2020-10-23 09:33:19,814]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2020-10-23 09:33:19,814]-[INFO]-CommuServer(368)线程池监控已启动 !
+[2020-10-23 09:33:19,814]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2020-10-23 09:33:19,824]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2020-10-23 09:33:19,834]-[INFO]-CommuServer(114)票务接口线程已启动 ...
+[2020-10-23 09:33:19,844]-[INFO]-CommuServer(117)一卡通接口线程已启动 ...
+[2020-10-23 09:33:19,844]-[INFO]-CommuServer(124)TCC接口线程已启动 ...使用标识：1
+[2020-10-23 09:33:19,844]-[INFO]-CommuServer(130)定时刷新缓存变量线程已启动 ...
+[2020-10-23 09:33:19,844]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093319
+[2020-10-23 09:33:19,844]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:33:19,854]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2020-10-23 09:33:20,234]-[INFO]-CommuServer(1001)服务器正常启动！正在监听端口 : 5001
+[2020-10-23 09:33:25,254]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093325
+[2020-10-23 09:33:25,274]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093325
+[2020-10-23 09:33:25,274]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:33:30,284]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093330
+[2020-10-23 09:33:30,304]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093330
+[2020-10-23 09:33:30,304]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:33:35,315]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093335
+[2020-10-23 09:33:35,332]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093335
+[2020-10-23 09:33:35,333]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:33:40,365]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093340
+[2020-10-23 09:33:40,375]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093340
+[2020-10-23 09:33:40,375]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:33:41,155]-[ERROR]-BusDataImportThread(212)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:464)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:134)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:105)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-23 09:33:41,165]-[INFO]-BusDataImportThread(106)下载成功数量:0
+[2020-10-23 09:33:41,205]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2020-10-23 09:33:41,205]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,205]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,216]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2020-10-23 09:33:41,220]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,220]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,224]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2020-10-23 09:33:41,228]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,228]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,231]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2020-10-23 09:33:41,234]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,234]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,238]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2020-10-23 09:33:41,238]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,238]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,238]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010401,fileType:trx
+[2020-10-23 09:33:41,248]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,248]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,248]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2020-10-23 09:33:41,258]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,258]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,258]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2020-10-23 09:33:41,268]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,268]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,268]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2020-10-23 09:33:41,268]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,268]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,278]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2020-10-23 09:33:41,278]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,278]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,288]-[INFO]-BusDataDao(33)banlanceWaterNo:2019071801,fileType:trx
+[2020-10-23 09:33:41,288]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,288]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,288]-[INFO]-BusDataDao(33)banlanceWaterNo:2019072301,fileType:trx
+[2020-10-23 09:33:41,298]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,298]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,298]-[INFO]-BusDataDao(33)banlanceWaterNo:2019082701,fileType:trx
+[2020-10-23 09:33:41,298]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,298]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,308]-[INFO]-BusDataDao(33)banlanceWaterNo:2019100701,fileType:trx
+[2020-10-23 09:33:41,308]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,308]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,318]-[INFO]-BusDataDao(33)banlanceWaterNo:2019103101,fileType:trx
+[2020-10-23 09:33:41,318]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,318]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,328]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111601,fileType:trx
+[2020-10-23 09:33:41,328]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,328]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,338]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111701,fileType:trx
+[2020-10-23 09:33:41,338]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,338]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,348]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111801,fileType:trx
+[2020-10-23 09:33:41,348]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,348]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,358]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111901,fileType:trx
+[2020-10-23 09:33:41,368]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,368]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,368]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121301,fileType:trx
+[2020-10-23 09:33:41,368]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,368]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,378]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121701,fileType:trx
+[2020-10-23 09:33:41,388]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,388]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,388]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122301,fileType:trx
+[2020-10-23 09:33:41,398]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,398]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,398]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122401,fileType:trx
+[2020-10-23 09:33:41,408]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,408]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,408]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122501,fileType:trx
+[2020-10-23 09:33:41,418]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,418]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,418]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122601,fileType:trx
+[2020-10-23 09:33:41,418]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,428]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,428]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122701,fileType:trx
+[2020-10-23 09:33:41,428]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,428]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,438]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122801,fileType:trx
+[2020-10-23 09:33:41,438]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,438]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,448]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122901,fileType:trx
+[2020-10-23 09:33:41,448]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,448]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:33:41,458]-[INFO]-BusDataDao(33)banlanceWaterNo:2020011301,fileType:trx
+[2020-10-23 09:33:41,458]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:33:41,458]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成-----------[2020-10-23 09:36:31,904]-[INFO]-CommuServer(389)日志配置设置成功!
+[2020-10-23 09:36:31,994]-[INFO]-CommuServer(398)成功解析配置文件：CommuConfig.xml
+[2020-10-23 09:36:31,994]-[INFO]-CommuServer(488)日志备份
+[2020-10-23 09:36:31,994]-[INFO]-CommuServer(405)成功初始化socket配置!
+[2020-10-23 09:36:32,034]-[INFO]-CommuServer(409)成功初始化客流配置!
+[2020-10-23 09:36:32,034]-[INFO]-CommuServer(413)成功初始化线程监控配置!
+[2020-10-23 09:36:32,034]-[INFO]-CommuServer(417)成功初始化初始化参数下发配置!
+[2020-10-23 09:36:32,034]-[INFO]-CommuServer(421)成功初始化应用相关配置!
+[2020-10-23 09:36:32,034]-[INFO]-CommuServer(689)FtpLocalDir:E:/ftpClient/ACCCommu/receive
+[2020-10-23 09:36:32,034]-[INFO]-CommuServer(702)BusFtpLocalDir:E:/ftpClient/ACCCommu/import
+[2020-10-23 09:36:32,034]-[INFO]-CommuServer(425)成功初始化FTP配置!
+[2020-10-23 09:36:32,174]-[INFO]-CommuServer(867)运营库连接池OpConnectionPool创建!
+[2020-10-23 09:36:32,174]-[INFO]-CommuServer(879)通讯库连接池CmConnectionPool创建!
+[2020-10-23 09:36:32,174]-[INFO]-CommuServer(889)票务库连接池TkConnectionPool创建!
+[2020-10-23 09:36:32,174]-[INFO]-CommuServer(435)成功初始化数据库连接池!
+[2020-10-23 09:36:32,174]-[INFO]-CommuServer(439)成功初始化线程池配置!
+[2020-10-23 09:36:32,174]-[INFO]-CommuServer(443)成功初始化线程池监控配置!
+[2020-10-23 09:36:32,174]-[INFO]-CommuServer(447)成功初始化设备参数版本查询配置!
+[2020-10-23 09:36:32,174]-[INFO]-CommuServer(451)成功初始化参数自动下发配置!
+[2020-10-23 09:36:32,174]-[INFO]-CommuServer(455)成功初始化启动选项控制!
+[2020-10-23 09:36:32,174]-[INFO]-CommuServer(460)成功初始化FTP路径!
+[2020-10-23 09:36:35,514]-[INFO]-CommuServer(919)运营时间:0205
+[2020-10-23 09:36:36,064]-[INFO]-CommuServer(947)黑名单下发时间：1600 - 1700
+[2020-10-23 09:36:36,084]-[INFO]-CommuServer(966)缺省消息最大处理时间60
+[2020-10-23 09:36:36,104]-[INFO]-CommuServer(970)转存线程池状态表数据，共:0记录
+[2020-10-23 09:36:36,124]-[INFO]-CommuServer(77)参数下发监听已启动 ...
+[2020-10-23 09:36:36,124]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093636
+[2020-10-23 09:36:36,124]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2020-10-23 09:36:36,124]-[INFO]-CommuServer(375)缓存清理线程已启动 !
+[2020-10-23 09:36:36,124]-[INFO]-CommuServer(362)消息队列管理线程已启动!
+[2020-10-23 09:36:36,124]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2020-10-23 09:36:36,134]-[INFO]-CommuServer(98)连接池监听正在启动 ...
+[2020-10-23 09:36:36,134]-[INFO]-CommuServer(103)日志级别监听已启动 ...
+[2020-10-23 09:36:36,134]-[INFO]-CommuServer(107)设备参数版本查询线程已启动 ...
+[2020-10-23 09:36:36,134]-[INFO]-CommuServer(368)线程池监控已启动 !
+[2020-10-23 09:36:36,144]-[INFO]-CommuServer(114)票务接口线程已启动 ...
+[2020-10-23 09:36:36,154]-[INFO]-CommuServer(117)一卡通接口线程已启动 ...
+[2020-10-23 09:36:36,154]-[INFO]-CommuServer(124)TCC接口线程已启动 ...使用标识：1
+[2020-10-23 09:36:36,154]-[INFO]-CommuServer(130)定时刷新缓存变量线程已启动 ...
+[2020-10-23 09:36:36,184]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2020-10-23 09:36:36,184]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2020-10-23 09:36:36,184]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2020-10-23 09:36:36,184]-[INFO]-CommuServer(1001)服务器正常启动！正在监听端口 : 5001
+[2020-10-23 09:36:36,194]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093636
+[2020-10-23 09:36:36,194]-[INFO]-ParameterDistributeThread(149)此次下发除黑名单外，不包含其他参数，且不在黑名单下发时间段！！
+[2020-10-23 09:36:36,184]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2020-10-23 09:36:36,184]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2020-10-23 09:36:36,194]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2020-10-23 09:36:41,964]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093641
+[2020-10-23 09:36:46,971]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093646
+[2020-10-23 09:36:51,977]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093651
+[2020-10-23 09:36:56,977]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093656
+[2020-10-23 09:36:57,532]-[ERROR]-BusDataImportThread(212)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:464)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:134)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:105)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-23 09:36:57,535]-[INFO]-BusDataImportThread(106)下载成功数量:0
+[2020-10-23 09:36:57,564]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2020-10-23 09:36:57,569]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,569]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,573]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2020-10-23 09:36:57,577]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,577]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,582]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2020-10-23 09:36:57,587]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,587]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,591]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2020-10-23 09:36:57,595]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,595]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,598]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2020-10-23 09:36:57,602]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,602]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,606]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010401,fileType:trx
+[2020-10-23 09:36:57,610]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,611]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,615]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2020-10-23 09:36:57,618]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,618]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,623]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2020-10-23 09:36:57,626]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,626]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,630]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2020-10-23 09:36:57,634]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,634]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,638]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2020-10-23 09:36:57,642]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,642]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,646]-[INFO]-BusDataDao(33)banlanceWaterNo:2019071801,fileType:trx
+[2020-10-23 09:36:57,650]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,650]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,654]-[INFO]-BusDataDao(33)banlanceWaterNo:2019072301,fileType:trx
+[2020-10-23 09:36:57,657]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,658]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,662]-[INFO]-BusDataDao(33)banlanceWaterNo:2019082701,fileType:trx
+[2020-10-23 09:36:57,665]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,665]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,669]-[INFO]-BusDataDao(33)banlanceWaterNo:2019100701,fileType:trx
+[2020-10-23 09:36:57,673]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,673]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,677]-[INFO]-BusDataDao(33)banlanceWaterNo:2019103101,fileType:trx
+[2020-10-23 09:36:57,681]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,682]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,688]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111601,fileType:trx
+[2020-10-23 09:36:57,691]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,691]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,695]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111701,fileType:trx
+[2020-10-23 09:36:57,699]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,700]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,705]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111801,fileType:trx
+[2020-10-23 09:36:57,709]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,709]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,717]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111901,fileType:trx
+[2020-10-23 09:36:57,721]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,721]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,725]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121301,fileType:trx
+[2020-10-23 09:36:57,729]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,729]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,734]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121701,fileType:trx
+[2020-10-23 09:36:57,738]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,738]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,742]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122301,fileType:trx
+[2020-10-23 09:36:57,753]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,753]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,761]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122401,fileType:trx
+[2020-10-23 09:36:57,764]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,764]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,772]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122501,fileType:trx
+[2020-10-23 09:36:57,776]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,776]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,780]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122601,fileType:trx
+[2020-10-23 09:36:57,786]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,786]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,791]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122701,fileType:trx
+[2020-10-23 09:36:57,795]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,796]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,800]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122801,fileType:trx
+[2020-10-23 09:36:57,803]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,804]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,807]-[INFO]-BusDataDao(33)banlanceWaterNo:2019122901,fileType:trx
+[2020-10-23 09:36:57,807]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,807]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,807]-[INFO]-BusDataDao(33)banlanceWaterNo:2020011301,fileType:trx
+[2020-10-23 09:36:57,817]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,817]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,817]-[INFO]-BusDataDao(33)banlanceWaterNo:2020030401,fileType:trx
+[2020-10-23 09:36:57,829]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,829]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,850]-[INFO]-BusDataDao(33)banlanceWaterNo:2020042201,fileType:trx
+[2020-10-23 09:36:57,854]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,855]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,864]-[INFO]-BusDataDao(33)banlanceWaterNo:2020060901,fileType:trx
+[2020-10-23 09:36:57,869]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,869]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,873]-[INFO]-BusDataDao(33)banlanceWaterNo:2020070101,fileType:trx
+[2020-10-23 09:36:57,877]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,878]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,882]-[INFO]-BusDataDao(33)banlanceWaterNo:2020070901,fileType:trx
+[2020-10-23 09:36:57,886]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,886]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,890]-[INFO]-BusDataDao(33)banlanceWaterNo:2020091901,fileType:trx
+[2020-10-23 09:36:57,895]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,895]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,899]-[INFO]-BusDataDao(33)banlanceWaterNo:2020092101,fileType:trx
+[2020-10-23 09:36:57,906]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:36:57,906]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:36:57,906]-[INFO]-BusDataImportThread(61)------------------------与一卡通中心文件交互执行end-------------------------
+[2020-10-23 09:37:01,984]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093701
+[2020-10-23 09:37:07,030]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093707
+[2020-10-23 09:37:12,030]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093712
+[2020-10-23 09:37:17,041]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093717
+[2020-10-23 09:37:22,049]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093722
+[2020-10-23 09:37:27,057]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093727
+[2020-10-23 09:37:32,062]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093732
+[2020-10-23 09:37:36,202]-[INFO]-RefreshCacheThread(44)运营时间:0205
+[2020-10-23 09:37:36,302]-[INFO]-RefreshCacheThread(73)黑名单下发时间：1600 - 1700
+[2020-10-23 09:37:37,062]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093737
+[2020-10-23 09:37:42,071]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093742
+[2020-10-23 09:37:47,071]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093747
+[2020-10-23 09:37:52,079]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093752
+[2020-10-23 09:37:57,079]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093757
+[2020-10-23 09:38:02,079]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093802
+[2020-10-23 09:38:07,089]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093807
+[2020-10-23 09:38:12,093]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093812
+[2020-10-23 09:38:17,093]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093817
+[2020-10-23 09:38:22,093]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093822
+[2020-10-23 09:38:27,093]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093827
+[2020-10-23 09:38:32,093]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093832
+[2020-10-23 09:38:36,323]-[INFO]-RefreshCacheThread(44)运营时间:0205
+[2020-10-23 09:38:36,433]-[INFO]-RefreshCacheThread(73)黑名单下发时间：1600 - 1700
+[2020-10-23 09:38:37,093]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093837
+[2020-10-23 09:38:42,103]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093842
+[2020-10-23 09:38:47,103]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093847
+[2020-10-23 09:38:52,103]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093852
+[2020-10-23 09:38:57,103]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093857
+[2020-10-23 09:39:02,103]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093902
+[2020-10-23 09:39:07,103]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093907
+[2020-10-23 09:39:12,106]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093912
+[2020-10-23 09:39:17,106]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093917
+[2020-10-23 09:39:22,114]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093922
+[2020-10-23 09:39:27,114]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093927
+[2020-10-23 09:39:32,114]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093932
+[2020-10-23 09:39:36,464]-[INFO]-RefreshCacheThread(44)运营时间:0205
+[2020-10-23 09:39:36,574]-[INFO]-RefreshCacheThread(73)黑名单下发时间：1600 - 1700
+[2020-10-23 09:39:37,114]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093937
+[2020-10-23 09:39:42,114]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093942
+[2020-10-23 09:39:47,114]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093947
+[2020-10-23 09:39:52,134]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093952
+[2020-10-23 09:39:57,134]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023093957
+[2020-10-23 09:40:02,134]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094002
+[2020-10-23 09:40:07,134]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094007
+[2020-10-23 09:40:12,137]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094012
+[2020-10-23 09:40:17,137]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094017
+[2020-10-23 09:40:22,147]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094022
+[2020-10-23 09:40:27,147]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094027
+[2020-10-23 09:40:32,147]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094032
+[2020-10-23 09:40:36,601]-[INFO]-RefreshCacheThread(44)运营时间:0205
+[2020-10-23 09:40:36,701]-[INFO]-RefreshCacheThread(73)黑名单下发时间：1600 - 1700
+[2020-10-23 09:40:37,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094037
+[2020-10-23 09:40:42,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094042
+[2020-10-23 09:40:47,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094047
+[2020-10-23 09:40:52,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094052
+[2020-10-23 09:40:57,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094057
+[2020-10-23 09:41:02,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094102
+[2020-10-23 09:41:07,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094107
+[2020-10-23 09:41:12,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094112
+[2020-10-23 09:41:17,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094117
+[2020-10-23 09:41:22,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094122
+[2020-10-23 09:41:27,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094127
+[2020-10-23 09:41:32,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094132
+[2020-10-23 09:41:36,721]-[INFO]-RefreshCacheThread(44)运营时间:0205
+[2020-10-23 09:41:36,831]-[INFO]-RefreshCacheThread(73)黑名单下发时间：1600 - 1700
+[2020-10-23 09:41:37,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094137
+[2020-10-23 09:41:42,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094142
+[2020-10-23 09:41:47,151]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094147
+[2020-10-23 09:41:52,160]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094152
+[2020-10-23 09:41:57,160]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094157
+[2020-10-23 09:41:57,910]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2020-10-23 09:42:02,160]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094202
+[2020-10-23 09:42:07,167]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094207
+[2020-10-23 09:42:12,169]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094212
+[2020-10-23 09:42:17,171]-[INFO]-ParaDistributeDtlDao(212)测试时间============20201023094217
+[2020-10-23 09:42:18,961]-[ERROR]-BusDataImportThread(212)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:464)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:134)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:105)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:53)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-23 09:42:18,961]-[INFO]-BusDataImportThread(106)下载成功数量:0
+[2020-10-23 09:42:18,971]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2020-10-23 09:42:18,981]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:18,981]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:18,991]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2020-10-23 09:42:18,991]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:18,991]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,001]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2020-10-23 09:42:19,001]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,001]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,011]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2020-10-23 09:42:19,011]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,011]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,021]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2020-10-23 09:42:19,021]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,021]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,031]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010401,fileType:trx
+[2020-10-23 09:42:19,031]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,031]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,041]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2020-10-23 09:42:19,051]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,051]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,051]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2020-10-23 09:42:19,061]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,061]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,081]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2020-10-23 09:42:19,081]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,081]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,091]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2020-10-23 09:42:19,091]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,091]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,091]-[INFO]-BusDataDao(33)banlanceWaterNo:2019071801,fileType:trx
+[2020-10-23 09:42:19,101]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,101]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,101]-[INFO]-BusDataDao(33)banlanceWaterNo:2019072301,fileType:trx
+[2020-10-23 09:42:19,101]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,101]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,111]-[INFO]-BusDataDao(33)banlanceWaterNo:2019082701,fileType:trx
+[2020-10-23 09:42:19,111]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,111]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,121]-[INFO]-BusDataDao(33)banlanceWaterNo:2019100701,fileType:trx
+[2020-10-23 09:42:19,121]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,121]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,121]-[INFO]-BusDataDao(33)banlanceWaterNo:2019103101,fileType:trx
+[2020-10-23 09:42:19,131]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,131]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,131]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111601,fileType:trx
+[2020-10-23 09:42:19,141]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,141]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,141]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111701,fileType:trx
+[2020-10-23 09:42:19,141]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,141]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,151]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111801,fileType:trx
+[2020-10-23 09:42:19,151]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,151]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,161]-[INFO]-BusDataDao(33)banlanceWaterNo:2019111901,fileType:trx
+[2020-10-23 09:42:19,161]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,161]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,171]-[INFO]-BusDataDao(33)banlanceWaterNo:2019121301,fileType:trx
+[2020-10-23 09:42:19,171]-[WARN]-BusDataImportThread(280)--准备FTP登录一卡通中心上传文件.
+[2020-10-23 09:42:19,171]-[INFO]-BusDataImportThread(311)--------地铁公交交易、清算文件目录未生成------------
+[2020-10-23 09:42:19,171]

@@ -1,0 +1,1394 @@
+[2019-06-08 16:35:23,912]-[INFO]-CommuServer(397)日志配置设置成功!
+[2019-06-08 16:35:24,263]-[INFO]-CommuServer(406)成功解析配置文件：CommuConfig.xml
+[2019-06-08 16:35:24,309]-[INFO]-CommuServer(496)日志备份
+[2019-06-08 16:35:24,309]-[INFO]-CommuServer(413)成功初始化socket配置!
+[2019-06-08 16:35:24,313]-[INFO]-CommuServer(417)成功初始化客流配置!
+[2019-06-08 16:35:24,315]-[INFO]-CommuServer(421)成功初始化线程监控配置!
+[2019-06-08 16:35:24,315]-[INFO]-CommuServer(425)成功初始化初始化参数下发配置!
+[2019-06-08 16:35:24,316]-[INFO]-CommuServer(429)成功初始化应用相关配置!
+[2019-06-08 16:35:24,316]-[INFO]-CommuServer(697)FtpLocalDir:D:/ftpClient/ACCCommu/receive
+[2019-06-08 16:35:24,328]-[INFO]-CommuServer(710)BusFtpLocalDir:D:/ftpClient/ACCCommu/import
+[2019-06-08 16:35:24,330]-[INFO]-CommuServer(433)成功初始化FTP配置!
+[2019-06-08 16:35:25,104]-[INFO]-CommuServer(875)运营库连接池OpConnectionPool创建!
+[2019-06-08 16:35:25,104]-[INFO]-CommuServer(887)通讯库连接池CmConnectionPool创建!
+[2019-06-08 16:35:25,105]-[INFO]-CommuServer(897)票务库连接池TkConnectionPool创建!
+[2019-06-08 16:35:25,105]-[INFO]-CommuServer(443)成功初始化数据库连接池!
+[2019-06-08 16:35:25,105]-[INFO]-CommuServer(447)成功初始化线程池配置!
+[2019-06-08 16:35:25,109]-[INFO]-CommuServer(451)成功初始化socket配置!
+[2019-06-08 16:35:25,140]-[INFO]-CommuServer(455)成功初始化设备参数版本查询配置!
+[2019-06-08 16:35:25,141]-[INFO]-CommuServer(459)成功初始化参数自动下发配置!
+[2019-06-08 16:35:25,141]-[INFO]-CommuServer(463)成功初始化启动选项控制!
+[2019-06-08 16:35:25,141]-[INFO]-CommuServer(468)成功初始化FTP路径!
+[2019-06-08 16:35:27,478]-[INFO]-CommuServer(927)运营时间:0205
+[2019-06-08 16:35:27,765]-[INFO]-CommuServer(959)缺省消息最大处理时间60
+[2019-06-08 16:35:27,819]-[INFO]-CommuServer(963)转存线程池状态表数据，共:1记录
+[2019-06-08 16:35:27,856]-[INFO]-CommuServer(87)参数下发监听已启动 ...
+[2019-06-08 16:35:27,887]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2019-06-08 16:35:27,907]-[INFO]-CommuServer(383)缓存清理线程已启动 !
+[2019-06-08 16:35:27,908]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2019-06-08 16:35:27,931]-[INFO]-CommuServer(370)消息队列管理线程已启动!
+[2019-06-08 16:35:27,935]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2019-06-08 16:35:27,936]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2019-06-08 16:35:27,936]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2019-06-08 16:35:27,936]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2019-06-08 16:35:27,935]-[INFO]-CommuServer(108)连接池监听正在启动 ...
+[2019-06-08 16:35:27,945]-[INFO]-CommuServer(113)日志级别监听已启动 ...
+[2019-06-08 16:35:27,966]-[INFO]-CommuServer(117)设备参数版本查询线程已启动 ...
+[2019-06-08 16:35:27,968]-[INFO]-CommuServer(376)线程池监控已启动 !
+[2019-06-08 16:35:27,968]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2019-06-08 16:35:28,032]-[INFO]-CommuServer(124)票务接口线程已启动 ...
+[2019-06-08 16:35:28,046]-[INFO]-CommuServer(127)一卡通接口线程已启动 ...
+[2019-06-08 16:35:28,047]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-08 16:35:28,048]-[INFO]-CommuServer(134)TCC接口线程已启动 ...
+[2019-06-08 16:35:28,075]-[INFO]-CommuServer(138)定时刷新缓存变量线程已启动 ...
+[2019-06-08 16:35:28,111]-[INFO]-CommuServer(994)服务器正常启动！正在监听端口 : 5001
+[2019-06-08 16:35:34,855]-[INFO]-CommuServer(1004)接受新的连接请求，来自 172.20.16.30:4147
+[2019-06-08 16:35:34,855]-[INFO]-CommuServer(1013)开始处理新连接!
+[2019-06-08 16:35:34,929]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:1844
+[2019-06-08 16:35:34,930]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[48, 56, 32, 24, 9, 32, 6, 0, 5, 42, 48, 49, 49, 48, 48, 50, 49, 48, 49, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 50, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 51, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 52, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 53, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 54, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 55, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 56, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 57, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 49, 48, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 49, 0, 0, 0, 14, 0, 0, 3, -128, 3, 0, 4, 49, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 50, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 116, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 51, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 52, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -128, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 52, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 54, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 49, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 113, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 50, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 112, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80]
+[2019-06-08 16:35:34,948]-[INFO]-CommuConnection(439)当前消息处理线程名称:0
+[2019-06-08 16:35:34,978]-[INFO]-CommuMessageHandleThread(216)0:left msgs =0
+[2019-06-08 16:35:34,979]-[INFO]-CommuMessageHandleThread(65)线程名[0]有需要处理的消息
+[2019-06-08 16:35:35,024]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 16:35:35,024]-[INFO]-MessageProcessor(57)请求的消息类型：08
+[2019-06-08 16:35:35,069]-[INFO]-Message08(38)--处理08消息开始--
+[2019-06-08 16:35:35,070]-[WARN]-Message08(86)设备重复次数N:42
+[2019-06-08 16:35:35,070]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 16:35:35,094]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,094]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 16:35:35,095]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,095]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 16:35:35,096]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,096]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 16:35:35,096]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,097]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 16:35:35,097]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,097]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 16:35:35,098]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,098]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 16:35:35,099]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,099]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 16:35:35,100]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,100]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 16:35:35,101]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,101]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 16:35:35,101]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,101]-[WARN]-Message08(97)状态重复次数N1:14
+[2019-06-08 16:35:35,102]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,102]-[WARN]-Message08(97)状态重复次数N1:14
+[2019-06-08 16:35:35,102]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,102]-[WARN]-Message08(97)状态重复次数N1:14
+[2019-06-08 16:35:35,103]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,103]-[WARN]-Message08(97)状态重复次数N1:14
+[2019-06-08 16:35:35,103]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,103]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,105]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,105]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,106]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,107]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,107]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,108]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,110]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,110]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,110]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,110]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,111]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,111]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,111]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,112]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,112]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,112]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,112]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,113]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,113]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,113]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,113]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,114]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,114]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,114]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,115]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,115]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,115]-[INFO]-Message08(184)highStatus set:0
+[2019-06-08 16:35:35,115]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,115]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,115]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,117]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,117]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,117]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,117]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,118]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,118]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,119]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,120]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,120]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,120]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,120]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,120]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,121]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,121]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,123]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,124]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,124]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,124]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,125]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,125]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 16:35:35,126]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,126]-[WARN]-Message08(97)状态重复次数N1:15
+[2019-06-08 16:35:35,127]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,127]-[WARN]-Message08(97)状态重复次数N1:15
+[2019-06-08 16:35:35,128]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 16:35:35,158]-[INFO]-Message08Dao(30)2019-06-08 16:35:35 更新cm_dev_current_status记录数42
+[2019-06-08 16:35:35,236]-[INFO]-Message08Dao(88)2019-06-08 16:35:35  cm_dev_his_status增加记录数 644
+[2019-06-08 16:35:36,196]-[INFO]-Message08(40)--处理08消息结束--
+[2019-06-08 16:35:36,204]-[INFO]-TccInterface(55)handledData:[B@5b29a6d1
+[2019-06-08 16:35:36,204]-[INFO]-TccInterface(56)data:[B@1e2b23d0
+[2019-06-08 16:35:36,204]-[INFO]-ConstructMessageForTcc(24)--构建08消息开始-- 
+[2019-06-08 16:35:36,205]-[INFO]-ConstructMessageForTcc(31)--成功构建08消息--
+[2019-06-08 16:35:36,205]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 16:35:36,208]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 16:35:36,294]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 16:35:36,297]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 16:35:49,232]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-08 16:35:49,234]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-08 16:35:49,298]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-08 16:35:49,310]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:35:49,310]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:35:49,312]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-08 16:35:49,314]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:35:49,314]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:35:49,316]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-08 16:35:49,317]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:35:49,318]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:35:49,319]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-08 16:35:49,321]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:35:49,321]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:35:49,323]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-08 16:35:49,325]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:35:49,325]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:35:49,327]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-08 16:35:49,329]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:35:49,329]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:35:49,331]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-08 16:35:49,333]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:35:49,333]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:35:49,335]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-08 16:35:49,336]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:35:49,337]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:35:49,339]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-08 16:35:49,340]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:35:49,341]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:35:49,341]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-08 16:36:04,869]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余0个消息未处理
+[2019-06-08 16:36:04,870]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[16] - 发送结果数据到终端[48, 56, 32, 25, 6, 8, 22, 53, 54, 42, 48, 49, 49, 48, 48, 50, 49, 48, 49, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 50, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 51, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 52, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 53, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 54, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 55, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 56, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 4[2019-06-08 16:36:41,375]-[INFO]-CommuServer(397)日志配置设置成功!
+[2019-06-08 16:36:41,576]-[INFO]-CommuServer(406)成功解析配置文件：CommuConfig.xml
+[2019-06-08 16:36:41,578]-[INFO]-CommuServer(496)日志备份
+[2019-06-08 16:36:41,578]-[INFO]-CommuServer(413)成功初始化socket配置!
+[2019-06-08 16:36:41,581]-[INFO]-CommuServer(417)成功初始化客流配置!
+[2019-06-08 16:36:41,583]-[INFO]-CommuServer(421)成功初始化线程监控配置!
+[2019-06-08 16:36:41,583]-[INFO]-CommuServer(425)成功初始化初始化参数下发配置!
+[2019-06-08 16:36:41,584]-[INFO]-CommuServer(429)成功初始化应用相关配置!
+[2019-06-08 16:36:41,586]-[INFO]-CommuServer(697)FtpLocalDir:D:/ftpClient/ACCCommu/receive
+[2019-06-08 16:36:41,586]-[INFO]-CommuServer(710)BusFtpLocalDir:D:/ftpClient/ACCCommu/import
+[2019-06-08 16:36:41,587]-[INFO]-CommuServer(433)成功初始化FTP配置!
+[2019-06-08 16:36:41,844]-[INFO]-CommuServer(875)运营库连接池OpConnectionPool创建!
+[2019-06-08 16:36:41,845]-[INFO]-CommuServer(887)通讯库连接池CmConnectionPool创建!
+[2019-06-08 16:36:41,845]-[INFO]-CommuServer(897)票务库连接池TkConnectionPool创建!
+[2019-06-08 16:36:41,846]-[INFO]-CommuServer(443)成功初始化数据库连接池!
+[2019-06-08 16:36:41,846]-[INFO]-CommuServer(447)成功初始化线程池配置!
+[2019-06-08 16:36:41,850]-[INFO]-CommuServer(451)成功初始化socket配置!
+[2019-06-08 16:36:41,851]-[INFO]-CommuServer(455)成功初始化设备参数版本查询配置!
+[2019-06-08 16:36:41,851]-[INFO]-CommuServer(459)成功初始化参数自动下发配置!
+[2019-06-08 16:36:41,852]-[INFO]-CommuServer(463)成功初始化启动选项控制!
+[2019-06-08 16:36:41,852]-[INFO]-CommuServer(468)成功初始化FTP路径!
+[2019-06-08 16:36:43,770]-[INFO]-CommuServer(927)运营时间:0205
+[2019-06-08 16:36:44,030]-[INFO]-CommuServer(959)缺省消息最大处理时间60
+[2019-06-08 16:36:44,038]-[INFO]-CommuServer(963)转存线程池状态表数据，共:1记录
+[2019-06-08 16:36:44,060]-[INFO]-CommuServer(87)参数下发监听已启动 ...
+[2019-06-08 16:36:44,064]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2019-06-08 16:36:44,067]-[INFO]-CommuServer(383)缓存清理线程已启动 !
+[2019-06-08 16:36:44,069]-[INFO]-CommuServer(370)消息队列管理线程已启动!
+[2019-06-08 16:36:44,071]-[INFO]-CommuServer(108)连接池监听正在启动 ...
+[2019-06-08 16:36:44,072]-[INFO]-CommuServer(113)日志级别监听已启动 ...
+[2019-06-08 16:36:44,075]-[INFO]-CommuServer(117)设备参数版本查询线程已启动 ...
+[2019-06-08 16:36:44,076]-[INFO]-CommuServer(376)线程池监控已启动 !
+[2019-06-08 16:36:44,091]-[INFO]-CommuServer(124)票务接口线程已启动 ...
+[2019-06-08 16:36:44,096]-[INFO]-CommuServer(127)一卡通接口线程已启动 ...
+[2019-06-08 16:36:44,097]-[INFO]-CommuServer(134)TCC接口线程已启动 ...
+[2019-06-08 16:36:44,099]-[INFO]-CommuServer(138)定时刷新缓存变量线程已启动 ...
+[2019-06-08 16:36:44,105]-[INFO]-CommuServer(994)服务器正常启动！正在监听端口 : 5001
+[2019-06-08 16:36:44,107]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2019-06-08 16:36:44,111]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2019-06-08 16:36:44,125]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2019-06-08 16:36:44,136]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2019-06-08 16:36:44,140]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2019-06-08 16:36:44,143]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2019-06-08 16:36:44,154]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-08 16:36:49,588]-[INFO]-CommuServer(1004)接受新的连接请求，来自 172.20.16.30:4365
+[2019-06-08 16:36:49,588]-[INFO]-CommuServer(1013)开始处理新连接!
+[2019-06-08 16:36:49,595]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:24
+[2019-06-08 16:36:49,595]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[48, 57, 32, 24, 9, 32, 5, 88, 57, 48, 49, 49, 51, 48, 49, 48, 48, 49, 0, 0, 0, 1, 0, 4]
+[2019-06-08 16:36:49,597]-[INFO]-CommuConnection(439)当前消息处理线程名称:0
+[2019-06-08 16:36:49,608]-[INFO]-CommuMessageHandleThread(216)0:left msgs =0
+[2019-06-08 16:36:49,608]-[INFO]-CommuMessageHandleThread(65)线程名[0]有需要处理的消息
+[2019-06-08 16:36:49,620]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 16:36:49,621]-[INFO]-MessageProcessor(57)请求的消息类型：09
+[2019-06-08 16:36:49,635]-[INFO]-Message09(29)--处理09消息开始--
+[2019-06-08 16:36:49,636]-[WARN]-Message08(86)设备重复次数N:1
+[2019-06-08 16:36:49,636]-[WARN]-Message08(97)状态重复次数N1:1
+[2019-06-08 16:36:49,637]-[INFO]-Message08(184)highStatus set:4
+[2019-06-08 16:36:49,639]-[INFO]-Message08Dao(30)2019-06-08 16:36:49 更新cm_dev_current_status记录数1
+[2019-06-08 16:36:49,642]-[INFO]-Message08Dao(88)2019-06-08 16:36:49  cm_dev_his_status增加记录数 1
+[2019-06-08 16:36:49,646]-[INFO]-Message09(31)--处理09消息结束--
+[2019-06-08 16:36:49,647]-[INFO]-TccInterface(55)handledData:[B@2cf0c277
+[2019-06-08 16:36:49,647]-[INFO]-TccInterface(56)data:[B@69f2598d
+[2019-06-08 16:36:49,648]-[INFO]-ConstructMessageForTcc(24)--构建09消息开始-- 
+[2019-06-08 16:36:49,648]-[INFO]-ConstructMessageForTcc(31)--成功构建09消息--
+[2019-06-08 16:36:49,649]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 16:36:49,651]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 16:36:49,729]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 16:36:49,733]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 16:37:05,391]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-08 16:37:05,393]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-08 16:37:05,404]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-08 16:37:05,406]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:37:05,407]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:37:05,408]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-08 16:37:05,410]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:37:05,410]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:37:05,412]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-08 16:37:05,414]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.[2019-06-08 16:56:56,667]-[INFO]-CommuServer(397)日志配置设置成功!
+[2019-06-08 16:56:56,860]-[INFO]-CommuServer(406)成功解析配置文件：CommuConfig.xml
+[2019-06-08 16:56:56,861]-[INFO]-CommuServer(496)日志备份
+[2019-06-08 16:56:56,862]-[INFO]-CommuServer(413)成功初始化socket配置!
+[2019-06-08 16:56:56,868]-[INFO]-CommuServer(417)成功初始化客流配置!
+[2019-06-08 16:56:56,871]-[INFO]-CommuServer(421)成功初始化线程监控配置!
+[2019-06-08 16:56:56,871]-[INFO]-CommuServer(425)成功初始化初始化参数下发配置!
+[2019-06-08 16:56:56,872]-[INFO]-CommuServer(429)成功初始化应用相关配置!
+[2019-06-08 16:56:56,872]-[INFO]-CommuServer(697)FtpLocalDir:D:/ftpClient/ACCCommu/receive
+[2019-06-08 16:56:56,873]-[INFO]-CommuServer(710)BusFtpLocalDir:D:/ftpClient/ACCCommu/import
+[2019-06-08 16:56:56,874]-[INFO]-CommuServer(433)成功初始化FTP配置!
+[2019-06-08 16:56:57,125]-[INFO]-CommuServer(875)运营库连接池OpConnectionPool创建!
+[2019-06-08 16:56:57,125]-[INFO]-CommuServer(887)通讯库连接池CmConnectionPool创建!
+[2019-06-08 16:56:57,126]-[INFO]-CommuServer(897)票务库连接池TkConnectionPool创建!
+[2019-06-08 16:56:57,126]-[INFO]-CommuServer(443)成功初始化数据库连接池!
+[2019-06-08 16:56:57,126]-[INFO]-CommuServer(447)成功初始化线程池配置!
+[2019-06-08 16:56:57,131]-[INFO]-CommuServer(451)成功初始化socket配置!
+[2019-06-08 16:56:57,133]-[INFO]-CommuServer(455)成功初始化设备参数版本查询配置!
+[2019-06-08 16:56:57,133]-[INFO]-CommuServer(459)成功初始化参数自动下发配置!
+[2019-06-08 16:56:57,133]-[INFO]-CommuServer(463)成功初始化启动选项控制!
+[2019-06-08 16:56:57,134]-[INFO]-CommuServer(468)成功初始化FTP路径!
+[2019-06-08 16:56:59,254]-[INFO]-CommuServer(927)运营时间:0205
+[2019-06-08 16:56:59,496]-[INFO]-CommuServer(959)缺省消息最大处理时间60
+[2019-06-08 16:56:59,518]-[INFO]-CommuServer(963)转存线程池状态表数据，共:1记录
+[2019-06-08 16:56:59,533]-[INFO]-CommuServer(87)参数下发监听已启动 ...
+[2019-06-08 16:56:59,538]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2019-06-08 16:56:59,540]-[INFO]-CommuServer(383)缓存清理线程已启动 !
+[2019-06-08 16:56:59,546]-[INFO]-CommuServer(370)消息队列管理线程已启动!
+[2019-06-08 16:56:59,549]-[INFO]-CommuServer(108)连接池监听正在启动 ...
+[2019-06-08 16:56:59,550]-[INFO]-CommuServer(113)日志级别监听已启动 ...
+[2019-06-08 16:56:59,551]-[INFO]-CommuServer(117)设备参数版本查询线程已启动 ...
+[2019-06-08 16:56:59,555]-[INFO]-CommuServer(376)线程池监控已启动 !
+[2019-06-08 16:56:59,572]-[INFO]-CommuServer(124)票务接口线程已启动 ...
+[2019-06-08 16:56:59,575]-[INFO]-CommuServer(127)一卡通接口线程已启动 ...
+[2019-06-08 16:56:59,576]-[INFO]-CommuServer(134)TCC接口线程已启动 ...
+[2019-06-08 16:56:59,578]-[INFO]-CommuServer(138)定时刷新缓存变量线程已启动 ...
+[2019-06-08 16:56:59,581]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2019-06-08 16:56:59,583]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2019-06-08 16:56:59,584]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2019-06-08 16:56:59,584]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2019-06-08 16:56:59,586]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2019-06-08 16:56:59,593]-[INFO]-CommuServer(994)服务器正常启动！正在监听端口 : 5001
+[2019-06-08 16:56:59,597]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2019-06-08 16:56:59,604]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-08 16:57:03,720]-[INFO]-CommuServer(1004)接受新的连接请求，来自 172.20.16.30:6805
+[2019-06-08 16:57:03,720]-[INFO]-CommuServer(1013)开始处理新连接!
+[2019-06-08 16:57:03,727]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:24
+[2019-06-08 16:57:03,727]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[48, 57, 32, 24, 9, 32, 5, 88, 57, 48, 49, 49, 51, 48, 49, 48, 48, 49, 0, 0, 0, 1, 0, 4]
+[2019-06-08 16:57:03,729]-[INFO]-CommuConnection(439)当前消息处理线程名称:0
+[2019-06-08 16:57:03,824]-[INFO]-CommuMessageHandleThread(216)0:left msgs =0
+[2019-06-08 16:57:03,824]-[INFO]-CommuMessageHandleThread(65)线程名[0]有需要处理的消息
+[2019-06-08 16:57:03,833]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 16:57:03,834]-[INFO]-MessageProcessor(57)请求的消息类型：09
+[2019-06-08 16:57:03,838]-[INFO]-Message09(29)--处理09消息开始--
+[2019-06-08 16:57:03,839]-[WARN]-Message08(86)设备重复次数N:1
+[2019-06-08 16:57:03,839]-[WARN]-Message08(97)状态重复次数N1:1
+[2019-06-08 16:57:03,841]-[INFO]-Message08(184)highStatus set:4
+[2019-06-08 16:57:03,842]-[INFO]-Message08Dao(30)2019-06-08 16:57:03 更新cm_dev_current_status记录数1
+[2019-06-08 16:57:03,846]-[INFO]-Message08Dao(88)2019-06-08 16:57:03  cm_dev_his_status增加记录数 1
+[2019-06-08 16:57:03,849]-[INFO]-Message09(31)--处理09消息结束--
+[2019-06-08 16:57:04,613]-[INFO]-TccInterface(83)handledData:[B@76a2c8e7
+[2019-06-08 16:57:04,613]-[INFO]-TccInterface(84)data:[B@33a04857
+[2019-06-08 16:57:04,613]-[INFO]-ConstructMessageForTcc(24)--构建09消息开始-- 
+[2019-06-08 16:57:04,613]-[INFO]-ConstructMessageForTcc(31)--成功构建09消息--
+[2019-06-08 16:57:04,614]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 16:57:04,614]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 16:57:04,655]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 16:57:04,729]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 16:57:20,871]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-08 16:57:20,874]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-08 16:57:20,884]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-08 16:57:20,886]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:57:20,887]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:57:20,888]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-08 16:57:20,890]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:57:20,891]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:57:20,893]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-08 16:57:20,895]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:57:20,895]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:57:20,897]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-08 16:57:20,899]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:57:20,899]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:57:20,901]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-08 16:57:20,903]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:57:20,903]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:57:20,905]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-08 16:57:20,907]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:57:20,907]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:57:20,909]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-08 16:57:20,911]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:57:20,911]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:57:20,913]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-08 16:57:20,915]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:57:20,916]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:57:20,918]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-08 16:57:20,920]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 16:57:20,920]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 16:57:20,920]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-08 16:57:33,757]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余0个消息未处理
+[2019-06-08 16:57:33,758]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[16] - 发送结果数据到终端[48, 57, 32, 25, 6, 8, 22, 87, 4, 48, 49, 49, 51, 48, 49, 48, 48, 49, 0, 0, 0, 1, 0, 4]
+[2019-06-08 16:57:59,617]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 16:58:59,655]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 16:59:59,690]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:00:59,732]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:01:59,773]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:02:20,920]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-08 17:02:41,928]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-08 17:02:41,928]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-08 17:02:41,931]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-08 17:02:41,933]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:02:41,934]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:02:41,935]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-08 17:02:41,937]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:02:41,937]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:02:41,939]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-08 17:02:41,941]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:02:41,941]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:02:41,942]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-08 17:02:41,944]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:02:41,944]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:02:41,945]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-08 17:02:41,947]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:02:41,947]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:02:41,948]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-08 17:02:41,950]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:02:41,950]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:02:41,951]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-08 17:02:41,954]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:02:41,954]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:02:41,955]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-08 17:02:41,957]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:02:41,958]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:02:41,959]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-08 17:02:41,961]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:02:41,961]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:02:41,961]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-08 17:02:59,813]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:03:59,853]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:04:59,905]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:05:34,156]-[WARN]-ConnectionReaderNormal(58) - Message read error!
+[2019-06-08 17:05:34,157]-[ERROR]-ConnectionReaderNormal(127)接收的数据格式有误,错误代码为:1002
+[2019-06-08 17:05:34,157]-[INFO]-CommuConnection(448)172.20.16.30 - Reader return message error( 1002)!Connection will be closed!
+[2019-06-08 17:05:34,157]-[WARN]-CommuConnection(238)172.20.16.30 - 对方消息错误，连接将断开!
+[2019-06-08 17:05:34,157]-[INFO]-CommuConnection(298)172.20.16.30 - 连接关闭!
+[2019-06-08 17:05:59,970]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:07:00,011]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:07:41,962]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-08 17:08:00,050]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:08:02,970]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-08 17:08:02,970]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-08 17:08:02,973]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-08 17:08:02,975]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:08:02,975]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:08:02,977]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-08 17:08:02,978]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:08:02,979]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:08:02,980]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-08 17:08:02,982]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:08:02,982]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:08:02,983]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-08 17:08:02,985]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:08:02,985]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:08:02,986]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-08 17:08:02,988]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:08:02,988]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:08:02,990]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-08 17:08:02,991]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:08:02,991]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:08:02,993]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-08 17:08:02,994]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:08:02,994]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:08:02,996]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-08 17:08:02,997]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:08:02,998]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:08:02,999]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-08 17:08:03,000]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:08:03,001]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:08:03,001]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-08 17:09:00,082]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:10:00,114]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:11:00,144]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:12:00,179]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:13:00,214]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:13:03,001]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-08 17:13:24,010]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-08 17:13:24,010]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-08 17:13:24,013]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-08 17:13:24,014]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:13:24,014]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:13:24,015]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-08 17:13:24,017]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:13:24,017]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:13:24,019]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-08 17:13:24,020]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:13:24,021]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:13:24,023]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-08 17:13:24,024]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:13:24,025]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:13:24,026]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-08 17:13:24,028]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:13:24,028]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:13:24,029]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-08 17:13:24,031]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:13:24,031]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:13:24,033]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-08 17:13:24,034]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:13:24,035]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:13:24,036]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-08 17:13:24,038]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:13:24,038]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:13:24,040]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-08 17:13:24,041]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:13:24,041]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:13:24,041]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-08 17:14:00,255]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:15:00,294]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:16:00,334]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:17:00,376]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:18:00,415]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:18:24,042]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-08 17:18:45,050]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-08 17:18:45,050]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-08 17:18:45,053]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-08 17:18:45,055]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:18:45,055]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:18:45,057]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-08 17:18:45,058]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:18:45,058]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:18:45,060]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-08 17:18:45,061]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:18:45,061]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:18:45,063]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-08 17:18:45,065]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:18:45,065]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:18:45,066]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-08 17:18:45,068]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:18:45,069]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:18:45,070]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-08 17:18:45,072]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:18:45,072]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:18:45,073]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-08 17:18:45,075]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:18:45,075]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:18:45,077]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-08 17:18:45,079]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:18:45,079]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:18:45,080]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-08 17:18:45,082]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:18:45,082]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:18:45,083]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-08 17:19:00,461]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:20:00,503]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:20:24,076]-[INFO]-CommuServer(1004)接受新的连接请求，来自 172.20.16.30:11985
+[2019-06-08 17:20:24,077]-[INFO]-CommuServer(1013)开始处理新连接!
+[2019-06-08 17:20:24,078]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:21
+[2019-06-08 17:20:24,079]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[49, 51, 32, 24, 9, 25, 0, 0, 7, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:20:24,079]-[INFO]-CommuThreadManager(60)进出站客流/非即时退款/挂失 使用线程号：1 最大线程数：3
+[2019-06-08 17:20:24,079]-[INFO]-CommuConnection(439)当前消息处理线程名称:1
+[2019-06-08 17:20:24,127]-[INFO]-CommuMessageHandleThread(216)1:left msgs =0
+[2019-06-08 17:20:24,128]-[INFO]-CommuMessageHandleThread(65)线程名[1]有需要处理的消息
+[2019-06-08 17:20:24,133]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:20:24,134]-[INFO]-MessageProcessor(57)请求的消息类型：13
+[2019-06-08 17:20:24,136]-[INFO]-Message13(38)--处理13消息开始--
+[2019-06-08 17:20:24,136]-[INFO]-Message13(58)Message13 started! 1906081720240000000002
+[2019-06-08 17:20:24,183]-[INFO]-Message13(40)--处理13消息结束--
+[2019-06-08 17:20:25,174]-[INFO]-TccInterface(83)handledData:[B@1acf13af
+[2019-06-08 17:20:25,174]-[INFO]-TccInterface(84)data:[B@2d9bcb8
+[2019-06-08 17:20:25,174]-[INFO]-ConstructMessageForTcc(24)--构建13消息开始-- 
+[2019-06-08 17:20:25,174]-[INFO]-ConstructMessageForTcc(31)--成功构建13消息--
+[2019-06-08 17:20:25,174]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:20:25,174]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:20:25,200]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:20:25,203]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:20:26,079]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:21
+[2019-06-08 17:20:26,079]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[49, 52, 32, 24, 9, 25, 0, 0, 7, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:20:26,079]-[INFO]-CommuThreadManager(60)进出站客流/非即时退款/挂失 使用线程号：1 最大线程数：3
+[2019-06-08 17:20:26,080]-[INFO]-CommuConnection(439)当前消息处理线程名称:1
+[2019-06-08 17:20:26,132]-[INFO]-CommuMessageHandleThread(216)1:left msgs =0
+[2019-06-08 17:20:26,132]-[INFO]-CommuMessageHandleThread(65)线程名[1]有需要处理的消息
+[2019-06-08 17:20:26,135]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:20:26,135]-[INFO]-MessageProcessor(57)请求的消息类型：14
+[2019-06-08 17:20:26,136]-[INFO]-Message14(39)--处理14消息开始--
+[2019-06-08 17:20:26,139]-[INFO]-Message14(41)--处理14消息结束--
+[2019-06-08 17:20:28,079]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:1844
+[2019-06-08 17:20:28,079]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[48, 56, 32, 24, 9, 32, 6, 0, 5, 42, 48, 49, 49, 48, 48, 50, 49, 48, 49, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 50, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 51, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 52, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 53, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 54, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 55, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 56, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 57, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 49, 48, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 49, 0, 0, 0, 14, 0, 0, 3, -128, 3, 0, 4, 49, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 50, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 116, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 51, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 52, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -128, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 52, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 54, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 49, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 113, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 50, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 112, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80]
+[2019-06-08 17:20:28,080]-[INFO]-CommuConnection(439)当前消息处理线程名称:1
+[2019-06-08 17:20:28,094]-[INFO]-CommuMessageHandleThread(216)1:left msgs =0
+[2019-06-08 17:20:28,094]-[INFO]-CommuMessageHandleThread(65)线程名[1]有需要处理的消息
+[2019-06-08 17:20:28,097]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:20:28,097]-[INFO]-MessageProcessor(57)请求的消息类型：08
+[2019-06-08 17:20:28,097]-[INFO]-Message08(38)--处理08消息开始--
+[2019-06-08 17:20:28,098]-[WARN]-Message08(86)设备重复次数N:42
+[2019-06-08 17:20:28,098]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 17:20:28,098]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,098]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 17:20:28,099]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,099]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 17:20:28,099]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,099]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 17:20:28,099]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,099]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 17:20:28,099]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,099]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 17:20:28,100]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,100]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 17:20:28,100]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,100]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 17:20:28,100]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,100]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 17:20:28,101]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,101]-[WARN]-Message08(97)状态重复次数N1:22
+[2019-06-08 17:20:28,101]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,101]-[WARN]-Message08(97)状态重复次数N1:14
+[2019-06-08 17:20:28,101]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,101]-[WARN]-Message08(97)状态重复次数N1:14
+[2019-06-08 17:20:28,101]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,101]-[WARN]-Message08(97)状态重复次数N1:14
+[2019-06-08 17:20:28,101]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,101]-[WARN]-Message08(97)状态重复次数N1:14
+[2019-06-08 17:20:28,102]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,102]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,102]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,102]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,102]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,102]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,102]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,102]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,102]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,102]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,102]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,102]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,103]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,103]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,103]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,103]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,103]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,103]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,103]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,103]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,103]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,103]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,103]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,103]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,104]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,104]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,104]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,104]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,104]-[INFO]-Message08(184)highStatus set:0
+[2019-06-08 17:20:28,104]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,104]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,104]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,104]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,104]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,104]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,105]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,105]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,105]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,105]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,105]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,105]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,105]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,106]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,107]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,107]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,108]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,108]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,108]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,108]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,109]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,110]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,110]-[WARN]-Message08(97)状态重复次数N1:13
+[2019-06-08 17:20:28,110]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,110]-[WARN]-Message08(97)状态重复次数N1:15
+[2019-06-08 17:20:28,110]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,110]-[WARN]-Message08(97)状态重复次数N1:15
+[2019-06-08 17:20:28,110]-[INFO]-Message08(184)highStatus set:3
+[2019-06-08 17:20:28,111]-[INFO]-Message08Dao(30)2019-06-08 17:20:28 更新cm_dev_current_status记录数42
+[2019-06-08 17:20:28,189]-[INFO]-Message08Dao(88)2019-06-08 17:20:28  cm_dev_his_status增加记录数 644
+[2019-06-08 17:20:29,116]-[INFO]-Message08(40)--处理08消息结束--
+[2019-06-08 17:20:30,080]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:24
+[2019-06-08 17:20:30,080]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[48, 57, 32, 24, 9, 32, 5, 88, 57, 48, 49, 49, 51, 48, 49, 48, 48, 49, 0, 0, 0, 1, 0, 4]
+[2019-06-08 17:20:30,080]-[INFO]-CommuConnection(439)当前消息处理线程名称:2
+[2019-06-08 17:20:30,081]-[INFO]-CommuMessageHandleThread(216)2:left msgs =0
+[2019-06-08 17:20:30,081]-[INFO]-CommuMessageHandleThread(65)线程名[2]有需要处理的消息
+[2019-06-08 17:20:30,085]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:20:30,085]-[INFO]-MessageProcessor(57)请求的消息类型：09
+[2019-06-08 17:20:30,085]-[INFO]-Message09(29)--处理09消息开始--
+[2019-06-08 17:20:30,086]-[WARN]-Message08(86)设备重复次数N:1
+[2019-06-08 17:20:30,086]-[WARN]-Message08(97)状态重复次数N1:1
+[2019-06-08 17:20:30,086]-[INFO]-Message08(184)highStatus set:4
+[2019-06-08 17:20:30,086]-[INFO]-Message08Dao(30)2019-06-08 17:20:30 更新cm_dev_current_status记录数1
+[2019-06-08 17:20:30,089]-[INFO]-Message08Dao(88)2019-06-08 17:20:30  cm_dev_his_status增加记录数 1
+[2019-06-08 17:20:30,092]-[INFO]-Message09(31)--处理09消息结束--
+[2019-06-08 17:20:30,204]-[INFO]-TccInterface(83)handledData:[B@625cb9f4
+[2019-06-08 17:20:30,204]-[INFO]-TccInterface(84)data:[B@538fb718
+[2019-06-08 17:20:30,204]-[INFO]-ConstructMessageForTcc(24)--构建14消息开始-- 
+[2019-06-08 17:20:30,204]-[INFO]-ConstructMessageForTcc(31)--成功构建14消息--
+[2019-06-08 17:20:30,204]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:20:30,204]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列[2019-06-08 17:30:04,041]-[INFO]-CommuServer(397)日志配置设置成功!
+[2019-06-08 17:30:04,277]-[INFO]-CommuServer(406)成功解析配置文件：CommuConfig.xml
+[2019-06-08 17:30:04,279]-[INFO]-CommuServer(496)日志备份
+[2019-06-08 17:30:04,279]-[INFO]-CommuServer(413)成功初始化socket配置!
+[2019-06-08 17:30:04,283]-[INFO]-CommuServer(417)成功初始化客流配置!
+[2019-06-08 17:30:04,284]-[INFO]-CommuServer(421)成功初始化线程监控配置!
+[2019-06-08 17:30:04,284]-[INFO]-CommuServer(425)成功初始化初始化参数下发配置!
+[2019-06-08 17:30:04,284]-[INFO]-CommuServer(429)成功初始化应用相关配置!
+[2019-06-08 17:30:04,285]-[INFO]-CommuServer(697)FtpLocalDir:D:/ftpClient/ACCCommu/receive
+[2019-06-08 17:30:04,285]-[INFO]-CommuServer(710)BusFtpLocalDir:D:/ftpClient/ACCCommu/import
+[2019-06-08 17:30:04,286]-[INFO]-CommuServer(433)成功初始化FTP配置!
+[2019-06-08 17:30:04,547]-[INFO]-CommuServer(875)运营库连接池OpConnectionPool创建!
+[2019-06-08 17:30:04,548]-[INFO]-CommuServer(887)通讯库连接池CmConnectionPool创建!
+[2019-06-08 17:30:04,550]-[INFO]-CommuServer(897)票务库连接池TkConnectionPool创建!
+[2019-06-08 17:30:04,550]-[INFO]-CommuServer(443)成功初始化数据库连接池!
+[2019-06-08 17:30:04,553]-[INFO]-CommuServer(447)成功初始化线程池配置!
+[2019-06-08 17:30:04,556]-[INFO]-CommuServer(451)成功初始化socket配置!
+[2019-06-08 17:30:04,561]-[INFO]-CommuServer(455)成功初始化设备参数版本查询配置!
+[2019-06-08 17:30:04,561]-[INFO]-CommuServer(459)成功初始化参数自动下发配置!
+[2019-06-08 17:30:04,561]-[INFO]-CommuServer(463)成功初始化启动选项控制!
+[2019-06-08 17:30:04,561]-[INFO]-CommuServer(468)成功初始化FTP路径!
+[2019-06-08 17:30:06,526]-[INFO]-CommuServer(927)运营时间:0205
+[2019-06-08 17:30:06,763]-[INFO]-CommuServer(959)缺省消息最大处理时间60
+[2019-06-08 17:30:06,771]-[INFO]-CommuServer(963)转存线程池状态表数据，共:0记录
+[2019-06-08 17:30:06,781]-[INFO]-CommuServer(87)参数下发监听已启动 ...
+[2019-06-08 17:30:06,785]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2019-06-08 17:30:06,787]-[INFO]-CommuServer(383)缓存清理线程已启动 !
+[2019-06-08 17:30:06,788]-[INFO]-CommuServer(370)消息队列管理线程已启动!
+[2019-06-08 17:30:06,793]-[INFO]-CommuServer(108)连接池监听正在启动 ...
+[2019-06-08 17:30:06,794]-[INFO]-CommuServer(113)日志级别监听已启动 ...
+[2019-06-08 17:30:06,796]-[INFO]-CommuServer(117)设备参数版本查询线程已启动 ...
+[2019-06-08 17:30:06,797]-[INFO]-CommuServer(376)线程池监控已启动 !
+[2019-06-08 17:30:06,812]-[INFO]-CommuServer(124)票务接口线程已启动 ...
+[2019-06-08 17:30:06,816]-[INFO]-CommuServer(127)一卡通接口线程已启动 ...
+[2019-06-08 17:30:06,817]-[INFO]-CommuServer(134)TCC接口线程已启动 ...
+[2019-06-08 17:30:06,820]-[INFO]-CommuServer(138)定时刷新缓存变量线程已启动 ...
+[2019-06-08 17:30:06,825]-[INFO]-CommuServer(994)服务器正常启动！正在监听端口 : 5001
+[2019-06-08 17:30:06,831]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2019-06-08 17:30:06,832]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2019-06-08 17:30:06,836]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2019-06-08 17:30:06,841]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2019-06-08 17:30:06,846]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2019-06-08 17:30:06,853]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2019-06-08 17:30:06,869]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-08 17:30:28,116]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-08 17:30:28,119]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-08 17:30:28,133]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-08 17:30:28,135]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:30:28,136]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:30:28,138]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-08 17:30:28,140]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:30:28,140]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:30:28,143]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-08 17:30:28,144]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:30:28,145]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:30:28,146]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-08 17:30:28,148]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:30:28,149]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:30:28,151]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-08 17:30:28,153]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:30:28,153]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:30:28,155]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-08 17:30:28,156]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:30:28,157]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:30:28,159]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-08 17:30:28,160]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:30:28,161]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:30:28,163]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-08 17:30:28,165]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:30:28,165]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:30:28,167]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-08 17:30:28,169]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:30:28,169]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:30:28,169]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-08 17:30:29,129]-[INFO]-CommuServer(1004)接受新的连接请求，来自 172.20.16.30:14190
+[2019-06-08 17:30:29,130]-[INFO]-CommuServer(1013)开始处理新连接!
+[2019-06-08 17:30:29,137]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:21
+[2019-06-08 17:30:29,137]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[49, 51, 32, 24, 9, 25, 0, 0, 7, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:30:29,139]-[INFO]-CommuThreadManager(60)进出站客流/非即时退款/挂失 使用线程号：1 最大线程数：3
+[2019-06-08 17:30:29,139]-[INFO]-CommuConnection(439)当前消息处理线程名称:1
+[2019-06-08 17:30:29,220]-[INFO]-CommuMessageHandleThread(216)1:left msgs =0
+[2019-06-08 17:30:29,220]-[INFO]-CommuMessageHandleThread(65)线程名[1]有需要处理的消息
+[2019-06-08 17:30:29,229]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:30:29,229]-[INFO]-MessageProcessor(57)请求的消息类型：13
+[2019-06-08 17:30:29,232]-[INFO]-Message13(38)--处理13消息开始--
+[2019-06-08 17:30:29,232]-[INFO]-Message13(58)Message13 started! 1906081730290000000001
+[2019-06-08 17:30:29,250]-[INFO]-Message13(40)--处理13消息结束--
+[2019-06-08 17:30:31,136]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:21
+[2019-06-08 17:30:31,137]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[49, 52, 32, 24, 9, 25, 0, 0, 7, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:30:31,137]-[INFO]-CommuThreadManager(60)进出站客流/非即时退款/挂失 使用线程号：1 最大线程数：3
+[2019-06-08 17:30:31,137]-[INFO]-CommuConnection(439)当前消息处理线程名称:1
+[2019-06-08 17:30:31,181]-[INFO]-CommuMessageHandleThread(216)1:left msgs =0
+[2019-06-08 17:30:31,182]-[INFO]-CommuMessageHandleThread(65)线程名[1]有需要处理的消息
+[2019-06-08 17:30:31,343]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:30:31,344]-[INFO]-MessageProcessor(57)请求的消息类型：14
+[2019-06-08 17:30:31,346]-[INFO]-Message14(39)--处理14消息开始--
+[2019-06-08 17:30:31,352]-[INFO]-Message14(41)--处理14消息结束--
+[2019-06-08 17:30:31,876]-[INFO]-TccInterface(58)Tcc msgType = 13
+[2019-06-08 17:30:31,878]-[INFO]-TccInterface(83)handledData:[B@22b62b39
+[2019-06-08 17:30:31,878]-[INFO]-TccInterface(84)data:[B@67b4b10b
+[2019-06-08 17:30:31,878]-[INFO]-ConstructMessageForTcc(24)--构建13消息开始-- 
+[2019-06-08 17:30:31,879]-[INFO]-ConstructMessageForTcc(31)--成功构建13消息--
+[2019-06-08 17:30:31,879]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:30:31,879]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:30:31,901]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:30:31,904]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:30:31,904]-[INFO]-TccInterface(58)Tcc msgType = 14
+[2019-06-08 17:30:31,904]-[INFO]-TccInterface(83)handledData:[B@3da2e9bc
+[2019-06-08 17:30:31,905]-[INFO]-TccInterface(84)data:[B@56199503
+[2019-06-08 17:30:31,905]-[INFO]-ConstructMessageForTcc(24)--构建14消息开始-- 
+[2019-06-08 17:30:31,905]-[INFO]-ConstructMessageForTcc(31)--成功构建14消息--
+[2019-06-08 17:30:31,905]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:30:31,905]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:30:31,908]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:30:31,910]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:30:33,137]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:1844
+[2019-06-08 17:30:33,137]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[48, 56, 32, 24, 9, 32, 6, 0, 5, 42, 48, 49, 49, 48, 48, 50, 49, 48, 49, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 50, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 51, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 52, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 53, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 54, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 55, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 56, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 57, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 49, 48, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 49, 0, 0, 0, 14, 0, 0, 3, -128, 3, 0, 4, 49, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 50, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 116, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 51, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 52, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -128, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 52, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 54, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 49, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 113, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 50, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 112, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80]
+[2019-06-08 17:30:33,138]-[INFO]-CommuConnection(439)当前消息处理线程名称:0
+[2019-06-08 17:30:33,171]-[INFO]-CommuMessageHandleThread(216)0:left msgs =0
+[2019-06-08 17:30:33,171]-[INFO]-CommuMessageHandleThread(65)线程名[0]有需要处理的消息
+[2019-06-08 17:30:33,175]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:30:33,176]-[INFO]-MessageProcessor(57)请求的消息类型：08
+[2019-06-08 17:30:33,178]-[INFO]-Message08(38)--处理08消息开始--
+[2019-06-08 17:30:33,178]-[INFO]-Message08(87)设备重复次数N:42
+[2019-06-08 17:30:33,180]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:30:33,180]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:30:33,181]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:30:33,181]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:30:33,181]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:30:33,181]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:30:33,182]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:30:33,182]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:30:33,182]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:30:33,182]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:30:33,183]-[INFO]-Message08(185)状态重复次数N1:14,highStatus set:3
+[2019-06-08 17:30:33,183]-[INFO]-Message08(185)状态重复次数N1:14,highStatus set:3
+[2019-06-08 17:30:33,183]-[INFO]-Message08(185)状态重复次数N1:14,highStatus set:3
+[2019-06-08 17:30:33,183]-[INFO]-Message08(185)状态重复次数N1:14,highStatus set:3
+[2019-06-08 17:30:33,183]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,184]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,184]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,184]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,184]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,184]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,185]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,185]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,185]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,185]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,185]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,185]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,186]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,186]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:0
+[2019-06-08 17:30:33,186]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,186]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,186]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,187]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,187]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,187]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,187]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,187]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,187]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,187]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,188]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,188]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:30:33,188]-[INFO]-Message08(185)状态重复次数N1:15,highStatus set:3
+[2019-06-08 17:30:33,188]-[INFO]-Message08(185)状态重复次数N1:15,highStatus set:3
+[2019-06-08 17:30:33,190]-[INFO]-Message08Dao(30)2019-06-08 17:30:33 更新cm_dev_current_status记录数42
+[2019-06-08 17:30:33,254]-[INFO]-Message08Dao(88)2019-06-08 17:30:33  cm_dev_his_status增加记录数 644
+[2019-06-08 17:30:34,187]-[INFO]-Message08(40)--处理08消息结束--
+[2019-06-08 17:30:35,137]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:24
+[2019-06-08 17:30:35,137]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[48, 57, 32, 24, 9, 32, 5, 88, 57, 48, 49, 49, 51, 48, 49, 48, 48, 49, 0, 0, 0, 1, 0, 4]
+[2019-06-08 17:30:35,137]-[INFO]-CommuConnection(439)当前消息处理线程名称:1
+[2019-06-08 17:30:35,195]-[INFO]-CommuMessageHandleThread(216)1:left msgs =0
+[2019-06-08 17:30:35,195]-[INFO]-CommuMessageHandleThread(65)线程名[1]有需要处理的消息
+[2019-06-08 17:30:35,197]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:30:35,198]-[INFO]-MessageProcessor(57)请求的消息类型：09
+[2019-06-08 17:30:35,200]-[INFO]-Message09(29)--处理09消息开始--
+[2019-06-08 17:30:35,200]-[INFO]-Message08(87)设备重复次数N:1
+[2019-06-08 17:30:35,200]-[INFO]-Message08(185)状态重复次数N1:1,highStatus set:4
+[2019-06-08 17:30:35,200]-[INFO]-Message08Dao(30)2019-06-08 17:30:35 更新cm_dev_current_status记录数1
+[2019-06-08 17:30:35,204]-[INFO]-Message08Dao(88)2019-06-08 17:30:35  cm_dev_his_status增加记录数 1
+[2019-06-08 17:30:35,207]-[INFO]-Message09(31)--处理09消息结束--
+[2019-06-08 17:30:36,911]-[INFO]-TccInterface(58)Tcc msgType = 08
+[2019-06-08 17:30:36,911]-[INFO]-TccInterface(83)handledData:[B@45e5931a
+[2019-06-08 17:30:36,911]-[INFO]-TccInterface(84)data:[B@79b4e44
+[2019-06-08 17:30:36,911]-[INFO]-ConstructMessageForTcc(24)--构建08消息开始-- 
+[2019-06-08 17:30:36,911]-[INFO]-ConstructMessageForTcc(31)--成功构建08消息--
+[2019-06-08 17:30:36,912]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:30:36,912]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:30:36,915]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:30:36,918]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:30:36,918]-[INFO]-TccInterface(58)Tcc msgType = 09
+[2019-06-08 17:30:36,918]-[INFO]-TccInterface(83)handledData:[B@2ddea802
+[2019-06-08 17:30:36,918]-[INFO]-TccInterface(84)data:[B@37f58137
+[2019-06-08 17:30:36,918]-[INFO]-ConstructMessageForTcc(24)--构建09消息开始-- 
+[2019-06-08 17:30:36,919]-[INFO]-ConstructMessageForTcc(31)--成功构建09消息--
+[2019-06-08 17:30:36,919]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:30:36,919]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:30:36,921]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:30:36,923]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:30:37,138]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:40
+[2019-06-08 17:30:37,138]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[49, 48, 32, 24, 9, 25, 35, 89, 66, 48, 49, 49, 52, 48, 50, 49, 48, 53, 0, 0, 0, 2, 0, 2, 32, 24, 9, 25, 35, 89, 66, 4, 33, 32, 24, 9, 25, 35, 89, 66]
+[2019-06-08 17:30:37,138]-[INFO]-CommuConnection(439)当前消息处理线程名称:2
+[2019-06-08 17:30:37,205]-[INFO]-CommuMessageHandleThread(216)2:left msgs =0
+[2019-06-08 17:30:37,205]-[INFO]-CommuMessageHandleThread(65)线程名[2]有需要处理的消息
+[2019-06-08 17:30:37,208]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:30:37,209]-[INFO]-MessageProcessor(57)请求的消息类型：10
+[2019-06-08 17:30:37,210]-[INFO]-Message10(36)--处理10消息开始--
+[2019-06-08 17:30:37,211]-[INFO]-Message10(124)repeatCount :2
+[2019-06-08 17:30:37,211]-[INFO]-Message10(129)status:0002
+[2019-06-08 17:30:37,212]-[INFO]-Message10(129)status:0421
+[2019-06-08 17:30:37,213]-[INFO]-Message08Dao(30)2019-06-08 17:30:37 更新cm_dev_current_status记录数1
+[2019-06-08 17:30:37,216]-[INFO]-Message08Dao(88)2019-06-08 17:30:37  cm_dev_his_status增加记录数 2
+[2019-06-08 17:30:37,221]-[INFO]-Message10(38)--处理10消息结束--
+[2019-06-08 17:30:41,923]-[INFO]-TccInterface(58)Tcc msgType = 10
+[2019-06-08 17:30:41,923]-[INFO]-TccInterface(83)handledData:[B@5ee1b990
+[2019-06-08 17:30:41,923]-[INFO]-TccInterface(84)data:[B@3d53566
+[2019-06-08 17:30:41,923]-[INFO]-ConstructMessageForTcc(24)--构建10消息开始-- 
+[2019-06-08 17:30:41,923]-[INFO]-ConstructMessageForTcc(31)--成功构建10消息--
+[2019-06-08 17:30:41,923]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:30:41,924]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:30:41,926]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:30:41,929]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:30:59,145]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余4个消息未处理
+[2019-06-08 17:30:59,145]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[16] - 发送结果数据到终端[49, 51, 32, 25, 6, 8, 23, 48, 49, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:31:01,151]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余3个消息未处理
+[2019-06-08 17:31:01,151]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[17] - 发送结果数据到终端[49, 52, 32, 25, 6, 8, 23, 48, 49, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:31:03,150]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余2个消息未处理
+[2019-06-08 17:31:03,151]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[18] - 发送结果数据到终端[48, 56, 32, 25, 6, 8, 23, 48, 54, 42, 48, 49, 49, 48, 48, 50, 49, 48, 49, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 50, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 51, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 52, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 53, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 54, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 55, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 56, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 57, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 49, 48, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 49, 0, 0, 0, 14, 0, 0, 3, -128, 3, 0, 4, 49, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 50, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 116, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 51, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 52, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -128, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 52, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 54, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 49, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 113, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 50, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 112, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80]
+[2019-06-08 17:31:05,152]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余1个消息未处理
+[2019-06-08 17:31:05,153]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[19] - 发送结果数据到终端[48, 57, 32, 25, 6, 8, 23, 48, 54, 48, 49, 49, 51, 48, 49, 48, 48, 49, 0, 0, 0, 1, 0, 4]
+[2019-06-08 17:31:06,876]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:31:07,152]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余0个消息未处理
+[2019-06-08 17:31:07,153]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[20] - 发送结果数据到终端[49, 48, 32, 25, 6, 8, 23, 48, 65, 48, 49, 49, 52, 48, 50, 49, 48, 53, 0, 0, 0, 2, 0, 2, 32, 24, 9, 25, 35, 89, 66, 4, 33, 32, 24, 9, 25, 35, 89, 66]
+[2019-06-08 17:32:06,915]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:33:06,958]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:34:06,995]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:35:07,034]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:35:28,170]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-08 17:35:49,178]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-08 17:35:49,178]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-08 17:35:49,182]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-08 17:35:49,184]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:35:49,184]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:35:49,186]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-08 17:35:49,188]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:35:49,188]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:35:49,190]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-08 17:35:49,191]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:35:49,191]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:35:49,193]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-08 17:35:49,194]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:35:49,195]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:35:49,196]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-08 17:35:49,198]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:35:49,198]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:35:49,200]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-08 17:35:49,202]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:35:49,202]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:35:49,203]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-08 17:35:49,205]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:35:49,205]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:35:49,206]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-08 17:35:49,208]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:35:49,208]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:35:49,210]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-08 17:35:49,211]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-08 17:35:49,211]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-08 17:35:49,211]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-08 17:35:54,039]-[ERROR]-ConnectionReaderNormal(124)IO 异常:Connection reset
+[2019-06-08 17:35:54,039]-[INFO]-CommuConnection(448)172.20.16.30 - Reader return message error( 1002)!Connection will be closed!
+[2019-06-08 17:35:54,039]-[WARN]-CommuConnection(238)172.20.16.30 - 对方消息错误，连接将断开!
+[2019-06-08 17:35:54,039]-[INFO]-CommuConnection(298)172.20.16.30 - 连接关闭!
+[2019-06-08 17:35:59,503]-[INFO]-CommuServer(1004)接受新的连接请求，来自 172.20.16.30:1397
+[2019-06-08 17:35:59,503]-[INFO]-CommuServer(1013)开始处理新连接!
+[2019-06-08 17:35:59,506]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:21
+[2019-06-08 17:35:59,506]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[49, 51, 32, 24, 9, 25, 0, 0, 7, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:35:59,506]-[INFO]-CommuThreadManager(60)进出站客流/非即时退款/挂失 使用线程号：1 最大线程数：3
+[2019-06-08 17:35:59,506]-[INFO]-CommuConnection(439)当前消息处理线程名称:1
+[2019-06-08 17:35:59,591]-[INFO]-CommuMessageHandleThread(216)1:left msgs =0
+[2019-06-08 17:35:59,591]-[INFO]-CommuMessageHandleThread(65)线程名[1]有需要处理的消息
+[2019-06-08 17:35:59,593]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:35:59,593]-[INFO]-MessageProcessor(57)请求的消息类型：13
+[2019-06-08 17:35:59,594]-[INFO]-Message13(38)--处理13消息开始--
+[2019-06-08 17:35:59,594]-[INFO]-Message13(58)Message13 started! 1906081735590000000006
+[2019-06-08 17:35:59,596]-[INFO]-Message13(40)--处理13消息结束--
+[2019-06-08 17:36:01,508]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:21
+[2019-06-08 17:36:01,509]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[49, 52, 32, 24, 9, 25, 0, 0, 7, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:36:01,509]-[INFO]-CommuThreadManager(60)进出站客流/非即时退款/挂失 使用线程号：1 最大线程数：3
+[2019-06-08 17:36:01,509]-[INFO]-CommuConnection(439)当前消息处理线程名称:1
+[2019-06-08 17:36:01,527]-[INFO]-CommuMessageHandleThread(216)1:left msgs =0
+[2019-06-08 17:36:01,527]-[INFO]-CommuMessageHandleThread(65)线程名[1]有需要处理的消息
+[2019-06-08 17:36:01,581]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:36:01,582]-[INFO]-MessageProcessor(57)请求的消息类型：14
+[2019-06-08 17:36:01,582]-[INFO]-Message14(39)--处理14消息开始--
+[2019-06-08 17:36:01,585]-[INFO]-Message14(41)--处理14消息结束--
+[2019-06-08 17:36:01,968]-[INFO]-TccInterface(58)Tcc msgType = 13
+[2019-06-08 17:36:01,968]-[INFO]-TccInterface(83)handledData:[B@5b1303a6
+[2019-06-08 17:36:01,968]-[INFO]-TccInterface(84)data:[B@4074ddca
+[2019-06-08 17:36:01,969]-[INFO]-ConstructMessageForTcc(24)--构建13消息开始-- 
+[2019-06-08 17:36:01,969]-[INFO]-ConstructMessageForTcc(31)--成功构建13消息--
+[2019-06-08 17:36:01,969]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:36:01,969]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:36:01,972]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:36:01,975]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:36:01,975]-[INFO]-TccInterface(58)Tcc msgType = 14
+[2019-06-08 17:36:01,975]-[INFO]-TccInterface(83)handledData:[B@130ac16d
+[2019-06-08 17:36:01,975]-[INFO]-TccInterface(84)data:[B@395eb86f
+[2019-06-08 17:36:01,975]-[INFO]-ConstructMessageForTcc(24)--构建14消息开始-- 
+[2019-06-08 17:36:01,976]-[INFO]-ConstructMessageForTcc(31)--成功构建14消息--
+[2019-06-08 17:36:01,976]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:36:01,976]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:36:01,978]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:36:01,982]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:36:03,509]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:1844
+[2019-06-08 17:36:03,509]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[48, 56, 32, 24, 9, 32, 6, 0, 5, 42, 48, 49, 49, 48, 48, 50, 49, 48, 49, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 50, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 51, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 52, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 53, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 54, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 55, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 56, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 57, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 49, 48, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 49, 0, 0, 0, 14, 0, 0, 3, -128, 3, 0, 4, 49, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 50, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 116, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 51, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 52, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -128, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 52, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 54, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 49, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 113, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 50, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 112, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80]
+[2019-06-08 17:36:03,510]-[INFO]-CommuConnection(439)当前消息处理线程名称:0
+[2019-06-08 17:36:03,533]-[INFO]-CommuMessageHandleThread(216)0:left msgs =0
+[2019-06-08 17:36:03,533]-[INFO]-CommuMessageHandleThread(65)线程名[0]有需要处理的消息
+[2019-06-08 17:36:03,536]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:36:03,536]-[INFO]-MessageProcessor(57)请求的消息类型：08
+[2019-06-08 17:36:03,537]-[INFO]-Message08(38)--处理08消息开始--
+[2019-06-08 17:36:03,537]-[INFO]-Message08(87)设备重复次数N:42
+[2019-06-08 17:36:03,538]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:36:03,538]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:36:03,538]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:36:03,539]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:36:03,539]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:36:03,539]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:36:03,539]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:36:03,539]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:36:03,539]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:36:03,540]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:36:03,540]-[INFO]-Message08(185)状态重复次数N1:14,highStatus set:3
+[2019-06-08 17:36:03,540]-[INFO]-Message08(185)状态重复次数N1:14,highStatus set:3
+[2019-06-08 17:36:03,540]-[INFO]-Message08(185)状态重复次数N1:14,highStatus set:3
+[2019-06-08 17:36:03,540]-[INFO]-Message08(185)状态重复次数N1:14,highStatus set:3
+[2019-06-08 17:36:03,540]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,540]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,540]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,541]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,541]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,541]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,541]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,541]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,541]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,541]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,541]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,542]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,542]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,542]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:0
+[2019-06-08 17:36:03,542]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,542]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,542]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,542]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,542]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,543]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,543]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,543]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,543]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,543]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,544]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,544]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:36:03,544]-[INFO]-Message08(185)状态重复次数N1:15,highStatus set:3
+[2019-06-08 17:36:03,544]-[INFO]-Message08(185)状态重复次数N1:15,highStatus set:3
+[2019-06-08 17:36:03,544]-[INFO]-Message08Dao(30)2019-06-08 17:36:03 更新cm_dev_current_status记录数42
+[2019-06-08 17:36:03,603]-[INFO]-Message08Dao(88)2019-06-08 17:36:03  cm_dev_his_status增加记录数 644
+[2019-06-08 17:36:04,519]-[INFO]-Message08(40)--处理08消息结束--
+[2019-06-08 17:36:05,510]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:24
+[2019-06-08 17:36:05,510]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[48, 57, 32, 24, 9, 32, 5, 88, 57, 48, 49, 49, 51, 48, 49, 48, 48, 49, 0, 0, 0, 1, 0, 4]
+[2019-06-08 17:36:05,510]-[INFO]-CommuConnection(439)当前消息处理线程名称:1
+[2019-06-08 17:36:05,548]-[INFO]-CommuMessageHandleThread(216)1:left msgs =0
+[2019-06-08 17:36:05,548]-[INFO]-CommuMessageHandleThread(65)线程名[1]有需要处理的消息
+[2019-06-08 17:36:05,551]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:36:05,551]-[INFO]-MessageProcessor(57)请求的消息类型：09
+[2019-06-08 17:36:05,551]-[INFO]-Message09(29)--处理09消息开始--
+[2019-06-08 17:36:05,551]-[INFO]-Message08(87)设备重复次数N:1
+[2019-06-08 17:36:05,551]-[INFO]-Message08(185)状态重复次数N1:1,highStatus set:4
+[2019-06-08 17:36:05,551]-[INFO]-Message08Dao(30)2019-06-08 17:36:05 更新cm_dev_current_status记录数1
+[2019-06-08 17:36:05,554]-[INFO]-Message08Dao(88)2019-06-08 17:36:05  cm_dev_his_status增加记录数 1
+[2019-06-08 17:36:05,557]-[INFO]-Message09(31)--处理09消息结束--
+[2019-06-08 17:36:06,983]-[INFO]-TccInterface(58)Tcc msgType = 08
+[2019-06-08 17:36:06,983]-[INFO]-TccInterface(83)handledData:[B@7a1382d1
+[2019-06-08 17:36:06,983]-[INFO]-TccInterface(84)data:[B@1c6f9ad4
+[2019-06-08 17:36:06,983]-[INFO]-ConstructMessageForTcc(24)--构建08消息开始-- 
+[2019-06-08 17:36:06,983]-[INFO]-ConstructMessageForTcc(31)--成功构建08消息--
+[2019-06-08 17:36:06,983]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:36:06,983]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:36:06,986]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:36:06,988]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:36:06,988]-[INFO]-TccInterface(58)Tcc msgType = 09
+[2019-06-08 17:36:06,988]-[INFO]-TccInterface(83)handledData:[B@592b219d
+[2019-06-08 17:36:06,989]-[INFO]-TccInterface(84)data:[B@157a6717
+[2019-06-08 17:36:06,989]-[INFO]-ConstructMessageForTcc(24)--构建09消息开始-- 
+[2019-06-08 17:36:06,989]-[INFO]-ConstructMessageForTcc(31)--成功构建09消息--
+[2019-06-08 17:36:06,989]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:36:06,989]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:36:06,991]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:36:06,994]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:36:07,072]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:36:07,511]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:40
+[2019-06-08 17:36:07,511]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[49, 48, 32, 24, 9, 25, 35, 89, 66, 48, 49, 49, 52, 48, 50, 49, 48, 53, 0, 0, 0, 2, 0, 2, 32, 24, 9, 25, 35, 89, 66, 4, 33, 32, 24, 9, 25, 35, 89, 66]
+[2019-06-08 17:36:07,511]-[INFO]-CommuConnection(439)当前消息处理线程名称:2
+[2019-06-08 17:36:07,567]-[INFO]-CommuMessageHandleThread(216)2:left msgs =0
+[2019-06-08 17:36:07,567]-[INFO]-CommuMessageHandleThread(65)线程名[2]有需要处理的消息
+[2019-06-08 17:36:07,569]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:36:07,569]-[INFO]-MessageProcessor(57)请求的消息类型：10
+[2019-06-08 17:36:07,570]-[INFO]-Message10(36)--处理10消息开始--
+[2019-06-08 17:36:07,570]-[INFO]-Message10(124)repeatCount :2
+[2019-06-08 17:36:07,570]-[INFO]-Message10(129)status:0002
+[2019-06-08 17:36:07,571]-[INFO]-Message10(129)status:0421
+[2019-06-08 17:36:07,571]-[INFO]-Message08Dao(30)2019-06-08 17:36:07 更新cm_dev_current_status记录数1
+[2019-06-08 17:36:07,574]-[INFO]-Message08Dao(88)2019-06-08 17:36:07  cm_dev_his_status增加记录数 2
+[2019-06-08 17:36:07,578]-[INFO]-Message10(38)--处理10消息结束--
+[2019-06-08 17:36:11,995]-[INFO]-TccInterface(58)Tcc msgType = 10
+[2019-06-08 17:36:11,995]-[INFO]-TccInterface(83)handledData:[B@73996a63
+[2019-06-08 17:36:11,995]-[INFO]-TccInterface(84)data:[B@13c0f7fe
+[2019-06-08 17:36:11,995]-[INFO]-ConstructMessageForTcc(24)--构建10消息开始-- 
+[2019-06-08 17:36:11,995]-[INFO]-ConstructMessageForTcc(31)--成功构建10消息--
+[2019-06-08 17:36:11,995]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:36:11,995]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:36:11,997]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:36:11,999]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:36:29,518]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余4个消息未处理
+[2019-06-08 17:36:29,518]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[16] - 发送结果数据到终端[49, 51, 32, 25, 6, 8, 23, 54, 1, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:36:31,522]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余3个消息未处理
+[2019-06-08 17:36:31,523]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[17] - 发送结果数据到终端[49, 52, 32, 25, 6, 8, 23, 54, 1, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:36:33,523]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余2个消息未处理
+[2019-06-08 17:36:33,523]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[18] - 发送结果数据到终端[48, 56, 32, 25, 6, 8, 23, 54, 6, 42, 48, 49, 49, 48, 48, 50, 49, 48, 49, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 50, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 51, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 52, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 53, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 54, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 55, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 56, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 57, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 49, 48, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 49, 0, 0, 0, 14, 0, 0, 3, -128, 3, 0, 4, 49, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 50, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 116, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 51, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 52, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -128, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 52, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 54, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 49, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 113, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 50, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 112, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80]
+[2019-06-08 17:36:35,525]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余1个消息未处理
+[2019-06-08 17:36:35,525]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[19] - 发送结果数据到终端[48, 57, 32, 25, 6, 8, 23, 54, 6, 48, 49, 49, 51, 48, 49, 48, 48, 49, 0, 0, 0, 1, 0, 4]
+[2019-06-08 17:36:37,540]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余0个消息未处理
+[2019-06-08 17:36:37,540]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[20] - 发送结果数据到终端[49, 48, 32, 25, 6, 8, 23, 54, 17, 48, 49, 49, 52, 48, 50, 49, 48, 53, 0, 0, 0, 2, 0, 2, 32, 24, 9, 25, 35, 89, 66, 4, 33, 32, 24, 9, 25, 35, 89, 66]
+[2019-06-08 17:37:07,114]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-08 17:37:12,303]-[ERROR]-ConnectionReaderNormal(124)IO 异常:Connection reset
+[2019-06-08 17:37:12,303]-[INFO]-CommuConnection(448)172.20.16.30 - Reader return message error( 1002)!Connection will be closed!
+[2019-06-08 17:37:12,303]-[WARN]-CommuConnection(238)172.20.16.30 - 对方消息错误，连接将断开!
+[2019-06-08 17:37:12,303]-[INFO]-CommuConnection(298)172.20.16.30 - 连接关闭!
+[2019-06-08 17:37:16,711]-[INFO]-CommuServer(1004)接受新的连接请求，来自 172.20.16.30:1698
+[2019-06-08 17:37:16,712]-[INFO]-CommuServer(1013)开始处理新连接!
+[2019-06-08 17:37:16,713]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:21
+[2019-06-08 17:37:16,713]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[49, 51, 32, 24, 9, 25, 0, 0, 7, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:37:16,713]-[INFO]-CommuThreadManager(60)进出站客流/非即时退款/挂失 使用线程号：1 最大线程数：3
+[2019-06-08 17:37:16,713]-[INFO]-CommuConnection(439)当前消息处理线程名称:1
+[2019-06-08 17:37:16,766]-[INFO]-CommuMessageHandleThread(216)1:left msgs =0
+[2019-06-08 17:37:16,766]-[INFO]-CommuMessageHandleThread(65)线程名[1]有需要处理的消息
+[2019-06-08 17:37:16,769]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:37:16,769]-[INFO]-MessageProcessor(57)请求的消息类型：13
+[2019-06-08 17:37:16,769]-[INFO]-Message13(38)--处理13消息开始--
+[2019-06-08 17:37:16,769]-[INFO]-Message13(58)Message13 started! 1906081737160000000011
+[2019-06-08 17:37:16,773]-[INFO]-Message13(40)--处理13消息结束--
+[2019-06-08 17:37:17,008]-[INFO]-TccInterface(58)Tcc msgType = 13
+[2019-06-08 17:37:17,008]-[INFO]-TccInterface(83)handledData:[B@13671bd2
+[2019-06-08 17:37:17,008]-[INFO]-TccInterface(84)data:[B@55e39476
+[2019-06-08 17:37:17,008]-[INFO]-ConstructMessageForTcc(24)--构建13消息开始-- 
+[2019-06-08 17:37:17,009]-[INFO]-ConstructMessageForTcc(31)--成功构建13消息--
+[2019-06-08 17:37:17,009]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:37:17,009]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:37:17,011]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:37:17,015]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:37:18,717]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:21
+[2019-06-08 17:37:18,717]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[49, 52, 32, 24, 9, 25, 0, 0, 7, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:37:18,717]-[INFO]-CommuThreadManager(60)进出站客流/非即时退款/挂失 使用线程号：1 最大线程数：3
+[2019-06-08 17:37:18,718]-[INFO]-CommuConnection(439)当前消息处理线程名称:1
+[2019-06-08 17:37:18,806]-[INFO]-CommuMessageHandleThread(216)1:left msgs =0
+[2019-06-08 17:37:18,806]-[INFO]-CommuMessageHandleThread(65)线程名[1]有需要处理的消息
+[2019-06-08 17:37:18,896]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:37:18,896]-[INFO]-MessageProcessor(57)请求的消息类型：14
+[2019-06-08 17:37:18,896]-[INFO]-Message14(39)--处理14消息开始--
+[2019-06-08 17:37:18,899]-[INFO]-Message14(41)--处理14消息结束--
+[2019-06-08 17:37:20,719]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:1844
+[2019-06-08 17:37:20,719]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[48, 56, 32, 24, 9, 32, 6, 0, 5, 42, 48, 49, 49, 48, 48, 50, 49, 48, 49, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 50, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 51, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 52, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 53, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 54, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 55, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 56, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 57, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 49, 48, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 49, 0, 0, 0, 14, 0, 0, 3, -128, 3, 0, 4, 49, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 50, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 116, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 51, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 52, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -128, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 52, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 54, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 49, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 113, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 50, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 112, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80]
+[2019-06-08 17:37:20,719]-[INFO]-CommuConnection(439)当前消息处理线程名称:0
+[2019-06-08 17:37:20,729]-[INFO]-CommuMessageHandleThread(216)0:left msgs =0
+[2019-06-08 17:37:20,729]-[INFO]-CommuMessageHandleThread(65)线程名[0]有需要处理的消息
+[2019-06-08 17:37:20,731]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:37:20,731]-[INFO]-MessageProcessor(57)请求的消息类型：08
+[2019-06-08 17:37:20,732]-[INFO]-Message08(38)--处理08消息开始--
+[2019-06-08 17:37:20,732]-[INFO]-Message08(87)设备重复次数N:42
+[2019-06-08 17:37:20,732]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:37:20,732]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:37:20,732]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:37:20,732]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:37:20,733]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:37:20,733]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:37:20,733]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:37:20,733]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:37:20,733]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:37:20,733]-[INFO]-Message08(185)状态重复次数N1:22,highStatus set:3
+[2019-06-08 17:37:20,733]-[INFO]-Message08(185)状态重复次数N1:14,highStatus set:3
+[2019-06-08 17:37:20,733]-[INFO]-Message08(185)状态重复次数N1:14,highStatus set:3
+[2019-06-08 17:37:20,734]-[INFO]-Message08(185)状态重复次数N1:14,highStatus set:3
+[2019-06-08 17:37:20,734]-[INFO]-Message08(185)状态重复次数N1:14,highStatus set:3
+[2019-06-08 17:37:20,734]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,734]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,734]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,734]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,734]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,734]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,735]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,735]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,735]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,735]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,735]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,735]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,735]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,735]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:0
+[2019-06-08 17:37:20,735]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,735]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,736]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,736]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,736]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,736]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,736]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,736]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,736]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,736]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,736]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,736]-[INFO]-Message08(185)状态重复次数N1:13,highStatus set:3
+[2019-06-08 17:37:20,737]-[INFO]-Message08(185)状态重复次数N1:15,highStatus set:3
+[2019-06-08 17:37:20,737]-[INFO]-Message08(185)状态重复次数N1:15,highStatus set:3
+[2019-06-08 17:37:20,737]-[INFO]-Message08Dao(30)2019-06-08 17:37:20 更新cm_dev_current_status记录数42
+[2019-06-08 17:37:20,794]-[INFO]-Message08Dao(88)2019-06-08 17:37:20  cm_dev_his_status增加记录数 644
+[2019-06-08 17:37:21,713]-[INFO]-Message08(40)--处理08消息结束--
+[2019-06-08 17:37:22,016]-[INFO]-TccInterface(58)Tcc msgType = 14
+[2019-06-08 17:37:22,016]-[INFO]-TccInterface(83)handledData:[B@6d1126db
+[2019-06-08 17:37:22,016]-[INFO]-TccInterface(84)data:[B@797a5380
+[2019-06-08 17:37:22,016]-[INFO]-ConstructMessageForTcc(24)--构建14消息开始-- 
+[2019-06-08 17:37:22,016]-[INFO]-ConstructMessageForTcc(31)--成功构建14消息--
+[2019-06-08 17:37:22,016]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:37:22,016]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:37:22,022]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:37:22,023]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:37:22,024]-[INFO]-TccInterface(58)Tcc msgType = 08
+[2019-06-08 17:37:22,024]-[INFO]-TccInterface(83)handledData:[B@52686ef6
+[2019-06-08 17:37:22,024]-[INFO]-TccInterface(84)data:[B@1b6110e9
+[2019-06-08 17:37:22,024]-[INFO]-ConstructMessageForTcc(24)--构建08消息开始-- 
+[2019-06-08 17:37:22,024]-[INFO]-ConstructMessageForTcc(31)--成功构建08消息--
+[2019-06-08 17:37:22,024]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:37:22,024]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:37:22,027]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:37:22,029]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:37:22,720]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:24
+[2019-06-08 17:37:22,720]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[48, 57, 32, 24, 9, 32, 5, 88, 57, 48, 49, 49, 51, 48, 49, 48, 48, 49, 0, 0, 0, 1, 0, 4]
+[2019-06-08 17:37:22,720]-[INFO]-CommuConnection(439)当前消息处理线程名称:1
+[2019-06-08 17:37:22,743]-[INFO]-CommuMessageHandleThread(216)1:left msgs =0
+[2019-06-08 17:37:22,743]-[INFO]-CommuMessageHandleThread(65)线程名[1]有需要处理的消息
+[2019-06-08 17:37:22,746]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:37:22,746]-[INFO]-MessageProcessor(57)请求的消息类型：09
+[2019-06-08 17:37:22,746]-[INFO]-Message09(29)--处理09消息开始--
+[2019-06-08 17:37:22,746]-[INFO]-Message08(87)设备重复次数N:1
+[2019-06-08 17:37:22,746]-[INFO]-Message08(185)状态重复次数N1:1,highStatus set:4
+[2019-06-08 17:37:22,746]-[INFO]-Message08Dao(30)2019-06-08 17:37:22 更新cm_dev_current_status记录数1
+[2019-06-08 17:37:22,955]-[INFO]-Message08Dao(88)2019-06-08 17:37:22  cm_dev_his_status增加记录数 1
+[2019-06-08 17:37:22,958]-[INFO]-Message09(31)--处理09消息结束--
+[2019-06-08 17:37:24,720]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:40
+[2019-06-08 17:37:24,720]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[49, 48, 32, 24, 9, 25, 35, 89, 66, 48, 49, 49, 52, 48, 50, 49, 48, 53, 0, 0, 0, 2, 0, 2, 32, 24, 9, 25, 35, 89, 66, 4, 33, 32, 24, 9, 25, 35, 89, 66]
+[2019-06-08 17:37:24,720]-[INFO]-CommuConnection(439)当前消息处理线程名称:2
+[2019-06-08 17:37:24,758]-[INFO]-CommuMessageHandleThread(216)2:left msgs =0
+[2019-06-08 17:37:24,758]-[INFO]-CommuMessageHandleThread(65)线程名[2]有需要处理的消息
+[2019-06-08 17:37:24,760]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-08 17:37:24,760]-[INFO]-MessageProcessor(57)请求的消息类型：10
+[2019-06-08 17:37:24,760]-[INFO]-Message10(36)--处理10消息开始--
+[2019-06-08 17:37:24,761]-[INFO]-Message10(124)repeatCount :2
+[2019-06-08 17:37:24,761]-[INFO]-Message10(129)status:0002
+[2019-06-08 17:37:24,761]-[INFO]-Message10(129)status:0421
+[2019-06-08 17:37:24,761]-[INFO]-Message08Dao(30)2019-06-08 17:37:24 更新cm_dev_current_status记录数1
+[2019-06-08 17:37:24,764]-[INFO]-Message08Dao(88)2019-06-08 17:37:24  cm_dev_his_status增加记录数 2
+[2019-06-08 17:37:24,768]-[INFO]-Message10(38)--处理10消息结束--
+[2019-06-08 17:37:27,030]-[INFO]-TccInterface(58)Tcc msgType = 09
+[2019-06-08 17:37:27,030]-[INFO]-TccInterface(83)handledData:[B@7fa2daa0
+[2019-06-08 17:37:27,030]-[INFO]-TccInterface(84)data:[B@54ef6087
+[2019-06-08 17:37:27,030]-[INFO]-ConstructMessageForTcc(24)--构建09消息开始-- 
+[2019-06-08 17:37:27,030]-[INFO]-ConstructMessageForTcc(31)--成功构建09消息--
+[2019-06-08 17:37:27,030]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:37:27,030]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:37:27,033]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:37:27,035]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:37:27,035]-[INFO]-TccInterface(58)Tcc msgType = 10
+[2019-06-08 17:37:27,035]-[INFO]-TccInterface(83)handledData:[B@4561bb32
+[2019-06-08 17:37:27,035]-[INFO]-TccInterface(84)data:[B@56140d2f
+[2019-06-08 17:37:27,035]-[INFO]-ConstructMessageForTcc(24)--构建10消息开始-- 
+[2019-06-08 17:37:27,035]-[INFO]-ConstructMessageForTcc(31)--成功构建10消息--
+[2019-06-08 17:37:27,036]-[INFO]-ConstructMessageBase(64)发送消息到IP:172.20.16.30.
+[2019-06-08 17:37:27,036]-[INFO]-ComMessageQueueDao(36)准备将消息存入到队列表...
+[2019-06-08 17:37:27,038]-[INFO]-ComMessageQueueDao(65)消息存入到队列表结束...
+[2019-06-08 17:37:27,040]-[INFO]-ConstructMessageBase(104)成功发送消息到IP:172.20.16.30.
+[2019-06-08 17:37:46,728]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余4个消息未处理
+[2019-06-08 17:37:46,728]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[16] - 发送结果数据到终端[49, 51, 32, 25, 6, 8, 23, 55, 23, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:37:48,732]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余3个消息未处理
+[2019-06-08 17:37:48,733]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[17] - 发送结果数据到终端[49, 52, 32, 25, 6, 8, 23, 55, 34, 48, 49, 49, 57, 32, 24, 9, 25, 0, 0, 0, 0]
+[2019-06-08 17:37:50,732]-[INFO]-MessageQueueManager(50)172.20.16.30 - 消息缓存队列剩余2个消息未处理
+[2019-06-08 17:37:50,733]-[INFO]-CommuConnection(196)172.20.16.30- 发送的序列号：[18] - 发送结果数据到终端[48, 56, 32, 25, 6, 8, 23, 55, 34, 42, 48, 49, 49, 48, 48, 50, 49, 48, 49, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 50, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 51, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 52, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 53, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 54, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 55, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 56, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 48, 57, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 50, 49, 49, 48, 0, 0, 0, 22, 3, 33, 3, 52, 3, 64, 3, 84, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 100, 4, 113, 4, -128, 4, -111, 5, 1, 5, 80, 5, 96, 6, 0, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 49, 0, 0, 0, 14, 0, 0, 3, -128, 3, 0, 4, 49, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 50, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 116, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 51, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 51, 49, 53, 52, 0, 0, 0, 14, 0, 1, 3, -128, 3, 0, 4, 48, 4, 80, 4, 100, 4, 113, 5, 80, 5, 97, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 52, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 52, 48, 53, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 49, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 50, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 51, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -128, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 51, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 52, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 53, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 54, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 56, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 53, 48, 53, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 51, 57, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 52, 55, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 48, 54, 48, 54, 48, 0, 0, 0, 13, 0, 0, 3, -128, 4, 32, 4, 80, 4, -126, 5, 80, 5, 96, 3, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 49, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 113, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80, 48, 49, 49, 48, 49, 48, 49, 51, 50, 0, 0, 0, 15, 3, -128, 3, 0, 4, 32, 4, 48, 4, 80, 4, 97, 4, 112, 4, -128, 5, 80, 5, 96, 4, 64, 0, 16, 0, 32, 0, 96, 0, 80]
+[2019-06-08 17:37:52,734]-[INFO]-MessageQueueManager(50)172.20.16.30 - 

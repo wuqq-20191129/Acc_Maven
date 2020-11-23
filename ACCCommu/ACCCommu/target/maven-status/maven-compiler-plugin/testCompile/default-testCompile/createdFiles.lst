@@ -1,0 +1,8 @@
+com\goldsign\commu\frame\server\Message05Test.class
+com\goldsign\commu\frame\messagevo\BaseMessageVo.class
+com\goldsign\commu\frame\server\LinkedBlockingQueueTest.class
+com\goldsign\commu\frame\server\HeartBeatTest.class
+com\goldsign\commu\frame\messagevo\Message05Vo.class
+com\goldsign\commu\frame\server\DataFileGenerator.class
+com\goldsign\commu\frame\server\BaseMessage.class
+com\goldsign\commu\frame\server\CommuServerTest.class

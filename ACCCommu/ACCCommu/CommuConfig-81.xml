@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Config>
+	<Common>
+		<!--solaris config -->
+		<BackUpLog>/home/acc/ACCCommu/log</BackUpLog>
+		<FtpLocalDir>/home/acc/communfs/ftp/receive</FtpLocalDir>
+		<ParmDstrbPath>/home/acc/communfs/ftp/parameter</ParmDstrbPath>			
+		<BusFtpLocalDir>/home/acc/communfs/ftpoct</BusFtpLocalDir>
+		<!--Socket config -->
+		<Port>5001</Port>
+		<ReadOneByteTimeOut>3000</ReadOneByteTimeOut>
+		<ReadOneMessageTimeOut>3000</ReadOneMessageTimeOut>
+		<MessageQueueThreadSleepTime>10000</MessageQueueThreadSleepTime>
+
+		<!--取LC的收益文件的FTP配置 -->
+		<FtpUserName encrypt="true">062C2F74637977</FtpUserName>
+		<FtpUserPassword encrypt="true">062C2F74637977</FtpUserPassword>
+		<FtpPort>21</FtpPort>
+		<FtpTimeout>900000</FtpTimeout>
+		<FtpRetryWaiting>20000</FtpRetryWaiting>
+		<FtpRetryTimes>45</FtpRetryTimes>
+
+		<!--Parameter config -->
+		<ParmDstrbInterval>5000</ParmDstrbInterval>
+		<ParmSynchType>'0101','0201','0202','0203','0204','0205','0301','0302','0303','0304','0305','0400','0501','0601','0602','0603','0604','0605','0606','0801','0802','0900','0901','0902','0903','0904','0905','8100','8101','9120','9220','9320','9420','9520'
+		</ParmSynchType>
+
+		<!--APP config -->
+		<MessageClassPrefix>com.goldsign.commu.app.message.Message
+		</MessageClassPrefix>
+		<SendQueryWait>50</SendQueryWait>
+		<MonitorRefresh>5000</MonitorRefresh>
+
+		<!--control whether console print true :print false:not print -->
+		<ConsolePrint>true</ConsolePrint>
+		<ConsolePrintFrequency>1</ConsolePrintFrequency>
+		<ReadWithThread>false</ReadWithThread>
+		<GetMessageFrequency>16</GetMessageFrequency>
+		<IsWriteEmergentTraffic>false</IsWriteEmergentTraffic>
+
+		<StartParameterDistribute>true</StartParameterDistribute>
+		<StartSocketListener>true</StartSocketListener>
+		<StartConnectionPoolListener>true</StartConnectionPoolListener>
+
+		<!--客流消息�??大滞留时�?? -1:不限�?? -->
+		<TrafficDelayMaxDay>-1</TrafficDelayMaxDay>
+		<!--�??死线�??,等�??�资源释放最大的次数,每次1�?? -->
+		<ThreadReleaseResourceWaitCount>5</ThreadReleaseResourceWaitCount>
+		<!-- 运营资料管理系统的ftp配置 -->
+		<OP_URL>10.99.11.82</OP_URL>
+		<OP_PORT>21</OP_PORT>
+		<OP_USERNAME encrypt="true">060C0F74637977</OP_USERNAME>
+		<OP_PASSWORD encrypt="true">060C0F74637977</OP_PASSWORD>
+		<!--BusICCard Center Config-->
+		<BusFtpURL>10.99.10.217</BusFtpURL>
+		<BusFtpPort>21</BusFtpPort>
+		<BusFtpUserName encrypt="false">Acc0000</BusFtpUserName>
+		<BusFtpPassWord encrypt="true">062C2F74637977</BusFtpPassWord>
+        <BusFtpUploadUser encrypt="false">Acc0000</BusFtpUploadUser>
+		<BusFtpUploadPW encrypt="true">062C2F74637977</BusFtpUploadPW>
+		<BusFtpUploadPath></BusFtpUploadPath>
+        <BusFtpDownloadPath></BusFtpDownloadPath>
+	</Common>
+
+	<!--if file is in ftp root path,no need to define here -->
+	<FtpPaths>
+		<FtpPath id="TRX" value="transaction" />
+		<FtpPath id="PRO" value="revenue" />
+		<FtpPath id="AUD" value="audit" />
+		<FtpPath id="REG" value="reg" />
+		<FtpPath id="STL" value="settle" />
+		<FtpPath id="TST" value="ticket" />
+		<FtpPath id="THD" value="ticket" />
+		<FtpPath id="TBH" value="ticket" />
+		<FtpPath id="TDS" value="ticket" />
+		<FtpPath id="PSD" value="ticket" />
+		<FtpPath id="INF" value="inf" />
+		<FtpPath id="ORD" value="ord" />
+	</FtpPaths>
+
+	<OpConnectionPool>
+		<Driver>oracle.jdbc.driver.OracleDriver</Driver>
+		<URL>jdbc:oracle:thin:@10.99.11.81:1521:wacctstdb</URL>
+		<User encrypt="false">w_acc_st</User>
+		<Password encrypt="true">30102D273016343A</Password>
+		<MaxActive>5</MaxActive>
+		<MaxIdle>20</MaxIdle>
+		<MaxWait>20000</MaxWait>
+	</OpConnectionPool>
+
+	<CmConnectionPool>
+		<Driver>oracle.jdbc.driver.OracleDriver</Driver>
+		<URL>jdbc:oracle:thin:@10.99.11.81:1521:wacctstdb</URL>
+		<User encrypt="false">w_acc_cm</User>
+		<Password encrypt="true">30102D2730162423</Password>
+		<MaxActive>5</MaxActive>
+		<MaxIdle>20</MaxIdle>
+		<MaxWait>20000</MaxWait>
+	</CmConnectionPool>
+
+	<TkConnectionPool>
+		<Driver>oracle.jdbc.driver.OracleDriver</Driver>
+		<URL>jdbc:oracle:thin:@10.99.11.81:1521:wacctstdb</URL>
+		<User encrypt="false">w_acc_tk</User>
+		<Password encrypt="true">30102D2730163325</Password>
+		<MaxActive>5</MaxActive>
+		<MaxIdle>10</MaxIdle>
+		<MaxWait>20000</MaxWait>
+	</TkConnectionPool>
+
+	<EmergentFlowConnectionPool>
+		<Driver>oracle.jdbc.driver.OracleDriver</Driver>
+		<URL>jdbc:oracle:thin:@10.99.11.81:1521:wacctstdb</URL>
+		<User encrypt="true">w_acc_st</User>
+		<Password encrypt="true">30102D273016343A</Password>
+		<MaxActive>5</MaxActive>
+		<MaxIdle>20</MaxIdle>
+		<MaxWait>20000</MaxWait>
+	</EmergentFlowConnectionPool>
+
+	<CommunicationThreadPool>
+		<MaxThreadNumber>2</MaxThreadNumber>
+		<ThreadSleepTime>100</ThreadSleepTime>
+		<ThreadPriorityAdd>0</ThreadPriorityAdd>
+		<ReadThreadPriorityAdd>2</ReadThreadPriorityAdd>
+		<MaxSearchNum>2</MaxSearchNum>
+		<UnHanledMsgLogDir>/home/acc/ACCCommu/log</UnHanledMsgLogDir>
+		<ThreadBufferCapacity>10000</ThreadBufferCapacity>
+		<ThreadBufferIncrement>1000</ThreadBufferIncrement>
+		<PriorityThreadBufferCapacity>2000</PriorityThreadBufferCapacity>
+		<PriorityThreadBufferIncrement>1000</PriorityThreadBufferIncrement>
+	</CommunicationThreadPool>
+
+	<ConnectionPoolListenerThread>
+		<CPListenerThreadSleepTime>1000</CPListenerThreadSleepTime>
+		<TestSqlForData>select 1 from dual</TestSqlForData>
+		<TestSqlForLog>select 1 from dual</TestSqlForLog>
+		<TestSqlForFlow>select 1 from dual</TestSqlForFlow>
+		<SqlMsghandleSleepTime>100</SqlMsghandleSleepTime>
+	</ConnectionPoolListenerThread>
+
+	<ThreadPoolMonitor>
+		<!--线程池监控时间间�?? -->
+		<TPMonitorThreadSleepTime>1000</TPMonitorThreadSleepTime>
+		<!--消息处理允许的最大挂起数 -->
+		<ThreadMsgHandUpMaxNumberAllow>15</ThreadMsgHandUpMaxNumberAllow>
+		<!--消息解释类前�?? -->
+		<ThreadMsgAnalyzeClassPrefix>com.goldsign.commu.app.monitor.AnalyzeMessage
+		</ThreadMsgAnalyzeClassPrefix>
+	</ThreadPoolMonitor>
+	<!--备参数版�?? -->
+	<DevParamVer>
+		<!--设备参数版本查询时间间隔 单位：毫�?? -->
+		<DevParaVerThreadSleepTime>10000</DevParaVerThreadSleepTime>
+	</DevParamVer>
+	<!--参数自动下发 -->
+	<ParamAutoDown>
+		<!--自动下发轮询时间间隔 单位：毫�?? 设置值不能小�??�钟 -->
+		<ParaDownloadThreadSleepTime>80000</ParaDownloadThreadSleepTime>
+	</ParamAutoDown>
+</Config>

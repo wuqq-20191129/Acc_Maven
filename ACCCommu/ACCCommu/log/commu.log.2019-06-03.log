@@ -1,0 +1,1376 @@
+[2019-06-03 22:37:50,640]-[INFO]-CommuServer(403)日志配置设置成功!
+[2019-06-03 22:37:51,049]-[INFO]-CommuServer(411)成功解析配置文件：CommuConfig.xml
+[2019-06-03 22:37:51,050]-[INFO]-CommuServer(501)日志备份
+[2019-06-03 22:37:51,051]-[INFO]-CommuServer(418)成功初始化socket配置!
+[2019-06-03 22:37:51,055]-[INFO]-CommuServer(422)成功初始化客流配置!
+[2019-06-03 22:37:51,058]-[INFO]-CommuServer(426)成功初始化线程监控配置!
+[2019-06-03 22:37:51,061]-[INFO]-CommuServer(430)成功初始化初始化参数下发配置!
+[2019-06-03 22:37:51,061]-[INFO]-CommuServer(434)成功初始化应用相关配置!
+[2019-06-03 22:37:51,062]-[INFO]-CommuServer(702)FtpLocalDir:D:/ftpClient/ACCCommu/receive
+[2019-06-03 22:37:51,062]-[INFO]-CommuServer(715)BusFtpLocalDir:D:/ftpClient/ACCCommu/import
+[2019-06-03 22:37:51,062]-[INFO]-CommuServer(438)成功初始化FTP配置!
+[2019-06-03 22:37:51,432]-[INFO]-CommuServer(880)运营库连接池OpConnectionPool创建!
+[2019-06-03 22:37:51,432]-[INFO]-CommuServer(892)通讯库连接池CmConnectionPool创建!
+[2019-06-03 22:37:51,433]-[INFO]-CommuServer(902)票务库连接池TkConnectionPool创建!
+[2019-06-03 22:37:51,433]-[INFO]-CommuServer(448)成功初始化数据库连接池!
+[2019-06-03 22:37:51,434]-[INFO]-CommuServer(452)成功初始化线程池配置!
+[2019-06-03 22:37:51,445]-[INFO]-CommuServer(456)成功初始化socket配置!
+[2019-06-03 22:37:51,446]-[INFO]-CommuServer(460)成功初始化设备参数版本查询配置!
+[2019-06-03 22:37:51,446]-[INFO]-CommuServer(464)成功初始化参数自动下发配置!
+[2019-06-03 22:37:51,448]-[INFO]-CommuServer(468)成功初始化启动选项控制!
+[2019-06-03 22:37:51,449]-[INFO]-CommuServer(473)成功初始化FTP路径!
+[2019-06-03 22:37:56,762]-[INFO]-CommuServer(932)运营时间:0205
+[2019-06-03 22:37:57,110]-[INFO]-CommuServer(964)缺省消息最大处理时间60
+[2019-06-03 22:37:57,134]-[INFO]-CommuServer(968)转存线程池状态表数据，共:0记录
+[2019-06-03 22:37:57,190]-[INFO]-CommuServer(99)参数下发监听已启动 ...
+[2019-06-03 22:37:57,221]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2019-06-03 22:37:57,238]-[INFO]-CommuServer(389)缓存清理线程已启动 !
+[2019-06-03 22:37:57,240]-[INFO]-CommuServer(376)消息队列管理线程已启动!
+[2019-06-03 22:37:57,280]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2019-06-03 22:37:57,282]-[INFO]-CommuServer(120)连接池监听正在启动 ...
+[2019-06-03 22:37:57,282]-[INFO]-CommuServer(125)日志级别监听已启动 ...
+[2019-06-03 22:37:57,287]-[INFO]-CommuServer(129)设备参数版本查询线程已启动 ...
+[2019-06-03 22:37:57,288]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2019-06-03 22:37:57,290]-[INFO]-CommuServer(382)线程池监控已启动 !
+[2019-06-03 22:37:57,323]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2019-06-03 22:37:57,324]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2019-06-03 22:37:57,324]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2019-06-03 22:37:57,400]-[INFO]-CommuServer(136)票务接口线程已启动 ...
+[2019-06-03 22:37:57,410]-[INFO]-CommuServer(139)一卡通接口线程已启动 ...
+[2019-06-03 22:37:57,413]-[INFO]-CommuServer(145)定时刷新缓存变量线程已启动 ...
+[2019-06-03 22:37:57,474]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-03 22:37:57,475]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2019-06-03 22:37:57,764]-[INFO]-CommuServer(999)服务器正常启动！正在监听端口 : 5001
+[2019-06-03 22:38:19,208]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-03 22:38:19,212]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-03 22:38:19,271]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-03 22:38:19,285]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:38:19,285]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:38:19,288]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-03 22:38:19,291]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:38:19,291]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:38:19,295]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-03 22:38:19,299]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:38:19,299]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:38:19,302]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-03 22:38:19,305]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:38:19,305]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:38:19,309]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-03 22:38:19,312]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:38:19,312]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:38:19,315]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-03 22:38:19,319]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:38:19,319]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:38:19,322]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-03 22:38:19,325]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:38:19,325]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:38:19,329]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-03 22:38:19,332]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:38:19,332]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:38:19,335]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-03 22:38:19,341]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:38:19,341]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:38:19,341]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-03 22:38:20,773]-[INFO]-CommuServer(1009)接受新的连接请求，来自 172.20.16.30:8387
+[2019-06-03 22:38:20,774]-[INFO]-CommuServer(1034)连接不合法！地址：172.20.16.30
+[2019-06-03 22:38:20,775]-[WARN]-CommuServer(1038)172.20.16.30连接已关闭
+[2019-06-03 22:38:20,813]-[INFO]-CommuServer(1053)创建连接失败 - 
+com.goldsign.commu.frame.exception.CommuException: 连接不合法！地址：172.20.16.30
+	at com.goldsign.commu.frame.server.CommuServer.startSocketListener(CommuServer.java:1043)
+	at com.goldsign.commu.frame.server.CommuServer.start(CommuServer.java:159)
+	at com.goldsign.commu.frame.server.CommuServer.main(CommuServer.java:81)
+[2019-06-03 22:38:48,664]-[INFO]-CommuConnectionPoolListener(301)CM通讯库数据库异常,错误代码:17002 消息:
+java.sql.SQLRecoverableException: IO 错误: Connection reset
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:421)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at oracle.net.ns.Packet.receive(Packet.java:282)
+	at oracle.net.ns.DataPacket.receive(DataPacket.java:103)
+	at oracle.net.ns.NetInputStream.getNextPacket(NetInputStream.java:230)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:175)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:100)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:85)
+	at oracle.jdbc.driver.T4CSocketInputStreamWrapper.readNextPacket(T4CSocketInputStreamWrapper.java:122)
+	at oracle.jdbc.driver.T4CSocketInputStreamWrapper.read(T4CSocketInputStreamWrapper.java:78)
+	at oracle.jdbc.driver.T4CMAREngine.unmarshalUB1(T4CMAREngine.java:1179)
+	at oracle.jdbc.driver.T4CMAREngine.unmarshalSB1(T4CMAREngine.java:1155)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:279)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:366)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:752)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:359)
+	... 9 more
+[2019-06-03 22:38:48,666]-[INFO]-CommuConnectionPoolListener(475)线程0未处理消息0
+[2019-06-03 22:38:48,666]-[INFO]-CommuConnectionPoolListener(475)线程1未处理消息0
+[2019-06-03 22:38:48,668]-[INFO]-CommuConnectionPoolListener(475)线程2未处理消息0
+[2019-06-03 22:38:48,668]-[INFO]-SocketUtil(40)CM通讯库数据库连接异常,关闭监听服务器
+[2019-06-03 22:38:48,668]-[INFO]-CommuConnectionPoolListener(180)尝试重建CM通讯库连接池1次.....
+[2019-06-03 22:38:48,679]-[ERROR]-CommuServer(174)Error -
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:131)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:199)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545)
+	at java.net.ServerSocket.accept(ServerSocket.java:513)
+	at com.goldsign.commu.frame.server.CommuServer.startSocketListener(CommuServer.java:1005)
+	at com.goldsign.commu.frame.server.CommuServer.start(CommuServer.java:159)
+	at com.goldsign.commu.frame.server.CommuServer.main(CommuServer.java:81)
+[2019-06-03 22:38:49,968]-[INFO]-CommuConnectionPoolListener(195)CM通讯库连接中断后已可用.....
+[2019-06-03 22:38:50,833]-[INFO]-CommuConnectionPoolListener(388)重设CM通讯库连接池.....
+[2019-06-03 22:38:50,862]-[INFO]-CommuConnectionPoolListener(401)数据库连接恢复,重新启动监听服务器
+[2019-06-03 22:38:50,901]-[INFO]-CommuConnectionPoolListener(416)恢复控制参数
+[2019-06-03 22:38:51,033]-[INFO]-CommuServer(999)服务器正常启动！正在监听端口 : 5001
+[2019-06-03 22:38:57,543]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 22:39:12,368]-[INFO]-CommuServer(1009)接受新的连接请求，来自 172.20.16.30:8548
+[2019-06-03 22:39:12,369]-[INFO]-CommuServer(1034)连接不合法！地址：172.20.16.30
+[2019-06-03 22:39:12,369]-[WARN]-CommuServer(1038)172.20.16.30连接已关闭
+[2019-06-03 22:39:12,374]-[INFO]-CommuServer(1053)创建连接失败 - 
+com.goldsign.commu.frame.exception.CommuException: 连接不合法！地址：172.20.16.30
+	at com.goldsign.commu.frame.server.CommuServer.startSocketListener(CommuServer.java:1043)
+	at com.goldsign.commu.frame.thread.CommuServerThread.run(CommuServerThread.java:22)
+[2019-06-03 22:39:57,610]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 22:40:05,672]-[INFO]-CommuServer(1009)接受新的连接请求，来自 172.20.16.30:8781
+[2019-06-03 22:40:05,673]-[INFO]-CommuServer(1034)连接不合法！地址：172.20.16.30
+[2019-06-03 22:40:05,673]-[WARN]-CommuServer(1038)172.20.16.30连接已关闭
+[2019-06-03 22:40:05,677]-[INFO]-CommuServer(1053)创建连接失败 - 
+com.goldsign.commu.frame.exception.CommuException: 连接不合法！地址：172.20.16.30
+	at com.goldsign.commu.frame.server.CommuServer.startSocketListener(CommuServer.java:1043)
+	at com.goldsign.commu.frame.thread.CommuServerThread.run(CommuServerThread.java:22)
+[2019-06-03 22:40:57,660]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 22:41:57,700]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 22:42:57,752]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 22:43:19,343]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-03 22:43:40,496]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-03 22:43:40,497]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-03 22:43:40,500]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-03 22:43:40,502]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:43:40,503]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:43:40[2019-06-03 22:50:57,111]-[INFO]-CommuServer(403)日志配置设置成功!
+[2019-06-03 22:50:57,419]-[INFO]-CommuServer(411)成功解析配置文件：CommuConfig.xml
+[2019-06-03 22:50:57,420]-[INFO]-CommuServer(501)日志备份
+[2019-06-03 22:50:57,420]-[INFO]-CommuServer(418)成功初始化socket配置!
+[2019-06-03 22:50:57,425]-[INFO]-CommuServer(422)成功初始化客流配置!
+[2019-06-03 22:50:57,431]-[INFO]-CommuServer(426)成功初始化线程监控配置!
+[2019-06-03 22:50:57,431]-[INFO]-CommuServer(430)成功初始化初始化参数下发配置!
+[2019-06-03 22:50:57,432]-[INFO]-CommuServer(434)成功初始化应用相关配置!
+[2019-06-03 22:50:57,432]-[INFO]-CommuServer(702)FtpLocalDir:D:/ftpClient/ACCCommu/receive
+[2019-06-03 22:50:57,433]-[INFO]-CommuServer(715)BusFtpLocalDir:D:/ftpClient/ACCCommu/import
+[2019-06-03 22:50:57,433]-[INFO]-CommuServer(438)成功初始化FTP配置!
+[2019-06-03 22:50:57,776]-[INFO]-CommuServer(880)运营库连接池OpConnectionPool创建!
+[2019-06-03 22:50:57,777]-[INFO]-CommuServer(892)通讯库连接池CmConnectionPool创建!
+[2019-06-03 22:50:57,780]-[INFO]-CommuServer(902)票务库连接池TkConnectionPool创建!
+[2019-06-03 22:50:57,780]-[INFO]-CommuServer(448)成功初始化数据库连接池!
+[2019-06-03 22:50:57,780]-[INFO]-CommuServer(452)成功初始化线程池配置!
+[2019-06-03 22:50:57,800]-[INFO]-CommuServer(456)成功初始化socket配置!
+[2019-06-03 22:50:57,804]-[INFO]-CommuServer(460)成功初始化设备参数版本查询配置!
+[2019-06-03 22:50:57,804]-[INFO]-CommuServer(464)成功初始化参数自动下发配置!
+[2019-06-03 22:50:57,804]-[INFO]-CommuServer(468)成功初始化启动选项控制!
+[2019-06-03 22:50:57,804]-[INFO]-CommuServer(473)成功初始化FTP路径!
+[2019-06-03 22:51:00,259]-[INFO]-CommuServer(932)运营时间:0205
+[2019-06-03 22:51:00,916]-[INFO]-CommuServer(964)缺省消息最大处理时间60
+[2019-06-03 22:51:00,928]-[INFO]-CommuServer(968)转存线程池状态表数据，共:0记录
+[2019-06-03 22:51:00,941]-[INFO]-CommuServer(99)参数下发监听已启动 ...
+[2019-06-03 22:51:00,945]-[INFO]-CommuThreadManager(43)3个处理线程已启动!
+[2019-06-03 22:51:00,948]-[INFO]-CommuServer(389)缓存清理线程已启动 !
+[2019-06-03 22:51:00,949]-[INFO]-CommuServer(376)消息队列管理线程已启动!
+[2019-06-03 22:51:00,953]-[INFO]-CommuServer(120)连接池监听正在启动 ...
+[2019-06-03 22:51:00,953]-[INFO]-CommuServer(125)日志级别监听已启动 ...
+[2019-06-03 22:51:00,955]-[INFO]-CommuServer(129)设备参数版本查询线程已启动 ...
+[2019-06-03 22:51:00,969]-[INFO]-CommuServer(382)线程池监控已启动 !
+[2019-06-03 22:51:00,989]-[INFO]-CommuServer(136)票务接口线程已启动 ...
+[2019-06-03 22:51:01,001]-[INFO]-CommuServer(139)一卡通接口线程已启动 ...
+[2019-06-03 22:51:01,002]-[INFO]-CommuServer(145)定时刷新缓存变量线程已启动 ...
+[2019-06-03 22:51:01,008]-[INFO]-CommuServer(999)服务器正常启动！正在监听端口 : 5001
+[2019-06-03 22:51:01,100]-[INFO]-CommuBufferClearThread(89)进站缓存清理开始...
+[2019-06-03 22:51:01,109]-[INFO]-CommuBufferClearThread(96)出站缓存清理开始...
+[2019-06-03 22:51:01,176]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-03 22:51:01,182]-[INFO]-CommuConnectionPoolListener(78)OP运营库连接池监听线程已启动...
+[2019-06-03 22:51:01,182]-[INFO]-CommuConnectionPoolListener(78)TK票务库连接池监听线程已启动...
+[2019-06-03 22:51:01,182]-[INFO]-CommuConnectionPoolListener(78)CM通讯库连接池监听线程已启动...
+[2019-06-03 22:51:01,180]-[INFO]-CommuThreadPoolMonitor(40)线程池监听线程已启动...
+[2019-06-03 22:51:06,686]-[INFO]-CommuServer(1009)接受新的连接请求，来自 172.20.16.30:11017
+[2019-06-03 22:51:06,686]-[INFO]-CommuServer(1018)开始处理新连接!
+[2019-06-03 22:51:06,921]-[INFO]-ConnectionReaderNormal(113)读取到的终端消息长度:2394
+[2019-06-03 22:51:06,921]-[INFO]-ConnectionReaderNormal(114)读取到的终端消息：[48, 53, 32, 25, 5, 48, 18, 87, 1, 8, 48, 49, 48, 56, 48, 50, 49, 48, 49, 24, 3, 1, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, -111, 32, 32, 25, 3, 48, 1, 0, 0, 0, 0, 0, 1, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 9, 0, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 9, 1, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 2, 2, 32, 25, 5, 23, 1, 0, 0, 0, 0, 0, 2, 4, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 5, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, 3, 4, 32, 25, 5, 6, 1, 0, 0, 0, 0, 0, 6, 2, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 2, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 3, 3, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 5, 1, 32, 25, 5, 36, 2, 0, 0, 0, 0, 0, 6, 3, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 6, 4, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 3, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 0, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 1, 32, 25, 4, 3, 2, 0, 0, 0, 0, 0, 2, 3, 32, 25, 4, 25, 1, 0, 0, 0, 0, 0, 4, 0, 32, 25, 4, 8, 1, 0, 0, 0, 0, 0, 9, 4, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 6, 1, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 5, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 48, 49, 48, 56, 48, 50, 49, 48, 51, 24, 3, 1, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, -111, 32, 32, 25, 3, 48, 1, 0, 0, 0, 0, 0, 1, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 9, 0, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 9, 1, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 2, 2, 32, 25, 5, 23, 1, 0, 0, 0, 0, 0, 2, 4, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 5, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, 3, 4, 32, 25, 5, 6, 1, 0, 0, 0, 0, 0, 6, 2, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 2, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 3, 3, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 5, 1, 32, 25, 5, 36, 2, 0, 0, 0, 0, 0, 6, 3, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 6, 4, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 3, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 0, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 1, 32, 25, 4, 3, 2, 0, 0, 0, 0, 0, 2, 3, 32, 25, 4, 25, 1, 0, 0, 0, 0, 0, 4, 0, 32, 25, 4, 8, 1, 0, 0, 0, 0, 0, 9, 4, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 6, 1, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 5, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 48, 49, 48, 56, 48, 50, 49, 48, 52, 24, -111, 32, 32, 25, 3, 48, 1, 0, 0, 0, 0, 0, 3, 1, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, 9, 0, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 1, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 9, 1, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 9, 2, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 2, 2, 32, 25, 5, 23, 1, 0, 0, 0, 0, 0, 2, 4, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 5, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, 3, 4, 32, 25, 5, 6, 1, 0, 0, 0, 0, 0, 6, 2, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, -127, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 6, 4, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 3, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 0, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 3, 3, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 5, 1, 32, 25, 5, 36, 2, 0, 0, 0, 0, 0, 6, 3, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 4, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 2, 1, 32, 25, 4, 3, 2, 0, 0, 0, 0, 0, 2, 3, 32, 25, 4, 25, 1, 0, 0, 0, 0, 0, 4, 0, 32, 25, 4, 8, 1, 0, 0, 0, 0, 0, 9, 5, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 6, 1, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 48, 49, 48, 56, 48, 50, 49, 48, 54, 24, 3, 1, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, -111, 32, 32, 25, 3, 48, 1, 0, 0, 0, 0, 0, 1, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 9, 0, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 9, 1, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 2, 2, 32, 25, 5, 23, 1, 0, 0, 0, 0, 0, 2, 4, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 5, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, 3, 4, 32, 25, 5, 6, 1, 0, 0, 0, 0, 0, 6, 2, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 2, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 3, 3, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 5, 1, 32, 25, 5, 36, 2, 0, 0, 0, 0, 0, 6, 3, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 6, 4, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 3, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 0, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 1, 32, 25, 4, 3, 2, 0, 0, 0, 0, 0, 2, 3, 32, 25, 4, 25, 1, 0, 0, 0, 0, 0, 4, 0, 32, 25, 4, 8, 1, 0, 0, 0, 0, 0, 9, 4, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 6, 1, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 5, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 48, 49, 48, 56, 48, 50, 49, 48, 55, 24, 3, 1, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, -111, 32, 32, 25, 3, 48, 1, 0, 0, 0, 0, 0, 1, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 9, 0, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 9, 1, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 2, 2, 32, 25, 5, 23, 1, 0, 0, 0, 0, 0, 2, 4, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 5, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, 3, 4, 32, 25, 5, 6, 1, 0, 0, 0, 0, 0, 6, 2, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 2, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 3, 3, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 5, 1, 32, 25, 5, 36, 2, 0, 0, 0, 0, 0, 6, 3, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 6, 4, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 3, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 0, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 1, 32, 25, 4, 3, 2, 0, 0, 0, 0, 0, 2, 3, 32, 25, 4, 25, 1, 0, 0, 0, 0, 0, 4, 0, 32, 25, 4, 8, 1, 0, 0, 0, 0, 0, 9, 4, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 6, 1, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 5, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 48, 49, 48, 56, 48, 50, 49, 48, 56, 24, 3, 1, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, -111, 32, 32, 25, 3, 48, 1, 0, 0, 0, 0, 0, 1, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 9, 0, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 9, 1, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 2, 2, 32, 25, 5, 23, 1, 0, 0, 0, 0, 0, 2, 4, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 5, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, 3, 4, 32, 25, 5, 6, 1, 0, 0, 0, 0, 0, 6, 2, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 2, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 3, 3, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 5, 1, 32, 25, 5, 36, 2, 0, 0, 0, 0, 0, 6, 3, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 6, 4, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 3, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 0, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 1, 32, 25, 4, 3, 2, 0, 0, 0, 0, 0, 2, 3, 32, 25, 4, 25, 1, 0, 0, 0, 0, 0, 4, 0, 32, 25, 4, 8, 1, 0, 0, 0, 0, 0, 9, 4, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 6, 1, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 5, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 48, 49, 48, 56, 48, 50, 49, 48, 53, 24, 3, 1, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, -111, 32, 32, 25, 3, 48, 1, 0, 0, 0, 0, 0, 1, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 9, 0, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 9, 1, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 2, 2, 32, 25, 5, 23, 1, 0, 0, 0, 0, 0, 2, 4, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 5, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, 3, 4, 32, 25, 5, 6, 1, 0, 0, 0, 0, 0, 6, 2, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 2, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 3, 3, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 5, 1, 32, 25, 5, 36, 2, 0, 0, 0, 0, 0, 6, 3, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 6, 4, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 3, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 0, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 1, 32, 25, 4, 3, 2, 0, 0, 0, 0, 0, 2, 3, 32, 25, 4, 25, 1, 0, 0, 0, 0, 0, 4, 0, 32, 25, 4, 8, 1, 0, 0, 0, 0, 0, 9, 4, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 6, 1, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 5, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 48, 49, 48, 56, 48, 50, 49, 48, 50, 24, 3, 1, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, -111, 32, 32, 25, 3, 48, 1, 0, 0, 0, 0, 0, 1, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 9, 0, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 9, 1, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 2, 2, 32, 25, 5, 23, 1, 0, 0, 0, 0, 0, 2, 4, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 5, 32, 25, 5, 48, 1, 0, 0, 0, 0, 0, 3, 4, 32, 25, 5, 6, 1, 0, 0, 0, 0, 0, 6, 2, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 2, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 1, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 3, 3, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 5, 1, 32, 25, 5, 36, 2, 0, 0, 0, 0, 0, 6, 3, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 6, 4, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 3, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, -127, 0, 32, 25, 3, 6, 1, 0, 0, 0, 0, 0, 2, 1, 32, 25, 4, 3, 2, 0, 0, 0, 0, 0, 2, 3, 32, 25, 4, 25, 1, 0, 0, 0, 0, 0, 4, 0, 32, 25, 4, 8, 1, 0, 0, 0, 0, 0, 9, 4, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0, 6, 1, 32, 25, 4, 1, 1, 0, 0, 0, 0, 0, 9, 5, 32, 25, 4, 3, 1, 0, 0, 0, 0, 0]
+[2019-06-03 22:51:06,973]-[INFO]-CommuConnection(439)当前消息处理线程名称:0
+[2019-06-03 22:51:07,034]-[INFO]-CommuMessageHandleThread(216)0:left msgs =0
+[2019-06-03 22:51:07,035]-[INFO]-CommuMessageHandleThread(65)线程名[0]有需要处理的消息
+[2019-06-03 22:51:07,106]-[INFO]-MessageProcessor(44)runMsg begin ...
+[2019-06-03 22:51:07,107]-[INFO]-MessageProcessor(57)请求的消息类型：05
+[2019-06-03 22:51:07,135]-[INFO]-Message05(31)--处理05消息开始--
+[2019-06-03 22:51:07,136]-[INFO]-Message05(59)站点设备重复次数N:[8]
+[2019-06-03 22:51:07,149]-[INFO]-DevParaVerDao(80)参数重复次数N1:[48]
+[2019-06-03 22:51:07,181]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,183]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,187]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,189]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,193]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,197]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,200]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,203]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,206]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,209]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,212]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,215]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,217]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,220]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,223]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,227]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,230]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,235]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,240]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,243]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,246]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,249]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,252]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,255]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,263]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,267]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,270]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,273]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,275]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,279]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,281]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,286]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,290]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,293]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,301]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,304]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,307]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,311]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,314]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,318]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,321]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,326]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,329]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,331]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,334]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,341]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,343]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:07,345]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,705]-[WARN]-DevParaVerDao(196) 插入cm_dev_para_ver_his表[48]条数据！最后一批返回值=-96
+[2019-06-03 22:51:09,706]-[INFO]-DevParaVerDao(80)参数重复次数N1:[48]
+[2019-06-03 22:51:09,709]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,714]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,719]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,723]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,730]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,734]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,737]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,744]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,751]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,757]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,760]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,762]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,765]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,768]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,771]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,774]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,777]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,779]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,782]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,785]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,787]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,790]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,792]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,796]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,849]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,852]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,859]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,863]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,869]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,872]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,878]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,880]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,883]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,888]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,891]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,900]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,903]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,906]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,911]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,915]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,918]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,920]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,923]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,925]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,928]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,931]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,935]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,938]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,949]-[WARN]-DevParaVerDao(196) 插入cm_dev_para_ver_his表[48]条数据！最后一批返回值=-96
+[2019-06-03 22:51:09,949]-[INFO]-DevParaVerDao(80)参数重复次数N1:[48]
+[2019-06-03 22:51:09,955]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,959]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,968]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,977]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,981]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,983]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,987]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,990]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,993]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:09,995]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,000]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,006]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,011]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,015]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,018]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,020]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,024]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,027]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,029]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,033]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,036]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,040]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,044]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,047]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,049]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,051]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,053]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,056]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,059]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,064]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,068]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,070]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,073]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,076]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,080]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,093]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,098]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,107]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,113]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,114]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,117]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,120]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,125]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,128]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,130]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,134]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,145]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,148]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,154]-[WARN]-DevParaVerDao(196) 插入cm_dev_para_ver_his表[48]条数据！最后一批返回值=-96
+[2019-06-03 22:51:10,154]-[INFO]-DevParaVerDao(80)参数重复次数N1:[48]
+[2019-06-03 22:51:10,158]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,162]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,163]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,167]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,172]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,176]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,178]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,181]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,185]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,189]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,194]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,198]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,201]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,204]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,208]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,211]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,215]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,217]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,219]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,221]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,223]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,227]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,231]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,237]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,239]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,241]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,242]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,246]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,249]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,252]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,254]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,256]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,258]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,261]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,263]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,266]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,268]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,270]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,273]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,275]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,278]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,281]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,283]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,285]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,287]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,290]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,294]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,298]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,305]-[WARN]-DevParaVerDao(196) 插入cm_dev_para_ver_his表[48]条数据！最后一批返回值=-96
+[2019-06-03 22:51:10,305]-[INFO]-DevParaVerDao(80)参数重复次数N1:[48]
+[2019-06-03 22:51:10,309]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,312]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,316]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,319]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,321]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,325]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,327]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,332]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,336]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,341]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,344]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,346]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,349]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,351]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,355]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,357]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,362]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,364]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,368]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,372]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,374]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,376]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,378]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,380]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,383]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,389]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,404]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,406]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,408]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,410]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,412]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,416]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,422]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,425]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,429]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,432]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,436]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,440]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,443]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,445]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,447]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,450]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,453]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,456]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,460]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,463]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,468]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,470]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,480]-[WARN]-DevParaVerDao(196) 插入cm_dev_para_ver_his表[48]条数据！最后一批返回值=-96
+[2019-06-03 22:51:10,480]-[INFO]-DevParaVerDao(80)参数重复次数N1:[48]
+[2019-06-03 22:51:10,485]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,488]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,490]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,495]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,499]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,505]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,512]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,517]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,527]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,532]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,535]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,538]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,542]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,545]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,547]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,549]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,552]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,555]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,558]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,560]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,562]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,565]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,567]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,569]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,571]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,574]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,580]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,582]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,589]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,594]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,600]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,603]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,606]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,609]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,611]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,615]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,618]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,620]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,622]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,627]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,636]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,641]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,646]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,648]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,653]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,657]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,665]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,667]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,677]-[WARN]-DevParaVerDao(196) 插入cm_dev_para_ver_his表[48]条数据！最后一批返回值=-96
+[2019-06-03 22:51:10,678]-[INFO]-DevParaVerDao(80)参数重复次数N1:[48]
+[2019-06-03 22:51:10,682]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,684]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,687]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,694]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,699]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,702]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,705]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,710]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,712]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,715]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,717]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,719]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,721]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,724]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,725]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,728]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,730]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,732]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,735]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,737]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,743]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,746]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,748]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,751]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,753]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,755]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,757]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,759]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,762]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,765]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,770]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,775]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,779]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,782]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,784]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,786]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,788]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,791]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,794]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,797]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,800]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,804]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,807]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,811]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,813]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,816]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,820]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,823]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,829]-[WARN]-DevParaVerDao(196) 插入cm_dev_para_ver_his表[48]条数据！最后一批返回值=-96
+[2019-06-03 22:51:10,829]-[INFO]-DevParaVerDao(80)参数重复次数N1:[48]
+[2019-06-03 22:51:10,832]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,836]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,839]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,842]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,845]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,848]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,851]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,853]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,856]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,858]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,862]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,866]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,870]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,872]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,874]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,876]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,879]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,882]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,885]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,888]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,890]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,894]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,901]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,904]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,907]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,909]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,916]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,918]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,925]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,929]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,940]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,945]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,949]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,954]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,959]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,962]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,965]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,967]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,970]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,973]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,976]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,980]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,982]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,984]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,986]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,990]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:10,998]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:11,001]-[WARN]-DevParaVerDao(154) 更新cm_dev_para_ver_cur表[1]条数据！
+[2019-06-03 22:51:11,006]-[WARN]-DevParaVerDao(196) 插入cm_dev_para_ver_his表[48]条数据！最后一批返回值=-96
+[2019-06-03 22:51:11,011]-[INFO]-Message05(33)--处理05消息结束--
+[2019-06-03 22:51:17,010]-[WARN]-ConnectionReaderNormal(58) - Message read error!
+[2019-06-03 22:51:17,010]-[ERROR]-ConnectionReaderNormal(127)接收的数据格式有误,错误代码为:1002
+[2019-06-03 22:51:17,010]-[INFO]-CommuConnection(448)172.20.16.30 - Reader return message error( 1002)!Connection will be closed!
+[2019-06-03 22:51:17,010]-[WARN]-CommuConnection(238)172.20.16.30 - 对方消息错误，连接将断开!
+[2019-06-03 22:51:17,010]-[INFO]-CommuConnection(298)172.20.16.30 - 连接关闭!
+[2019-06-03 22:51:22,424]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-03 22:51:22,428]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-03 22:51:22,440]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-03 22:51:22,443]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:51:22,443]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:51:22,445]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-03 22:51:22,448]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:51:22,448]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:51:22,451]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-03 22:51:22,454]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:51:22,454]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:51:22,457]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-03 22:51:22,459]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:51:22,459]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:51:22,463]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-03 22:51:22,464]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:51:22,465]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:51:22,466]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-03 22:51:22,468]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:51:22,468]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:51:22,470]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-03 22:51:22,471]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:51:22,471]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:51:22,473]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-03 22:51:22,475]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:51:22,475]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:51:22,477]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-03 22:51:22,478]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:51:22,478]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:51:22,478]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-03 22:52:01,241]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 22:53:01,309]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 22:54:01,353]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 22:55:01,406]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 22:56:01,452]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 22:56:22,480]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-03 22:56:43,488]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-03 22:56:43,489]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-03 22:56:43,494]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-03 22:56:43,496]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:56:43,496]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:56:43,500]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-03 22:56:43,501]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:56:43,502]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:56:43,503]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-03 22:56:43,506]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:56:43,506]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:56:43,507]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-03 22:56:43,509]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:56:43,509]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:56:43,511]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-03 22:56:43,514]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:56:43,515]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:56:43,518]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-03 22:56:43,520]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:56:43,520]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:56:43,524]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-03 22:56:43,526]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:56:43,526]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:56:43,528]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-03 22:56:43,529]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:56:43,529]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:56:43,531]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-03 22:56:43,533]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 22:56:43,533]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 22:56:43,533]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-03 22:57:01,494]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 22:58:01,541]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 22:59:01,586]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:00:01,629]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:01:01,672]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:01:43,534]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-03 23:02:01,712]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:02:04,819]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-03 23:02:04,820]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-03 23:02:04,830]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-03 23:02:04,833]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:02:04,833]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:02:04,836]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-03 23:02:04,838]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:02:04,838]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:02:04,840]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-03 23:02:04,842]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:02:04,842]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:02:04,845]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-03 23:02:04,849]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:02:04,850]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:02:04,852]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-03 23:02:04,854]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:02:04,854]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:02:04,856]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-03 23:02:04,858]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:02:04,858]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:02:04,860]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-03 23:02:04,862]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:02:04,862]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:02:04,864]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-03 23:02:04,866]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:02:04,866]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:02:04,868]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-03 23:02:04,871]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:02:04,872]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:02:04,872]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-03 23:03:01,749]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:04:01,791]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:05:01,829]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:05:56,544]-[INFO]-CommuConnectionPoolListener(301)TK票务库数据库异常,错误代码:504 消息:
+java.sql.SQLException: Socket read timed out
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: oracle.net.ns.NetException: Socket read timed out
+	at oracle.net.ns.Packet.receive(Packet.java:320)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 9 more
+[2019-06-03 23:05:56,545]-[INFO]-CommuConnectionPoolListener(475)线程0未处理消息0
+[2019-06-03 23:05:56,545]-[ERROR]-CommuServer(174)Error -
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:131)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:199)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545)
+	at java.net.ServerSocket.accept(ServerSocket.java:513)
+	at com.goldsign.commu.frame.server.CommuServer.startSocketListener(CommuServer.java:1005)
+	at com.goldsign.commu.frame.server.CommuServer.start(CommuServer.java:159)
+	at com.goldsign.commu.frame.server.CommuServer.main(CommuServer.java:81)
+[2019-06-03 23:05:56,546]-[INFO]-CommuConnectionPoolListener(475)线程1未处理消息0
+[2019-06-03 23:05:56,547]-[INFO]-CommuConnectionPoolListener(475)线程2未处理消息0
+[2019-06-03 23:05:56,547]-[INFO]-SocketUtil(40)TK票务库数据库连接异常,关闭监听服务器
+[2019-06-03 23:05:56,547]-[INFO]-CommuConnectionPoolListener(180)尝试重建TK票务库连接池1次.....
+[2019-06-03 23:05:57,615]-[INFO]-CommuConnectionPoolListener(195)TK票务库连接中断后已可用.....
+[2019-06-03 23:05:57,759]-[INFO]-CommuConnectionPoolListener(388)重设TK票务库连接池.....
+[2019-06-03 23:05:57,760]-[INFO]-CommuConnectionPoolListener(401)数据库连接恢复,重新启动监听服务器
+[2019-06-03 23:05:57,761]-[INFO]-CommuConnectionPoolListener(416)恢复控制参数
+[2019-06-03 23:05:57,762]-[INFO]-CommuServer(999)服务器正常启动！正在监听端口 : 5001
+[2019-06-03 23:06:01,874]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:06:43,362]-[INFO]-CommuConnectionPoolListener(301)OP运营库数据库异常,错误代码:17002 消息:
+java.sql.SQLRecoverableException: IO 错误: Connection reset
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:421)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at oracle.net.ns.Packet.receive(Packet.java:282)
+	at oracle.net.ns.DataPacket.receive(DataPacket.java:103)
+	at oracle.net.ns.NetInputStream.getNextPacket(NetInputStream.java:230)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:175)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:100)
+	at oracle.net.ano.AnoComm.b(Unknown Source)
+	at oracle.net.ano.AnoComm.o(Unknown Source)
+	at oracle.net.ano.Ano.a(Unknown Source)
+	at oracle.net.ano.Ano.negotiation(Unknown Source)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:424)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 9 more
+[2019-06-03 23:06:43,363]-[INFO]-CommuConnectionPoolListener(475)线程0未处理消息0
+[2019-06-03 23:06:43,364]-[INFO]-CommuConnectionPoolListener(475)线程1未处理消息0
+[2019-06-03 23:06:43,364]-[INFO]-CommuConnectionPoolListener(475)线程2未处理消息0
+[2019-06-03 23:06:43,364]-[INFO]-SocketUtil(40)OP运营库数据库连接异常,关闭监听服务器
+[2019-06-03 23:06:43,364]-[INFO]-CommuConnectionPoolListener(180)尝试重建OP运营库连接池1次.....
+[2019-06-03 23:06:44,236]-[ERROR]-PubUtil(31)错误:
+java.sql.SQLRecoverableException: IO 错误: Connection reset
+	at oracle.jdbc.driver.T4CPreparedStatement.fetch(T4CPreparedStatement.java:1091)
+	at oracle.jdbc.driver.OracleResultSetImpl.close_or_fetch_from_next(OracleResultSetImpl.java:369)
+	at oracle.jdbc.driver.OracleResultSetImpl.next(OracleResultSetImpl.java:273)
+	at org.apache.commons.dbcp.DelegatingResultSet.next(DelegatingResultSet.java:207)
+	at org.apache.commons.dbcp.DelegatingResultSet.next(DelegatingResultSet.java:207)
+	at com.goldsign.lib.db.util.DbHelper.getNextDocument(DbHelper.java:444)
+	at com.goldsign.commu.frame.dao.ComMessageQueueDao.pullQueuesForThread(ComMessageQueueDao.java:123)
+	at com.goldsign.commu.frame.thread.MessageQueueThread.run(MessageQueueThread.java:47)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at oracle.net.ns.Packet.receive(Packet.java:282)
+	at oracle.net.ns.DataPacket.receive(DataPacket.java:103)
+	at oracle.net.ns.NetInputStream.getNextPacket(NetInputStream.java:230)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:175)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:100)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:85)
+	at oracle.jdbc.driver.T4CSocketInputStreamWrapper.readNextPacket(T4CSocketInputStreamWrapper.java:122)
+	at oracle.jdbc.driver.T4CSocketInputStreamWrapper.read(T4CSocketInputStreamWrapper.java:78)
+	at oracle.jdbc.driver.T4CMAREngine.unmarshalUB1(T4CMAREngine.java:1179)
+	at oracle.jdbc.driver.T4CMAREngine.unmarshalSB1(T4CMAREngine.java:1155)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:279)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:521)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:205)
+	at oracle.jdbc.driver.T4CPreparedStatement.fetch(T4CPreparedStatement.java:1082)
+	... 7 more
+[2019-06-03 23:06:44,432]-[INFO]-CommuConnectionPoolListener(195)OP运营库连接中断后已可用.....
+[2019-06-03 23:06:44,780]-[INFO]-CommuConnectionPoolListener(388)重设OP运营库连接池.....
+[2019-06-03 23:06:44,780]-[INFO]-CommuConnectionPoolListener(401)数据库连接恢复,重新启动监听服务器
+[2019-06-03 23:06:44,780]-[INFO]-CommuConnectionPoolListener(416)恢复控制参数
+[2019-06-03 23:06:44,781]-[INFO]-CommuServer(999)服务器正常启动！正在监听端口 : 5001
+[2019-06-03 23:07:01,921]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:07:04,872]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-03 23:07:25,880]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-03 23:07:25,880]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-03 23:07:25,886]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-03 23:07:35,237]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:07:35,237]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:07:35,239]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-03 23:07:35,240]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:07:35,241]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:07:35,243]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-03 23:07:35,244]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:07:35,244]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:07:35,248]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-03 23:07:35,250]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:07:35,250]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:07:35,251]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-03 23:07:35,255]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:07:35,256]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:07:35,257]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-03 23:07:35,259]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:07:35,260]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:07:35,261]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-03 23:07:35,264]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:07:35,264]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:07:35,266]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-03 23:07:35,269]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:07:35,269]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:07:35,270]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-03 23:07:35,272]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:07:35,272]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:07:35,272]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-03 23:07:40,646]-[INFO]-CommuConnectionPoolListener(301)OP运营库数据库异常,错误代码:17002 消息:
+java.sql.SQLRecoverableException: IO 错误: Connection reset
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:421)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at oracle.net.ns.Packet.receive(Packet.java:282)
+	at oracle.net.ns.DataPacket.receive(DataPacket.java:103)
+	at oracle.net.ns.NetInputStream.getNextPacket(NetInputStream.java:230)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:175)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:100)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:85)
+	at oracle.jdbc.driver.T4CSocketInputStreamWrapper.readNextPacket(T4CSocketInputStreamWrapper.java:122)
+	at oracle.jdbc.driver.T4CSocketInputStreamWrapper.read(T4CSocketInputStreamWrapper.java:78)
+	at oracle.jdbc.driver.T4CMAREngine.unmarshalUB1(T4CMAREngine.java:1179)
+	at oracle.jdbc.driver.T4CMAREngine.unmarshalSB1(T4CMAREngine.java:1155)
+	at oracle.jdbc.driver.T4C8TTIdty.receive(T4C8TTIdty.java:661)
+	at oracle.jdbc.driver.T4C8TTIdty.doRPC(T4C8TTIdty.java:568)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1106)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 9 more
+[2019-06-03 23:07:40,647]-[INFO]-CommuConnectionPoolListener(475)线程0未处理消息0
+[2019-06-03 23:07:40,647]-[INFO]-CommuConnectionPoolListener(475)线程1未处理消息0
+[2019-06-03 23:07:40,648]-[INFO]-CommuConnectionPoolListener(475)线程2未处理消息0
+[2019-06-03 23:07:40,648]-[INFO]-SocketUtil(40)OP运营库数据库连接异常,关闭监听服务器
+[2019-06-03 23:07:40,648]-[INFO]-CommuConnectionPoolListener(180)尝试重建OP运营库连接池1次.....
+[2019-06-03 23:07:41,735]-[INFO]-CommuConnectionPoolListener(195)OP运营库连接中断后已可用.....
+[2019-06-03 23:07:41,878]-[INFO]-CommuConnectionPoolListener(388)重设OP运营库连接池.....
+[2019-06-03 23:08:01,960]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:08:18,321]-[INFO]-CommuConnectionPoolListener(301)OP运营库数据库异常,错误代码:504 消息:
+java.sql.SQLException: Socket read timed out
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: oracle.net.ns.NetException: Socket read timed out
+	at oracle.net.ns.Packet.receive(Packet.java:320)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 9 more
+[2019-06-03 23:08:18,321]-[INFO]-CommuConnectionPoolListener(180)尝试重建OP运营库连接池1次.....
+[2019-06-03 23:08:19,396]-[INFO]-CommuConnectionPoolListener(195)OP运营库连接中断后已可用.....
+[2019-06-03 23:08:19,838]-[INFO]-CommuConnectionPoolListener(388)重设OP运营库连接池.....
+[2019-06-03 23:08:21,401]-[INFO]-CommuConnectionPoolListener(301)CM通讯库数据库异常,错误代码:504 消息:
+java.sql.SQLException: Socket read timed out
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: oracle.net.ns.NetException: Socket read timed out
+	at oracle.net.ns.Packet.receive(Packet.java:320)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 9 more
+[2019-06-03 23:08:21,402]-[INFO]-CommuConnectionPoolListener(180)尝试重建CM通讯库连接池1次.....
+[2019-06-03 23:08:22,487]-[INFO]-CommuConnectionPoolListener(195)CM通讯库连接中断后已可用.....
+[2019-06-03 23:08:22,774]-[INFO]-CommuConnectionPoolListener(388)重设CM通讯库连接池.....
+[2019-06-03 23:09:02,020]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:09:05,176]-[INFO]-CommuConnectionPoolListener(301)CM通讯库数据库异常,错误代码:504 消息:
+java.sql.SQLException: Socket read timed out
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: oracle.net.ns.NetException: Socket read timed out
+	at oracle.net.ns.Packet.receive(Packet.java:320)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 9 more
+[2019-06-03 23:09:05,176]-[INFO]-CommuConnectionPoolListener(180)尝试重建CM通讯库连接池1次.....
+[2019-06-03 23:09:06,374]-[INFO]-CommuConnectionPoolListener(195)CM通讯库连接中断后已可用.....
+[2019-06-03 23:09:06,669]-[INFO]-CommuConnectionPoolListener(301)OP运营库数据库异常,错误代码:504 消息:
+java.sql.SQLException: Socket read timed out
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: oracle.net.ns.NetException: Socket read timed out
+	at oracle.net.ns.Packet.receive(Packet.java:320)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 9 more
+[2019-06-03 23:09:06,669]-[INFO]-CommuConnectionPoolListener(180)尝试重建OP运营库连接池1次.....
+[2019-06-03 23:09:07,810]-[INFO]-CommuConnectionPoolListener(195)OP运营库连接中断后已可用.....
+[2019-06-03 23:09:07,980]-[INFO]-CommuConnectionPoolListener(388)重设OP运营库连接池.....
+[2019-06-03 23:09:11,364]-[INFO]-CommuConnectionPoolListener(388)重设CM通讯库连接池.....
+[2019-06-03 23:10:02,077]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:10:31,133]-[INFO]-CommuConnectionPoolListener(301)OP运营库数据库异常,错误代码:504 消息:
+java.sql.SQLException: Socket read timed out
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: oracle.net.ns.NetException: Socket read timed out
+	at oracle.net.ns.Packet.receive(Packet.java:320)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 9 more
+[2019-06-03 23:10:31,133]-[INFO]-CommuConnectionPoolListener(180)尝试重建OP运营库连接池1次.....
+[2019-06-03 23:10:32,206]-[INFO]-CommuConnectionPoolListener(195)OP运营库连接中断后已可用.....
+[2019-06-03 23:10:32,349]-[INFO]-CommuConnectionPoolListener(388)重设OP运营库连接池.....
+[2019-06-03 23:11:02,137]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:12:02,482]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:12:04,412]-[INFO]-CommuConnectionPoolListener(301)CM通讯库数据库异常,错误代码:504 消息:
+java.sql.SQLException: Socket read timed out
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: oracle.net.ns.NetException: Socket read timed out
+	at oracle.net.ns.Packet.receive(Packet.java:320)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 9 more
+[2019-06-03 23:12:04,420]-[INFO]-CommuConnectionPoolListener(180)尝试重建CM通讯库连接池1次.....
+[2019-06-03 23:12:05,481]-[INFO]-CommuConnectionPoolListener(195)CM通讯库连接中断后已可用.....
+[2019-06-03 23:12:06,168]-[INFO]-CommuConnectionPoolListener(388)重设CM通讯库连接池.....
+[2019-06-03 23:12:35,272]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-03 23:12:56,281]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-03 23:12:56,281]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-03 23:12:56,284]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-03 23:12:56,286]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:12:56,286]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:12:56,288]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-03 23:12:56,290]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:12:56,290]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:12:56,292]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-03 23:12:56,296]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:12:56,297]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:12:56,299]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-03 23:12:56,301]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:12:56,301]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:12:56,303]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-03 23:12:56,305]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:12:56,306]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:12:56,308]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-03 23:12:56,310]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:12:56,310]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:12:56,312]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-03 23:12:56,313]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:12:56,314]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:12:56,315]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-03 23:12:56,318]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:12:56,319]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:12:56,321]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-03 23:12:56,323]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:12:56,323]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:12:56,323]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-03 23:13:02,520]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:14:02,565]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:14:57,527]-[INFO]-CommuConnectionPoolListener(301)OP运营库数据库异常,错误代码:504 消息:
+java.sql.SQLException: Socket read timed out
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: oracle.net.ns.NetException: Socket read timed out
+	at oracle.net.ns.Packet.receive(Packet.java:320)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 9 more
+[2019-06-03 23:14:57,527]-[INFO]-CommuConnectionPoolListener(180)尝试重建OP运营库连接池1次.....
+[2019-06-03 23:14:58,600]-[INFO]-CommuConnectionPoolListener(195)OP运营库连接中断后已可用.....
+[2019-06-03 23:14:58,650]-[INFO]-CommuConnectionPoolListener(301)CM通讯库数据库异常,错误代码:504 消息:
+java.sql.SQLException: Socket read timed out
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: oracle.net.ns.NetException: Socket read timed out
+	at oracle.net.ns.Packet.receive(Packet.java:320)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 9 more
+[2019-06-03 23:14:58,650]-[INFO]-CommuConnectionPoolListener(180)尝试重建CM通讯库连接池1次.....
+[2019-06-03 23:14:58,777]-[INFO]-CommuConnectionPoolListener(388)重设OP运营库连接池.....
+[2019-06-03 23:14:59,717]-[INFO]-CommuConnectionPoolListener(195)CM通讯库连接中断后已可用.....
+[2019-06-03 23:14:59,922]-[INFO]-CommuConnectionPoolListener(388)重设CM通讯库连接池.....
+[2019-06-03 23:15:02,676]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:16:03,156]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:17:03,200]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:17:56,325]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-03 23:18:03,551]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:18:17,334]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-03 23:18:17,336]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-03 23:18:17,340]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-03 23:18:17,341]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:18:17,342]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:18:17,343]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-03 23:18:17,345]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:18:17,345]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:18:17,347]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-03 23:18:17,348]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:18:17,349]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:18:17,351]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-03 23:18:17,354]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:18:17,354]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:18:17,356]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-03 23:18:17,357]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:18:17,357]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:18:17,359]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-03 23:18:17,360]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:18:17,361]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:18:17,362]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-03 23:18:17,363]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:18:17,364]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:18:17,366]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-03 23:18:17,368]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:18:17,369]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:18:17,371]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-03 23:18:17,373]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:18:17,373]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:18:17,373]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-03 23:19:03,593]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:20:03,635]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:21:03,992]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:22:04,036]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:23:04,079]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:23:17,374]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-03 23:23:20,269]-[INFO]-CommuConnectionPoolListener(301)OP运营库数据库异常,错误代码:504 消息:
+java.sql.SQLException: Socket read timed out
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnection(CommuConnectionPoolListener.java:290)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.testConnectionPools(CommuConnectionPoolListener.java:162)
+	at com.goldsign.commu.frame.listener.CommuConnectionPoolListener.run(CommuConnectionPoolListener.java:82)
+Caused by: oracle.net.ns.NetException: Socket read timed out
+	at oracle.net.ns.Packet.receive(Packet.java:320)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 9 more
+[2019-06-03 23:23:20,269]-[INFO]-CommuConnectionPoolListener(180)尝试重建OP运营库连接池1次.....
+[2019-06-03 23:23:21,344]-[INFO]-CommuConnectionPoolListener(195)OP运营库连接中断后已可用.....
+[2019-06-03 23:23:21,521]-[INFO]-CommuConnectionPoolListener(388)重设OP运营库连接池.....
+[2019-06-03 23:23:38,382]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-03 23:23:38,382]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-03 23:23:38,386]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-03 23:23:38,388]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:23:38,389]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:23:38,391]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-03 23:23:38,393]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:23:38,393]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:23:38,394]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-03 23:23:38,396]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:23:38,396]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:23:38,398]-[INFO]-BusDataDao(33)banlanceWaterNo:2018123101,fileType:trx
+[2019-06-03 23:23:38,399]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:23:38,399]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:23:38,402]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010301,fileType:trx
+[2019-06-03 23:23:38,404]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:23:38,404]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:23:38,407]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010501,fileType:trx
+[2019-06-03 23:23:38,408]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:23:38,409]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:23:38,410]-[INFO]-BusDataDao(33)banlanceWaterNo:2019010601,fileType:trx
+[2019-06-03 23:23:38,412]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:23:38,412]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:23:38,414]-[INFO]-BusDataDao(33)banlanceWaterNo:2019011001,fileType:trx
+[2019-06-03 23:23:38,415]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:23:38,416]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:23:38,418]-[INFO]-BusDataDao(33)banlanceWaterNo:2019032001,fileType:trx
+[2019-06-03 23:23:38,420]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:23:38,421]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:23:38,421]-[INFO]-BusDataImportThread(60)------------------------与一卡通中心文件交互执行end-------------------------
+[2019-06-03 23:24:04,121]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:25:04,159]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:26:04,198]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:27:04,239]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:28:04,280]-[INFO]-RefreshCacheThread(43)运营时间:0205
+[2019-06-03 23:28:38,423]-[INFO]-BusDataImportThread(44)------------------------与一卡通中心文件交互执行begin-------------------------
+[2019-06-03 23:28:59,432]-[ERROR]-BusDataImportThread(211)--FTP取一卡通结算文件出错:
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:163)
+	at org.apache.commons.net.SocketClient.connect(SocketClient.java:184)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.ftpLogin(BusDataImportThread.java:463)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.getFile(BusDataImportThread.java:133)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.handle(BusDataImportThread.java:104)
+	at com.goldsign.commu.frame.thread.BusDataImportThread.run(BusDataImportThread.java:52)
+	at java.lang.Thread.run(Thread.java:748)
+[2019-06-03 23:28:59,432]-[INFO]-BusDataImportThread(105)下载成功数量:0
+[2019-06-03 23:28:59,435]-[INFO]-BusDataDao(33)banlanceWaterNo:2018093001,fileType:trx
+[2019-06-03 23:28:59,437]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:28:59,437]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:28:59,438]-[INFO]-BusDataDao(33)banlanceWaterNo:2018112001,fileType:trx
+[2019-06-03 23:28:59,440]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:28:59,440]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:28:59,442]-[INFO]-BusDataDao(33)banlanceWaterNo:2018122401,fileType:trx
+[2019-06-03 23:28:59,443]-[WARN]-BusDataImportThread(279)--准备FTP登录一卡通中心上传文件.
+[2019-06-03 23:28:59,443]-[INFO]-BusDataImportThread(310)--------地铁公交交易、清算文件目录未生成------------
+[2019-06-03 23:28:59,445]-[INFO]-BusDataDao(33)ba

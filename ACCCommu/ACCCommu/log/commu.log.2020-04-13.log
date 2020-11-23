@@ -1,0 +1,208 @@
+[2020-04-13 14:12:13,597]-[INFO]-CommuServer(389)日志配置设置成功!
+[2020-04-13 14:12:14,238]-[INFO]-CommuServer(398)成功解析配置文件：CommuConfig.xml
+[2020-04-13 14:12:14,240]-[INFO]-CommuServer(488)日志备份
+[2020-04-13 14:12:14,240]-[INFO]-CommuServer(405)成功初始化socket配置!
+[2020-04-13 14:12:14,244]-[INFO]-CommuServer(409)成功初始化客流配置!
+[2020-04-13 14:12:14,250]-[INFO]-CommuServer(413)成功初始化线程监控配置!
+[2020-04-13 14:12:14,251]-[INFO]-CommuServer(417)成功初始化初始化参数下发配置!
+[2020-04-13 14:12:14,251]-[INFO]-CommuServer(421)成功初始化应用相关配置!
+[2020-04-13 14:12:14,251]-[INFO]-CommuServer(689)FtpLocalDir:E:/ftpClient/ACCCommu/receive
+[2020-04-13 14:12:14,252]-[INFO]-CommuServer(702)BusFtpLocalDir:E:/ftpClient/ACCCommu/import
+[2020-04-13 14:12:14,252]-[INFO]-CommuServer(425)成功初始化FTP配置!
+[2020-04-13 14:12:14,646]-[INFO]-CommuServer(867)运营库连接池OpConnectionPool创建!
+[2020-04-13 14:12:14,646]-[INFO]-CommuServer(879)通讯库连接池CmConnectionPool创建!
+[2020-04-13 14:12:14,647]-[INFO]-CommuServer(889)票务库连接池TkConnectionPool创建!
+[2020-04-13 14:12:14,647]-[INFO]-CommuServer(435)成功初始化数据库连接池!
+[2020-04-13 14:12:14,647]-[INFO]-CommuServer(439)成功初始化线程池配置!
+[2020-04-13 14:12:14,650]-[INFO]-CommuServer(443)成功初始化线程池监控配置!
+[2020-04-13 14:12:14,670]-[INFO]-CommuServer(447)成功初始化设备参数版本查询配置!
+[2020-04-13 14:12:14,671]-[INFO]-CommuServer(451)成功初始化参数自动下发配置!
+[2020-04-13 14:12:14,671]-[INFO]-CommuServer(455)成功初始化启动选项控制!
+[2020-04-13 14:12:14,671]-[INFO]-CommuServer(460)成功初始化FTP路径!
+[2020-04-13 14:12:35,936]-[ERROR]-DbcpHelper(124)获取连接异常,连接池中当前连接活动数为:0 当前连接不活动数为:0 最大允许活动数为:5
+[2020-04-13 14:12:35,939]-[ERROR]-PubUtil(31)错误:
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (The Network Adapter could not establish the connection)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.apache.commons.dbcp.DataSourceConnectionFactory.createConnection(DataSourceConnectionFactory.java:43)
+	at com.goldsign.lib.db.util.DbcpHelper.getConnection(DbcpHelper.java:105)
+	at com.goldsign.commu.frame.dao.LccLineCodeDao.getAllLccDetail(LccLineCodeDao.java:31)
+	at com.goldsign.commu.frame.server.CommuServer.initFromDB(CommuServer.java:914)
+	at com.goldsign.commu.frame.server.CommuServer.initConfig(CommuServer.java:466)
+	at com.goldsign.commu.frame.server.CommuServer.start(CommuServer.java:69)
+	at com.goldsign.commu.frame.server.CommuServer.main(CommuServer.java:59)
+Caused by: java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 9 more
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 22 more
+[2020-04-13 14:12:56,956]-[ERROR]-DbcpHelper(124)获取连接异常,连接池中当前连接活动数为:0 当前连接不活动数为:0 最大允许活动数为:5
+[2020-04-13 14:12:56,957]-[ERROR]-PubUtil(31)错误:
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (The Network Adapter could not establish the connection)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.apache.commons.dbcp.DataSourceConnectionFactory.createConnection(DataSourceConnectionFactory.java:43)
+	at com.goldsign.lib.db.util.DbcpHelper.getConnection(DbcpHelper.java:105)
+	at com.goldsign.commu.frame.dao.LccLineCodeDao.getAllLccIpCod(LccLineCodeDao.java:58)
+	at com.goldsign.commu.frame.server.CommuServer.initFromDB(CommuServer.java:915)
+	at com.goldsign.commu.frame.server.CommuServer.initConfig(CommuServer.java:466)
+	at com.goldsign.commu.frame.server.CommuServer.start(CommuServer.java:69)
+	at com.goldsign.commu.frame.server.CommuServer.main(CommuServer.java:59)
+Caused by: java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 9 more
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 22 more
+[2020-04-13 14:13:18,006]-[ERROR]-DbcpHelper(124)获取连接异常,连接池中当前连接活动数为:0 当前连接不活动数为:0 最大允许活动数为:5
+[2020-04-13 14:13:18,007]-[ERROR]-PubUtil(26)错误:
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (The Network Adapter could not establish the connection)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.apache.commons.dbcp.DataSourceConnectionFactory.createConnection(DataSourceConnectionFactory.java:43)
+	at com.goldsign.lib.db.util.DbcpHelper.getConnection(DbcpHelper.java:105)
+	at com.goldsign.commu.frame.dao.SquadTimeDao.getSquadTime(SquadTimeDao.java:46)
+	at com.goldsign.commu.frame.server.CommuServer.initFromDB(CommuServer.java:918)
+	at com.goldsign.commu.frame.server.CommuServer.initConfig(CommuServer.java:466)
+	at com.goldsign.commu.frame.server.CommuServer.start(CommuServer.java:69)
+	at com.goldsign.commu.frame.server.CommuServer.main(CommuServer.java:59)
+Caused by: java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 9 more
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 22 more
+[2020-04-13 14:13:18,009]-[INFO]-CommuServer(966)数据库数据初始化 CommuConfig.xml 错误! 
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (The Network Adapter could not establish the connection)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.apache.commons.dbcp.DataSourceConnectionFactory.createConnection(DataSourceConnectionFactory.java:43)
+	at com.goldsign.lib.db.util.DbcpHelper.getConnection(DbcpHelper.java:105)
+	at com.goldsign.commu.frame.dao.SquadTimeDao.getSquadTime(SquadTimeDao.java:46)
+	at com.goldsign.commu.frame.server.CommuServer.initFromDB(CommuServer.java:918)
+	at com.goldsign.commu.frame.server.CommuServer.initConfig(CommuServer.java:466)
+	at com.goldsign.commu.frame.server.CommuServer.start(CommuServer.java:69)
+	at com.goldsign.commu.frame.server.CommuServer.main(CommuServer.java:59)
+Caused by: java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 9 more
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 17 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 22 more
+[2020-04-13 14:13:18,016]-[ERROR]-CommuServer(469)初始化 CommuConfig.xml 错误! 
+com.goldsign.commu.frame.exception.ConfigFileException: 数据库数据初始化 CommuConfig.xml 错误! org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (The Network Adapter could not establish the connection)
+	at com.goldsign.commu.frame.server.CommuServer.initFromDB(CommuServer.java:967)
+	at com.goldsign.commu.frame.server.CommuServer.initConfig(CommuServer.java:466)
+	at com.goldsign.commu.frame.server.CommuServer.start(CommuServer.java:69)
+	at com.goldsign.commu.frame.server.CommuServer.main(CommuServer.java:59)
+[2020-04-13 14:13:18,017]-[ERROR]-CommuServer(142)配置文件读入失败 - 
+com.goldsign.commu.frame.exception.ConfigFileException: 初始
